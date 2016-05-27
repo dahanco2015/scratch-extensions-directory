@@ -1,4 +1,5 @@
-If you aren't submitting an extension delete this template.
+If you aren't submitting an extension delete this template.  
+Also you can skip/delete anything you already changed in the pull request.
 
 Required stuff:
 
