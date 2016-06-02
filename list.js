@@ -85,8 +85,8 @@ var extensions = [
 		'title': 'CatX',
 		'author': ['LiFaytheGoblin'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://lifaythegoblin.github.io/ScratchX-Extensions/CatX.js',
-			'Demo': 'http://scratchx.org/?url=', //finish this
+			'ScratchX': 'http://scratchx.org/?url=http://lifaythegoblin.github.io/ScratchX-Extensions/CatX.js',
+			'Demo': 'http://scratchx.org/?url=http://lifaythegoblin.github.io/ScratchX-Extensions/CatX-sample.sbx',
 			'JavaScript': 'https://lifaythegoblin.github.io/ScratchX-Extensions/CatX.js',
 			'GitHub': 'https://github.com/LiFaytheGoblin/ScratchX-Extensions/blob/gh-pages/CatX.js'
 		},
