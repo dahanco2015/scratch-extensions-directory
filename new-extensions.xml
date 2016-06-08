@@ -5,6 +5,13 @@
 	<link>http://savaka2.github.io/scratch-extensions-directory/new-extensions.xml</link>
 	<description>New extensions in the Scratch Extensions Directory</description>
 	<item>
+		<title>Scratch2MiP by Junya Ishihara</title>
+		<link>http://scratchx.org/?url=http://champierre.github.io/scratch2mip/scratch2mip.js</link>
+		<guid>http://scratchx.org/?url=http://champierre.github.io/scratch2mip/scratch2mip.js</guid>
+		<pubDate>Wed, 08 Jun 2016 13:09:43 EST</pubDate>
+		<description>Control self balancing robot WowWee MiP from ScratchX</description>
+	</item>
+	<item>
 		<title>CatX by LiFaytheGoblin</title>
 		<link>http://scratchx.org/?url=http://lifaythegoblin.github.io/ScratchX-Extensions/CatX.js</link>
 		<guid>http://scratchx.org/?url=http://lifaythegoblin.github.io/ScratchX-Extensions/CatX.js</guid>

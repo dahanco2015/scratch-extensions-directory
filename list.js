@@ -637,6 +637,18 @@ var extensions = [
 		'description': 'Many blocks for interacting with strings, objects, variables, and even the browser'
 	},
 	{
+		'title': 'Scratch2MiP',
+		'author': ['Junya Ishihara'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://champierre.github.io/scratch2mip/scratch2mip.js',
+			'Doc': 'https://github.com/champierre/scratch2mip',
+			'Demo': 'http://scratchx.org/?url=http://champierre.github.io/scratch2mip/scratch2mip_demo.sbx',
+			'JavaScript': 'http://champierre.github.io/scratch2mip/scratch2mip.js',
+			'GitHub': 'https://github.com/champierre/scratch2mip/blob/gh-pages/scratch2mip.js'
+		},
+		'description': 'Control self balancing robot WowWee MiP from ScratchX'
+	},
+	{
 		'title': 'Scratch3D',
 		'author': ['Stephen Lewis', 'John Goodwin'],
 		'links': {
