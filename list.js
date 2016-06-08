@@ -641,8 +641,8 @@ var extensions = [
 		'author': ['Stephen Lewis', 'John Goodwin'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://scratch3d.github.io/Scratch3D_Beta/extension/ScratchThreeJS.js',
-			'Doc': 'http://scratchx.org/?url=http://scratch3d.github.io/examples/tierOne/HelloWorld.sbx',
-			'Demo': 'http://www.scratch3d.org/',
+			'Doc': 'http://www.scratch3d.org/',
+			'Demo': 'http://scratchx.org/?url=http://scratch3d.github.io/examples/tierOne/HelloWorld.sbx',
 			'JavaScript': 'http://scratch3d.github.io/Scratch3D_Beta/extension/ScratchThreeJS.js',
 			'GitHub': 'https://github.com/scratch3d/scratch3d.github.io/blob/gh-pages/Scratch3D_Beta/extension/ScratchThreeJS.js'
 		},
