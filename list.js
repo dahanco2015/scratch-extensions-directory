@@ -1,5 +1,16 @@
 var extensions = [
 	{
+		'title': '@markscott00 - Weather',
+		'author': ['mxsscott'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://mscott.cx/scratchext/exts/weather.js',
+			'Doc': 'https://github.com/mxsscott/scratchext',
+			'JavaScript': 'http://mscott.cx/scratchext/exts/weather.js',
+			'GitHub': 'https://github.com/mxsscott/scratchext/blob/master/exts/weather.js'
+		},
+		'description': 'Provides various blocks to obtain the current weather in a location'
+	},
+	{
 		'title': 'Alarm extension',
 		'author': ['Scratch Team'],
 		'links': {
@@ -50,6 +61,17 @@ var extensions = [
 			'GitHub': 'https://github.com/djdolphin/scratchx/blob/gh-pages/becool.js'
 		},
 		'description': 'Editor rotation!'
+	},
+	{
+		'title': 'Boost',
+		'author': ['iwotastic'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/Iwotastic/Scratch-Boost/master/src/installer.js',
+			'Doc': 'https://github.com/Iwotastic/Scratch-Boost/wiki/Documentation',
+			'JavaScript': 'https://cdn.rawgit.com/Iwotastic/Scratch-Boost/master/src/installer.js',
+			'📂 GitHub': 'https://github.com/Iwotastic/Scratch-Boost/tree/master/src'
+		},
+		'description': 'Many blocks for interacting with strings, objects, variables, and even the browser'
 	},
 	{
 		'title': 'Browser Actions',
@@ -168,7 +190,7 @@ var extensions = [
 		'description': 'Adds inline comments and a block to print to the console'
 	},
 	{
-		'title': 'EV3 ScratchX Extension',
+		'title': 'EV3 Control',
 		'author': ['codeandcircuit'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://kaspesla.github.io/ev3_scratch/ev3_scratch.js',
@@ -225,7 +247,7 @@ var extensions = [
 		'description': 'Gets the status code and message of any loaded extension'
 	},
 	{
-		'title': 'FeedMe RSS fun',
+		'title': 'FeedMe - RSS fun',
 		'author': ['powerpoint56'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/FeedMe_RSS_fun.js',
@@ -233,17 +255,6 @@ var extensions = [
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/FeedMe_RSS_fun.js'
 		},
 		'description': 'Adds functionality from the Google Feed API'
-	},
-	{
-		'title': 'File I/O',
-		'author': ['Znapi'],
-		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://znapi.github.io/scratchx-file-io/ext.js',
-			'Doc': 'http://znapi.github.io/scratchx-file-io/',
-			'JavaScript': 'http://znapi.github.io/scratchx-file-io/ext.js',
-			'GitHub': 'https://github.com/Znapi/scratchx-file-io/blob/gh-pages/ext.js'
-		},
-		'description': 'Read, write, and create text files'
 	},
 	{
 		'title': 'Gamepad',
@@ -280,7 +291,7 @@ var extensions = [
 		'description': 'Performs hashing algorithms'
 	},
 	{
-		'title': 'HQ Sound',
+		'title': 'High Quality Sounds',
 		'author': ['MegaApuTurkUltra'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/MegaApuTurkUltra/Scratch-HQ-Sound/master/scratch-hqs.ext.js',
@@ -290,7 +301,7 @@ var extensions = [
 		'description': 'Allows for high quality sound manipulation within Scratch'
 	},
 	{
-		'title': 'Intel® RealSense™',
+		'title': 'Intel RealSense',
 		'author': ['Shachar Oz', 'Yaron Yanai', 'Avi Salmon'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://intel-realsense-extension-for-scratch.github.io/public/extension/intel_realsense_extension.js',
@@ -348,7 +359,7 @@ var extensions = [
 		'description': 'Gets values of a joystick'
 	},
 	{
-		'title': 'Leapmotion',
+		'title': 'Leap Motion',
 		'author': ['Kreg Hanning'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://khanning.github.io/scratch-leapmotion-extension/leapmotion_extension.js',
@@ -528,16 +539,6 @@ var extensions = [
 	},
 	{
 		'title': 'PicoBoard',
-		'author': ['SCRAXE'],
-		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/scraxePicoExtension.js',
-			'JavaScript': 'extensions/scraxePicoExtension.js',
-			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/scraxePicoExtension.js'
-		},
-		'description': 'Connect to PicoBoard with additional features'
-	},
-	{
-		'title': 'PicoBoard',
 		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/picoExtension.js',
@@ -546,6 +547,17 @@ var extensions = [
 		},
 		'description': 'Connects to PicoBoard'
 	},
+	{
+		'title': 'PicoBoard',
+		'author': ['SCRAXE'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/scraxePicoExtension.js',
+			'JavaScript': 'extensions/scraxePicoExtension.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/scraxePicoExtension.js'
+		},
+		'description': 'Connect to PicoBoard with additional features'
+	},
+	/*
 	{
 		'title': 'Power Extension',
 		'author': ['Scratch Team'],
@@ -556,6 +568,8 @@ var extensions = [
 		},
 		'description': 'Adds a power block'
 	},
+	*/
+	/*
 	{
 		'title': 'Printer Extension',
 		'author': ['Mrcomputer1'],
@@ -567,8 +581,9 @@ var extensions = [
 		},
 		'description': 'Lets you print from ScratchX'
 	},
+	*/
 	{
-		'title': 'Random wait Extension',
+		'title': 'Random wait extension',
 		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/random_wait_extension.js',
@@ -578,7 +593,7 @@ var extensions = [
 		'description': 'Adds random wait block'
 	},
 	{
-		'title': 'rb4s - a controller for the redbot',
+		'title': 'RedBot For ScratchX',
 		'author': ['Alan Yorinks'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://MrYsLab.github.io/rb4s/rb4s.js',
@@ -626,17 +641,6 @@ var extensions = [
 		'description': 'Get information from the Scratch website with the Scratch API'
 	},
 	{
-		'title': 'Scratch Boost',
-		'author': ['iwotastic'],
-		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/Iwotastic/Scratch-Boost/master/src/installer.js',
-			'Doc': 'https://github.com/Iwotastic/Scratch-Boost/wiki/Documentation',
-			'JavaScript': 'https://cdn.rawgit.com/Iwotastic/Scratch-Boost/master/src/installer.js',
-			'GitHub': 'https://github.com/Iwotastic/Scratch-Boost/blob/master/src/installer.js'
-		},
-		'description': 'Many blocks for interacting with strings, objects, variables, and even the browser'
-	},
-	{
 		'title': 'Scratch2MiP',
 		'author': ['Junya Ishihara'],
 		'links': {
@@ -649,7 +653,7 @@ var extensions = [
 		'description': 'Control self balancing robot WowWee MiP from ScratchX'
 	},
 	{
-		'title': 'Scratch3D',
+		'title': 'Scratch Three JS',
 		'author': ['Stephen Lewis', 'John Goodwin'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://scratch3d.github.io/Scratch3D_Beta/extension/ScratchThreeJS.js',
@@ -661,7 +665,7 @@ var extensions = [
 		'description': 'Fully 3D Environment'
 	},
 	{
-		'title': 'Search extension',
+		'title': 'Search Extension',
 		'author': ['Mrcomputer1'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://mrcomputer1extensions.github.io/SearchExtension/SearchExtension.js',
@@ -672,7 +676,18 @@ var extensions = [
 		'description': 'Lets you use Google search from Scratch'
 	},
 	{
-		'title': 'Sound Synthesizer',
+		'title': 'Simple File I/O',
+		'author': ['Znapi'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://znapi.github.io/scratchx-file-io/ext.js',
+			'Doc': 'http://znapi.github.io/scratchx-file-io/',
+			'JavaScript': 'http://znapi.github.io/scratchx-file-io/ext.js',
+			'GitHub': 'https://github.com/Znapi/scratchx-file-io/blob/gh-pages/ext.js'
+		},
+		'description': 'Read, write, and create text files'
+	},
+	{
+		'title': 'Synth Extension',
 		'author': ['Eric Rosenbaum'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://ericrosenbaum.github.io/tone-synth-extension/tone-synth.js',
@@ -684,7 +699,7 @@ var extensions = [
 		'description': 'Synthesize sound effects and music'
 	},
 	{
-		'title': 'Speech to Text',
+		'title': 'Speech To Text',
 		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/speech_to_text_extension.js',
@@ -780,18 +795,7 @@ var extensions = [
 		'description': 'Blocks for working with variables'
 	},
 	{
-		'title': 'Weather',
-		'author': ['mxsscott'],
-		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://mscott.cx/scratchext/exts/weather.js',
-			'Doc': 'https://github.com/mxsscott/scratchext',
-			'JavaScript': 'http://mscott.cx/scratchext/exts/weather.js',
-			'GitHub': 'https://github.com/mxsscott/scratchext/blob/master/exts/weather.js'
-		},
-		'description': 'Provides various blocks to obtain the current weather in a location'
-	},
-	{
-		'title': 'Weather Extension',
+		'title': 'Weather extension',
 		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/weather_extension.js',
@@ -811,7 +815,7 @@ var extensions = [
 		'description': 'Receives page data and opens urls'
 	},
 	{
-		'title': 'Xi - Multi uC Interconnect',
+		'title': 'Xi4S_v_004_12Feb15',
 		'author': ['Alan Yorinks'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://MrYsLab.github.io/xi4s.js',
