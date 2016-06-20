@@ -246,18 +246,6 @@ var extensions = [
 		'description': 'Read, write, and create text files'
 	},
 	{
-		'title': 'Firebase Mesh',
-		'author': ['Connor Hudson'],
-		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.github.io/mesh/mesh.js',
-			'Doc': 'http://technoboy10.tk/mesh/',
-			'Demo': 'http://scratchx.org/?url=http://technoboy10.tk/mesh/mesh.sbx',
-			'JavaScript': 'http://technoboy10.github.io/mesh/mesh.js',
-			'GitHub': 'https://github.com/technoboy10/mesh/blob/gh-pages/mesh.js'
-		},
-		'description': 'Broadcast messages to other projects'
-	},
-	{
 		'title': 'Gamepad',
 		'author': ['Alyssa Rosenzweig'],
 		'links': {
@@ -470,6 +458,18 @@ var extensions = [
 			'GitHub': 'https://github.com/bobbybee/mesh-2.0/blob/master/ext.js'
 		},
 		'description': 'Enables mesh features'
+	},
+	{
+		'title': 'Mesh',
+		'author': ['Connor Hudson'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.github.io/mesh/mesh.js',
+			'Doc': 'http://technoboy10.tk/mesh/',
+			'Demo': 'http://scratchx.org/?url=http://technoboy10.tk/mesh/mesh.sbx',
+			'JavaScript': 'http://technoboy10.github.io/mesh/mesh.js',
+			'GitHub': 'https://github.com/technoboy10/mesh/blob/gh-pages/mesh.js'
+		},
+		'description': 'Broadcast messages to other projects'
 	},
 	{
 		'title': 'Minecraft Server Checker',
