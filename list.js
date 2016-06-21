@@ -569,7 +569,6 @@ var extensions = [
 		'description': 'Adds a power block'
 	},
 	*/
-	/*
 	{
 		'title': 'Printer Extension',
 		'author': ['Mrcomputer1'],
@@ -581,7 +580,6 @@ var extensions = [
 		},
 		'description': 'Lets you print from ScratchX'
 	},
-	*/
 	{
 		'title': 'Random wait extension',
 		'author': ['Scratch Team'],
