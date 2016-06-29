@@ -548,7 +548,7 @@ var extensions = [
 		'description': 'Connects to PicoBoard'
 	},
 	{
-		'title': 'PicoBoard',
+		'title': 'PicoBoard Extended',
 		'author': ['SCRAXE'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/scraxePicoExtension.js',
