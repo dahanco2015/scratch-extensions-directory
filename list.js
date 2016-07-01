@@ -313,6 +313,18 @@ var extensions = [
 		'description': 'Hand Gestures, face tracking, voice commands'
 	},
 	{
+		'title': 'iRobot Create 2',
+		'author': ['iRobot'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://irobotstem.github.io/CreateScratchX/roomba600Extension.js',
+			'Doc': 'http://irobotstem.github.io/CreateScratchX/',
+			'Demo': 'http://scratchx.org/?url=http://irobotstem.github.io/CreateScratchX/examples/Create%20Example%20-%20Tethered%20Driving.sbx',
+			'JavaScript': 'https://irobotstem.github.io/CreateScratchX/roomba600Extension.js',
+			'GitHub': 'https://github.com/iRobotSTEM/CreateScratchX/blob/gh-pages/roomba600Extension.js'
+		},
+		'description': 'Control iRobot® Create® 2'
+	},
+	{
 		'title': 'ISS Tracker',
 		'author': ['Kreg Hanning'],
 		'links': {
