@@ -37,8 +37,12 @@
 			var authorz = '';
 			var linkz = '';
 			var linkz2 = '';
-			for (i = 0; i < extensions.length; i++) {
-				obj = extensions[i];
+			var sortExts = extensions;
+			sortExts.sort(function (a, b) {
+				return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
+			});
+			for (i = 0; i < sortExts.length; i++) {
+				obj = sortExts[i];
 				thingy = true;
 				if (filtered) {
 					lowerlist = [];
