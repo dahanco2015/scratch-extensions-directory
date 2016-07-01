@@ -14,9 +14,9 @@ var extensions = [
 		'title': 'Alarm extension',
 		'author': ['Scratch Team'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/alarm_extension.js',
-			'JavaScript': 'https://cdn.rawgit.com/sayamindu/scratch-extensions/master/alarm_extension.js',
-			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/master/alarm_extension.js'
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/alarm_extension.js',
+			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/alarm_extension.js',
+			'GitHub': 'https://github.com/LLK/scratchx/blob/master/alarm_extension.js'
 		},
 		'description': 'An alarm countdown system'
 	},
@@ -97,9 +97,9 @@ var extensions = [
 		'title': 'Browser Stuff',
 		'author': ['Scratch Team'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/browser_extension.js',
-			'JavaScript': 'https://cdn.rawgit.com/sayamindu/scratch-extensions/master/browser_extension.js',
-			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/master/browser_extension.js'
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/browser_extension.js',
+			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/browser_extension.js',
+			'GitHub': 'https://github.com/LLK/scratchx/blob/master/browser_extension.js'
 		},
 		'description': 'Opens JS dialog boxes and new tabs'
 	},
@@ -352,9 +352,9 @@ var extensions = [
 		'title': 'Joystick',
 		'author': ['Scratch Team'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/joystickExtension.js',
-			'JavaScript': 'https://cdn.rawgit.com/sayamindu/scratch-extensions/master/joystickExtension.js',
-			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/master/joystickExtension.js'
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/joystickExtension.js',
+			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/joystickExtension.js',
+			'GitHub': 'https://github.com/LLK/scratchx/blob/master/joystickExtension.js'
 		},
 		'description': 'Gets values of a joystick'
 	},
@@ -398,9 +398,9 @@ var extensions = [
 		'title': 'Local Storage',
 		'author': ['Scratch Team'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/localstorage_extension.js',
-			'JavaScript': 'https://cdn.rawgit.com/sayamindu/scratch-extensions/master/localstorage_extension.js',
-			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/master/localstorage_extension.js'
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/localstorage_extension.js',
+			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/localstorage_extension.js',
+			'GitHub': 'https://github.com/LLK/scratchx/blob/master/localstorage_extension.js'
 		},
 		'description': 'Uses JavaScript localStorage API'
 	},
@@ -538,16 +538,6 @@ var extensions = [
 		'description': 'Gets bounce ranges for objects'
 	},
 	{
-		'title': 'PicoBoard',
-		'author': ['Scratch Team'],
-		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/picoExtension.js',
-			'JavaScript': 'https://cdn.rawgit.com/sayamindu/scratch-extensions/master/picoExtension.js',
-			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/master/picoExtension.js'
-		},
-		'description': 'Connects to PicoBoard'
-	},
-	{
 		'title': 'PicoBoard Extended',
 		'author': ['SCRAXE'],
 		'links': {
@@ -562,9 +552,9 @@ var extensions = [
 		'title': 'Power Extension',
 		'author': ['Scratch Team'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/power_extension.js',
-			'JavaScript': 'https://cdn.rawgit.com/sayamindu/scratch-extensions/master/power_extension.js',
-			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/master/power_extension.js'
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/power_extension.js',
+			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/power_extension.js',
+			'GitHub': 'https://github.com/LLK/scratchx/blob/master/power_extension.js'
 		},
 		'description': 'Adds a power block'
 	},
@@ -584,9 +574,9 @@ var extensions = [
 		'title': 'Random wait extension',
 		'author': ['Scratch Team'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/random_wait_extension.js',
-			'JavaScript': 'https://cdn.rawgit.com/sayamindu/scratch-extensions/master/random_wait_extension.js',
-			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/master/random_wait_extension.js'
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/random_wait_extension.js',
+			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/random_wait_extension.js',
+			'GitHub': 'https://github.com/LLK/scratchx/blob/master/random_wait_extension.js'
 		},
 		'description': 'Adds random wait block'
 	},
@@ -685,24 +675,22 @@ var extensions = [
 		'description': 'Read, write, and create text files'
 	},
 	{
-		'title': 'Synth Extension',
-		'author': ['Eric Rosenbaum'],
+		'title': 'Simple text to speech extension',
+		'author': ['Scratch Team'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://ericrosenbaum.github.io/tone-synth-extension/tone-synth.js',
-			'Doc': 'http://ericrosenbaum.github.io/tone-synth-extension/',
-			'Demo': 'http://scratchx.org/?url=http://ericrosenbaum.github.io/tone-synth-extension/examples/Bouncing%20Synth%20Ball.sbx',
-			'JavaScript': 'http://ericrosenbaum.github.io/tone-synth-extension/tone-synth.js',
-			'GitHub': 'https://github.com/ericrosenbaum/tone-synth-extension/blob/gh-pages/tone-synth.js'
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/text_to_speech_simple_extension.js',
+			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/text_to_speech_simple_extension.js',
+			'GitHub': 'https://github.com/LLK/scratchx/blob/master/text_to_speech_simple_extension.js'
 		},
-		'description': 'Synthesize sound effects and music'
+		'description': 'Use Scratch to read text out loud'
 	},
 	{
 		'title': 'Speech To Text',
 		'author': ['Scratch Team'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/speech_to_text_extension.js',
-			'JavaScript': 'https://cdn.rawgit.com/sayamindu/scratch-extensions/master/speech_to_text_extension.js',
-			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/master/speech_to_text_extension.js'
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/speech_to_text_extension.js',
+			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/speech_to_text_extension.js',
+			'GitHub': 'https://github.com/LLK/scratchx/blob/master/speech_to_text_extension.js'
 		},
 		'description': 'Uses JavaScript Speech API for speech to text'
 	},
@@ -737,6 +725,18 @@ var extensions = [
 		'description': 'Reverse, shuffle, or transform your strings into upper/lower cases'
 	},
 	{
+		'title': 'Synth Extension',
+		'author': ['Eric Rosenbaum'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://ericrosenbaum.github.io/tone-synth-extension/tone-synth.js',
+			'Doc': 'http://ericrosenbaum.github.io/tone-synth-extension/',
+			'Demo': 'http://scratchx.org/?url=http://ericrosenbaum.github.io/tone-synth-extension/examples/Bouncing%20Synth%20Ball.sbx',
+			'JavaScript': 'http://ericrosenbaum.github.io/tone-synth-extension/tone-synth.js',
+			'GitHub': 'https://github.com/ericrosenbaum/tone-synth-extension/blob/gh-pages/tone-synth.js'
+		},
+		'description': 'Synthesize sound effects and music'
+	},
+	{
 		'title': 'Temp Vars and Lists',
 		'author': ['Zro716'],
 		'links': {
@@ -766,7 +766,7 @@ var extensions = [
 			'Doc': 'http://sayamindu.github.io/scratch-extensions/text-to-speech/',
 			'Demo': 'http://scratchx.org/?url=http://scratchx.org/tmp/TalkingGobo.sbx',
 			'JavaScript': 'http://sayamindu.github.io/scratch-extensions/text-to-speech/text_to_speech_extension.js',
-			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/master/text_to_speech_extension.js'
+			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/gh-pages/text-to-speech/text_to_speech_extension.js'
 		},
 		'description': 'Use Scratch to read text out loud'
 	},
@@ -796,9 +796,9 @@ var extensions = [
 		'title': 'Weather extension',
 		'author': ['Scratch Team'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/sayamindu/scratch-extensions/master/weather_extension.js',
-			'JavaScript': 'https://cdn.rawgit.com/sayamindu/scratch-extensions/master/weather_extension.js',
-			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/master/weather_extension.js'
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/weather_extension.js',
+			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/weather_extension.js',
+			'GitHub': 'https://github.com/LLK/scratchx/blob/master/weather_extension.js'
 		},
 		'description': 'Reports temperature for city'
 	},
