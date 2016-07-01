@@ -11,16 +11,6 @@ var extensions = [
 		'description': 'Provides various blocks to obtain the current weather in a location'
 	},
 	{
-		'title': 'Ambient Light',
-		'author': ['djdolphin'],
-		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://djdolphin.github.io/scratchx/ambientlight.js',
-			'JavaScript': 'http://djdolphin.github.io/scratchx/ambientlight.js',
-			'GitHub': 'https://github.com/djdolphin/scratchx/blob/gh-pages/ambientlight.js'
-		},
-		'description': 'Gets reading on ambient light'
-	},
-	{
 		'title': 'Alarm extension',
 		'author': ['Scratch Team'],
 		'links': {
@@ -29,6 +19,16 @@ var extensions = [
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/alarm_extension.js'
 		},
 		'description': 'An alarm countdown system'
+	},
+	{
+		'title': 'Ambient Light',
+		'author': ['djdolphin'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://djdolphin.github.io/scratchx/ambientlight.js',
+			'JavaScript': 'http://djdolphin.github.io/scratchx/ambientlight.js',
+			'GitHub': 'https://github.com/djdolphin/scratchx/blob/gh-pages/ambientlight.js'
+		},
+		'description': 'Gets reading on ambient light'
 	},
 	{
 		'title': 'Arduino',
