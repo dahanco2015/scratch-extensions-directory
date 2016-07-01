@@ -27,7 +27,9 @@
 					}
 				}
 			}
-			users.sort();
+			users.sort(function (a, b) {
+				return a.toLowerCase().localeCompare(b.toLowerCase());
+			});
 			var view = '';
 			var count = 0;
 			var row;
