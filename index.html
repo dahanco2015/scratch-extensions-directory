@@ -40,6 +40,7 @@
 			var thingy = true;
 			var row;
 			var obj;
+			var authorz2;
 			var authorz = '';
 			var linkz = '';
 			var linkz2 = '';
@@ -57,7 +58,11 @@
 				}
 				if (thingy) {
 					row = document.createElement('tr');
-					authorz = obj.author.join(', ');
+					authorz2 = obj.author;
+					for (j = 0; j < authorz2.length; j++) {
+						authorz2[j] = '<a href="index.html?searchname=' + (encodeURI(authorz2[j])).replace('%20', '+') + '">' + authorz2[j] + '</a>';
+					}
+					authorz = authorz2.join(', ');
 					row.innerHTML = '<td><a href="javascript:extBox(' + i.toString() + ')">' + obj.title + '</a></td><td>' + authorz + '</td><td>' + obj.description + '</td>';
 					tbody.appendChild(row);
 				}
@@ -145,11 +150,7 @@
 	<p><a href="new-extensions.xml"><img src="../images/rss.png"> RSS feed</a></p>
 	<p style="text-align:center; background-color:yellow; padding:5px; border-radius:6px; color:black;"><span class="b">Disclaimer:</span> Extensions listed on this site are not tested by me or otherwise guaranteed safe.</p>
 	<p id="filter-notice"></p>
-	<form action="index.html">
-		<input type="text" name="searchname" value="" placeholder="Filter by author">
-		<input type="submit" value="Filter">
-	</form>
-	<a href="authors.html">Select author from list</a><br/><br/>
+	<a href="authors.html">View list of authors</a><br/><br/>
 	<table id="tableytable">
 		<thead>
 			<tr>
