@@ -71,9 +71,34 @@
 			}
 		};
 		function extBox(ind) {
-			obj = sortExts[ind];
-			authorz = obj.author.join(', ');
-			document.getElementById('di1').innerHTML = '<h2>' + obj.title + '</h2><p>Author: ' + authorz + '</p><p>' + obj.description + '</p>' + imgLine + '<br/>​<span id="scratchx-desc" style="display:none;">Open the extension in ScratchX</span><span id="doc-desc" style="display:none;">View instructions for how to use the extension&apos;s blocks</span><span id="demo-desc" style="display:none;">Open the extension&apos;s demonstration sample project in ScratchX</span><span id="js-desc" style="display:none;">Copy the link and paste it to load the extension on the ScratchX website</span><span id="github-desc" style="display:none;">View the JavaScript code for the extension on GitHub</span><span id="gist-desc" style="display:none;">View the gist containing the JavaScript code for the extension on GitHub Gist</span><span id="github-folder-desc" style="display:none;">View the folder containing the JavaScript code for the extension on GitHub</span><p><a href="extClose();">Close</a></p>';
+			var obj = sortExts[ind];
+			var authorz = obj.author.join(', ');
+			var imgLine = '';
+			if (obj.links.ScratchX != undefined) {
+				imgLine += '<a id="scratchx-link" href="' + obj.links.ScratchX + '" target="_blank"><img src="images/scratchx.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+			}
+			if (obj.links.Doc != undefined) {
+				imgLine += '<a id="doc-link" href="' + obj.links.Doc + '" target="_blank"><img src="images/doc.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+			}
+			if (obj.links.Demo != undefined) {
+				imgLine += '<a id="demo-link" href="' + obj.links.Demo + '" target="_blank"><img src="images/demo.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+			}
+			if (obj.links.Demos != undefined) {
+				imgLine += '<a id="demos-link" href="' + obj.links.Demos + '" target="_blank"><img src="images/demos.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+			}
+			if (obj.links.JavaScript != undefined) {
+				imgLine += '<a id="js-link" href="' + obj.links.JavaScript + '" target="_blank"><img src="images/js.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+			}
+			if (obj.links.GitHub != undefined) {
+				imgLine += '<a id="github-link" href="' + obj.links.GitHub + '" target="_blank"><img src="images/github.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+			}
+			if (obj.links.Github_folder != undefined) {
+				imgLine += '<a id="github-folder-link" href="' + obj.links.Github_folder + '" target="_blank"><img src="images/github-folder.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+			}
+			if (obj.links.Gist != undefined) {
+				imgLine += '<a id="gist-link" href="' + obj.links.Gist + '" target="_blank"><img src="images/gist.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+			}
+			document.getElementById('di1').innerHTML = '<h2>' + obj.title + '</h2><p>Author: ' + authorz + '</p><p>' + obj.description + '</p>' + imgLine + '<br/>​<span id="scratchx-desc" style="display:none;">Open the extension in ScratchX</span><span id="doc-desc" style="display:none;">View instructions for how to use the extension&apos;s blocks</span><span id="demo-desc" style="display:none;">Open the extension&apos;s demonstration sample project in ScratchX</span><span id="demos-desc" style="display:none;">Download the extension&apos;s demonstration sample projects</span><span id="js-desc" style="display:none;">Copy the link and paste it to load the extension on the ScratchX website</span><span id="github-desc" style="display:none;">View the JavaScript code for the extension on GitHub</span><span id="gist-desc" style="display:none;">View the gist containing the JavaScript code for the extension on GitHub Gist</span><span id="github-folder-desc" style="display:none;">View the folder containing the JavaScript code for the extension on GitHub</span><p><a href="extClose();">Close</a></p>';
 			document.getElementById('di1').style.display = 'initial';
 			document.getElementById('over').style.display = 'initial';
 		}
@@ -135,6 +160,10 @@
 }
 
 #demo-link:hover + #demo-desc {
+	display: initial;
+}
+
+#demos-link:hover + #demos-desc {
 	display: initial;
 }
 
