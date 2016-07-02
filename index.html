@@ -16,6 +16,12 @@
 	<script src="../querystring-object.js"></script>
 	<script src="list.js"></script>
 	<script>
+		var sortExts = extensions;
+		sortExts.sort(function (a, b) {
+			return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
+		});
+	</script>
+	<script>
 		function loadFunc() {
 			var theTable = document.getElementById('tableytable');
 			var tbody = document.getElementById('table-location');
@@ -37,10 +43,6 @@
 			var authorz = '';
 			var linkz = '';
 			var linkz2 = '';
-			var sortExts = extensions;
-			sortExts.sort(function (a, b) {
-				return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
-			});
 			for (i = 0; i < sortExts.length; i++) {
 				obj = sortExts[i];
 				thingy = true;
