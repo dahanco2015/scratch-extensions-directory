@@ -44,7 +44,7 @@
 					}
 				}
 				row = document.createElement('tr');
-				row.innerHTML = '<td>' + personName + '</td><td>' + count + '</td><td><a href="' + view + '">View extensions</a></td>';
+				row.innerHTML = '<td><a href="' + view + '">' + personName + '</a></td><td>' + count + '</td>';
 				tbody.appendChild(row);
 			}
 		};
@@ -59,7 +59,6 @@
 			<tr>
 				<th>Name</th>
 				<th>Extensions</th>
-				<th>Link</th>
 			</tr>
 		</thead>
 		<tbody id="table-location">
