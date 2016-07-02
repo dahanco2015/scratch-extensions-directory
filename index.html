@@ -70,36 +70,44 @@
 				div.appendChild(nothing);
 			}
 		};
+		function mouseOver(s) {
+			document.getElementById(s + '-desc').style.display = 'initial';
+			document.getElementById('place').style.display = 'none';
+		}
+		function mouseOut(s) {
+			document.getElementById(s + '-desc').style.display = 'none';
+			document.getElementById('place').style.display = 'initial';
+		}
 		function extBox(ind) {
 			var obj = sortExts[ind];
 			var authorz = obj.author.join(', ');
 			var imgLine = '';
 			if (obj.links.ScratchX != undefined) {
-				imgLine += '<a onmouseover="document.getElementById(\'scratchx-desc\').style.display = \'initial\';" onmouseout="document.getElementById(\'scratchx-desc\').style.display = \'none\';" href="' + obj.links.ScratchX + '" target="_blank"><img src="images/scratchx.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+				imgLine += '<a onmouseover="mouseOver(\'scratchx\'" onmouseout="mouseOut(\'scratchx\'" href="' + obj.links.ScratchX + '" target="_blank"><img src="images/scratchx.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
 			if (obj.links.Doc != undefined) {
-				imgLine += '<a onmouseover="document.getElementById(\'doc-desc\').style.display = \'initial\';" onmouseout="document.getElementById(\'doc-desc\').style.display = \'none\';" href="' + obj.links.Doc + '" target="_blank"><img src="images/doc.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+				imgLine += '<a onmouseover="mouseOver(\'doc\'" onmouseout="mouseOut(\'doc\'" href="' + obj.links.Doc + '" target="_blank"><img src="images/doc.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
 			if (obj.links.Demo != undefined) {
-				imgLine += '<a onmouseover="document.getElementById(\'demo-desc\').style.display = \'initial\';" onmouseout="document.getElementById(\'demo-desc\').style.display = \'none\';" href="' + obj.links.Demo + '" target="_blank"><img src="images/demo.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+				imgLine += '<a onmouseover="mouseOver(\'demo\'" onmouseout="mouseOut(\'demo\'" href="' + obj.links.Demo + '" target="_blank"><img src="images/demo.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
 			if (obj.links.Demos != undefined) {
-				imgLine += '<a onmouseover="document.getElementById(\'demos-desc\').style.display = \'initial\';" onmouseout="document.getElementById(\'demos-desc\').style.display = \'none\';" href="' + obj.links.Demos + '" target="_blank"><img src="images/demos.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+				imgLine += '<a onmouseover="mouseOver(\'demos\'" onmouseout="mouseOut(\'demos\'" href="' + obj.links.Demos + '" target="_blank"><img src="images/demos.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
 			if (obj.links.JavaScript != undefined) {
-				imgLine += '<a onmouseover="document.getElementById(\'js-desc\').style.display = \'initial\';" onmouseout="document.getElementById(\'js-desc\').style.display = \'none\';" href="' + obj.links.JavaScript + '" target="_blank"><img src="images/js.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+				imgLine += '<a onmouseover="mouseOver(\'js\'" onmouseout="mouseOut(\'js\'" href="' + obj.links.JavaScript + '" target="_blank"><img src="images/js.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
 			if (obj.links.GitHub != undefined) {
-				imgLine += '<a onmouseover="document.getElementById(\'github-desc\').style.display = \'initial\';" onmouseout="document.getElementById(\'github-desc\').style.display = \'none\';" href="' + obj.links.GitHub + '" target="_blank"><img src="images/github.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+				imgLine += '<a onmouseover="mouseOver(\'github\'" onmouseout="mouseOut(\'github\'" href="' + obj.links.GitHub + '" target="_blank"><img src="images/github.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
 			if (obj.links.GitHub_folder != undefined) {
-				imgLine += '<a onmouseover="document.getElementById(\'github-folder-desc\').style.display = \'initial\';" onmouseout="document.getElementById(\'github-folder-desc\').style.display = \'none\';" href="' + obj.links.GitHub_folder + '" target="_blank"><img src="images/github-folder.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+				imgLine += '<a onmouseover="mouseOver(\'github-folder\'" onmouseout="mouseOut(\'github-folder\'" href="' + obj.links.GitHub_folder + '" target="_blank"><img src="images/github-folder.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
 			if (obj.links.Gist != undefined) {
-				imgLine += '<a onmouseover="document.getElementById(\'gist-desc\').style.display = \'initial\';" onmouseout="document.getElementById(\'gist-desc\').style.display = \'none\';" href="' + obj.links.Gist + '" target="_blank"><img src="images/gist.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+				imgLine += '<a onmouseover="mouseOver(\'gist\'" onmouseout="mouseOut(\'gist\'" href="' + obj.links.Gist + '" target="_blank"><img src="images/gist.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
 			imgLine = imgLine.substring(0, imgLine.length - 30);
-			document.getElementById('di1').innerHTML = '<h2>' + obj.title + '</h2><p>Author: ' + authorz + '</p><p>' + obj.description + '</p>' + imgLine + '<br/>​<span id="scratchx-desc" style="display:none;">Open the extension in ScratchX</span><span id="doc-desc" style="display:none;">View instructions for how to use the extension&apos;s blocks</span><span id="demo-desc" style="display:none;">Open the extension&apos;s demonstration sample project in ScratchX</span><span id="demos-desc" style="display:none;">Download the extension&apos;s demonstration sample projects</span><span id="js-desc" style="display:none;">Copy the link and paste it on the ScratchX website to load the extension</span><span id="github-desc" style="display:none;">View the JavaScript code for the extension on GitHub</span><span id="gist-desc" style="display:none;">View the gist containing the JavaScript code for the extension on GitHub Gist</span><span id="github-folder-desc" style="display:none;">View the folder containing the JavaScript code for the extension on GitHub</span><p><a href="javascript:extClose();">Close</a></p>';
+			document.getElementById('di1').innerHTML = '<h2>' + obj.title + '</h2><p>Author: ' + authorz + '</p><p>' + obj.description + '</p>' + imgLine + '<br/>​<span id="place"><br/><br/></span><span id="scratchx-desc" style="display:none;">Open the extension in ScratchX<br/></span><span id="doc-desc" style="display:none;">View instructions for how to use the extension&apos;s blocks<br/></span><span id="demo-desc" style="display:none;">Open the extension&apos;s demonstration sample project in ScratchX</span><span id="demos-desc" style="display:none;">Download the extension&apos;s demonstration sample projects<br/></span><span id="js-desc" style="display:none;">Copy the link and paste it on the ScratchX website to load the extension</span><span id="github-desc" style="display:none;">View the JavaScript code for the extension on GitHub<br/></span><span id="gist-desc" style="display:none;">View the gist containing the JavaScript code for the extension on GitHub Gist</span><span id="github-folder-desc" style="display:none;">View the folder containing the JavaScript code for the extension on GitHub</span><p><a href="javascript:extClose();">Close</a></p>';
 			document.getElementById('di1').style.display = 'initial';
 			document.getElementById('over').style.display = 'initial';
 		}
