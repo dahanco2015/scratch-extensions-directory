@@ -58,33 +58,7 @@
 				if (thingy) {
 					row = document.createElement('tr');
 					authorz = obj.author.join(', ');
-					linkz = '';
-					if (obj.links.ScratchX != undefined) {
-						linkz += '<a href="' + obj.links.ScratchX + '">ScratchX</a><br/>';
-					}
-					if (obj.links.Doc != undefined) {
-						linkz += '<a href="' + obj.links.Doc + '">Doc</a><br/>';
-					}
-					if (obj.links.Demo != undefined) {
-						linkz += '<a href="' + obj.links.Demo + '">Demo</a><br/>';
-					}
-					if (obj.links.Demos != undefined) {
-						linkz += '<a href="' + obj.links.Demos + '">&darr; Demos</a><br/>';
-					}
-					if (obj.links.JavaScript != undefined) {
-						linkz += '<a href="' + obj.links.JavaScript + '">JavaScript</a><br/>';
-					}
-					if (obj.links.GitHub != undefined) {
-						linkz += '<a href="' + obj.links.GitHub + '">GitHub</a><br/>';
-					}
-					if (obj.links.GitHub_folder != undefined) {
-						linkz += '<a href="' + obj.links.GitHub_folder + '">*GitHub</a><br/>';
-					}
-					if (obj.links.Gist != undefined) {
-						linkz += '<a href="' + obj.links.Gist + '">Gist</a><br/>';
-					}
-					linkz2 = linkz.substring(0, linkz.length - 5);
-					row.innerHTML = '<td>' + obj.title + '</td><td>' + authorz + '</td><td>' + linkz2 + '</td><td>' + obj.description + '</td>';
+					row.innerHTML = '<td><a href="extBox(' + i.toString() + ')">' + obj.title + '</a></td><td>' + authorz + '</td><td>' + obj.description + '</td>';
 					tbody.appendChild(row);
 				}
 			}
@@ -111,15 +85,6 @@
 		<li><a href="https://scratch.mit.edu/discuss/topic/115258/#reply">Click here</a> to submit your extension if you don't use GitHub. There is a form showing what all you need to include.</li>
 	</ul>
 	<p><a href="new-extensions.xml"><img src="../images/rss.png"> RSS feed</a></p>
-	<h2>Link key</h2>
-	<ul>
-		<li>ScratchX – Click to open the extension in ScratchX</li>
-		<li>Doc – Click for instructions for how to use the extension&apos;s blocks</li>
-		<li>Demo - Click to open the extension&apos;s demonstration sample project in ScratchX</li>
-		<li>JavaScript – Click to access the JavaScript file for the extension, or copy the link and paste it to load the extension on the ScratchX website (use this to load multiple extensions)</li>
-		<li>GitHub – Click to view the JavaScript code for the extension on GitHub (*The star means it links to a folder)</li>
-		<li>Gist – Click to view the gist containing the JavaScript code for the extension on GitHub Gist</li>
-	</ul>
 	<p style="text-align:center; background-color:yellow; padding:5px; border-radius:6px; color:black;"><span class="b">Disclaimer:</span> Extensions listed on this site are not tested by me or otherwise guaranteed safe.</p>
 	<p id="filter-notice"></p>
 	<form action="index.html">
@@ -140,5 +105,8 @@
 		</tbody>
 	</table>
 	</main>
+	<div class="dialog" style="height:300px; width:400px; margin-top:-150px; margin-left:-200px; display:none;">
+	</div>
+	<div class="overlay" style="display:none;"></div>
 </body>
 </html>
