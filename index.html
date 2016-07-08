@@ -42,6 +42,7 @@
 			var obj;
 			var authorz2;
 			var authorz = '';
+			var typeTag = '';
 			var linkz = '';
 			var linkz2 = '';
 			for (i = 0; i < sortExts.length; i++) {
@@ -63,7 +64,12 @@
 						authorz2[j] = '<a href="index.html?searchname=' + (encodeURI(authorz2[j])).replace('%20', '+') + '">' + authorz2[j] + '</a>';
 					}
 					authorz = authorz2.join(', ');
-					row.innerHTML = '<td><a href="javascript:extBox(' + i.toString() + ')">' + obj.title + '</a></td><td>' + authorz + '</td><td>' + obj.description + '</td>';
+					if (obj.type = '') {
+						typeTag = '';
+					} else {
+						typeTag = '<img src="images/' + obj.type + '.png">';
+					}
+					row.innerHTML = '<td><a href="javascript:extBox(' + i.toString() + ')">' + obj.title + '</a></td><td>' + authorz + '</td><td style="text-align:center">' + typeTag + '</td><td>' + obj.description + '</td>';
 					tbody.appendChild(row);
 				}
 			}
@@ -156,6 +162,7 @@
 			<tr>
 				<th>Title</th>
 				<th>Author</th>
+				<th>Type</th>
 				<th>Description</th>
 			</tr>
 		</thead>

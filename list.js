@@ -8,7 +8,8 @@ var extensions = [
 			'JavaScript': 'http://mscott.cx/scratchext/exts/weather.js',
 			'GitHub': 'https://github.com/mxsscott/scratchext/blob/master/exts/weather.js'
 		},
-		'description': 'Provides various blocks to obtain the current weather in a location'
+		'description': 'Provides various blocks to obtain the current weather in a location',
+		'type': 'w'
 	},
 	{
 		'title': 'Alarm extension',
@@ -18,7 +19,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/alarm_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/alarm_extension.js'
 		},
-		'description': 'An alarm countdown system'
+		'description': 'An alarm countdown system',
+		'type': ''
 	},
 	{
 		'title': 'Ambient Light',
@@ -28,7 +30,8 @@ var extensions = [
 			'JavaScript': 'http://djdolphin.github.io/scratchx/ambientlight.js',
 			'GitHub': 'https://github.com/djdolphin/scratchx/blob/gh-pages/ambientlight.js'
 		},
-		'description': 'Gets reading on ambient light'
+		'description': 'Gets reading on ambient light',
+		'type': 'h'
 	},
 	{
 		'title': 'Arduino',
@@ -40,7 +43,8 @@ var extensions = [
 			'JavaScript': 'http://khanning.github.io/scratch-arduino-extension/arduino_extension.js',
 			'GitHub': 'https://github.com/khanning/scratch-arduino-extension/blob/gh-pages/arduino_extension.js'
 		},
-		'description': 'Interact with the physical world using Arduino'
+		'description': 'Interact with the physical world using Arduino',
+		'type': 'h'
 	},
 	{
 		'title': 'Battery Status',
@@ -50,7 +54,8 @@ var extensions = [
 			'JavaScript': 'http://technoboy10.tk/scratchx/battery.js',
 			'GitHub': 'https://github.com/technoboy10/scratchx/blob/gh-pages/battery.js'
 		},
-		'description': 'Reports on current battery status'
+		'description': 'Reports on current battery status',
+		'type': ''
 	},
 	{
 		'title': 'Be Cool',
@@ -60,7 +65,8 @@ var extensions = [
 			'JavaScript': 'http://djdolphin.github.io/scratchx/becool.js',
 			'GitHub': 'https://github.com/djdolphin/scratchx/blob/gh-pages/becool.js'
 		},
-		'description': 'Editor rotation!'
+		'description': 'Editor rotation!',
+		'type': ''
 	},
 	{
 		'title': 'Boost',
@@ -71,7 +77,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/Iwotastic/Scratch-Boost/master/src/installer.js',
 			'GitHub_folder': 'https://github.com/Iwotastic/Scratch-Boost/tree/master/src'
 		},
-		'description': 'Many blocks for interacting with strings, objects, variables, and even the browser'
+		'description': 'Many blocks for interacting with strings, objects, variables, and even the browser',
+		'type': ''
 	},
 	{
 		'title': 'Browser Actions',
@@ -81,7 +88,8 @@ var extensions = [
 			'JavaScript': 'https://gist.githubusercontent.com/anonymous/5b10f47f0936177bee31/raw/486287b9552cf925d0ef1f974bff072d615acb58/Extension.js',
 			'Gist': 'https://gist.github.com/anonymous/5b10f47f0936177bee31'
 		},
-		'description': 'Opens many different web pages'
+		'description': 'Opens many different web pages',
+		'type': ''
 	},
 	{
 		'title': 'Browser Info and Language',
@@ -91,7 +99,8 @@ var extensions = [
 			'JavaScript': 'extensions/Browser_Info_and_Language.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/Browser_Info_and_Language.js'
 		},
-		'description': 'Gets browser info such as language'
+		'description': 'Gets browser info such as language',
+		'type': ''
 	},
 	{
 		'title': 'Browser Stuff',
@@ -101,7 +110,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/browser_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/browser_extension.js'
 		},
-		'description': 'Opens JS dialog boxes and new tabs'
+		'description': 'Opens JS dialog boxes and new tabs',
+		'type': ''
 	},
 	{
 		'title': 'CatX',
@@ -112,7 +122,8 @@ var extensions = [
 			'JavaScript': 'https://lifaythegoblin.github.io/ScratchX-Extensions/CatX.js',
 			'GitHub': 'https://github.com/LiFaytheGoblin/ScratchX-Extensions/blob/gh-pages/CatX.js'
 		},
-		'description': 'Create a link to a random cat pic to cutify your projects and surprise your friends <3'
+		'description': 'Create a link to a random cat pic to cutify your projects and surprise your friends <3',
+		'type': ''
 	},
 	{
 		'title': 'Cloud Data',
@@ -122,7 +133,8 @@ var extensions = [
 			'JavaScript': 'http://technoboy10.tk/scratchx/cloud.js',
 			'GitHub': 'https://github.com/technoboy10/scratchx/blob/gh-pages/cloud.js'
 		},
-		'description': 'Grabs and reads cloud data from projects'
+		'description': 'Grabs and reads cloud data from projects',
+		'type': 'w'
 	},
 	{
 		'title': 'Convert to Boolean',
@@ -134,7 +146,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/convert-to-boolean.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/convert-to-boolean.js'
 		},
-		'description': 'Allows you to quickly convert booleans output by string reporters to use in blocks with boolean inputs'
+		'description': 'Allows you to quickly convert booleans output by string reporters to use in blocks with boolean inputs',
+		'type': ''
 	},
 	{
 		'title': 'Cookie',
@@ -145,7 +158,8 @@ var extensions = [
 			'JavaScript': 'http://gw90.github.io/Complete-Extensions/cookie-extension.js',
 			'GitHub': 'https://github.com/gw90/Complete-Extensions/blob/gh-pages/cookie-extension.js'
 		},
-		'description': 'Allows you to use cookies with Scratch'
+		'description': 'Allows you to use cookies with Scratch',
+		'type': 'a'
 	},
 	{
 		'title': 'Cookie Variables',
@@ -155,7 +169,8 @@ var extensions = [
 			'JavaScript': 'http://djdolphin.github.io/scratchx/cookievariables.js',
 			'GitHub': 'https://github.com/djdolphin/scratchx/blob/gh-pages/cookievariables.js'
 		},
-		'description': 'Enables cookie variables in the editor'
+		'description': 'Enables cookie variables in the editor',
+		'type': 'a'
 	},
 	{
 		'title': 'Cool helpful things extension',
@@ -165,7 +180,8 @@ var extensions = [
 			'JavaScript': 'extensions/Cool_helpful_things_extension.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/Cool_helpful_things_extension.js'
 		},
-		'description': 'Math blocks/other features'
+		'description': 'Math blocks/other features',
+		'type': ''
 	},
 	{
 		'title': 'Data',
@@ -175,7 +191,8 @@ var extensions = [
 			'JavaScript': 'http://thepuzzlegame.github.io/extensions/Data.js',
 			'GitHub': 'https://github.com/Thepuzzlegame/Thepuzzlegame.github.io/blob/master/extensions/Data.js'
 		},
-		'description': 'Adds data manipulating blocks and string operations'
+		'description': 'Adds data manipulating blocks and string operations',
+		'type': ''
 	},
 	{
 		'title': 'Debugging',
@@ -187,7 +204,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/debugging.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/debugging.js'
 		},
-		'description': 'Adds inline comments and a block to print to the console'
+		'description': 'Adds inline comments and a block to print to the console',
+		'type': 'a'
 	},
 	{
 		'title': 'EV3 Control',
@@ -199,7 +217,8 @@ var extensions = [
 			'JavaScript': 'http://kaspesla.github.io/ev3_scratch/ev3_scratch.js',
 			'GitHub': 'https://github.com/kaspesla/ev3_scratch/blob/gh-pages/ev3_scratch.js'
 		},
-		'description': 'Control EV3 bricks over Bluetooth'
+		'description': 'Control EV3 bricks over Bluetooth',
+		'type': 'h'
 	},
 	{
 		'title': 'Exit ScratchX',
@@ -211,7 +230,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/exit-scratchx.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/exit-scratchx.js'
 		},
-		'description': 'Exits ScratchX editor to homepage with user confirmation'
+		'description': 'Exits ScratchX editor to homepage with user confirmation',
+		'type': ''
 	},
 	{
 		'title': 'Extended Math',
@@ -222,7 +242,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/PullJosh/extended-math/master/extendedMath.js',
 			'GitHub': 'https://github.com/PullJosh/extended-math/blob/master/extendedMath.js'
 		},
-		'description': 'Extends the mathematical capabilities of Scratch'
+		'description': 'Extends the mathematical capabilities of Scratch',
+		'type': ''
 	},
 	{
 		'title': 'Extension Loader',
@@ -232,7 +253,8 @@ var extensions = [
 			'JavaScript': 'http://thepuzzlegame.github.io/extensions/Extension_Loader.js',
 			'GitHub': 'https://github.com/Thepuzzlegame/Thepuzzlegame.github.io/blob/master/extensions/Extension_Loader.js'
 		},
-		'description': 'Loads extensions from URLs'
+		'description': 'Loads extensions from URLs',
+		'type': 'w'
 	},
 	{
 		'title': 'Extension Status Getter',
@@ -244,7 +266,8 @@ var extensions = [
 			'JavaScript': 'http://znapi.github.io/scratchx/extension-status-getter/main.min.js',
 			'GitHub': 'https://github.com/Znapi/scratchx/blob/gh-pages/extension-status-getter/main.min.js'
 		},
-		'description': 'Gets the status code and message of any loaded extension'
+		'description': 'Gets the status code and message of any loaded extension',
+		'type': ''
 	},
 	{
 		'title': 'FeedMe - RSS fun',
@@ -254,7 +277,8 @@ var extensions = [
 			'JavaScript': 'extensions/FeedMe_RSS_fun.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/FeedMe_RSS_fun.js'
 		},
-		'description': 'Adds functionality from the Google Feed API'
+		'description': 'Adds functionality from the Google Feed API',
+		'type': 'w'
 	},
 	{
 		'title': 'Gamepad',
@@ -264,7 +288,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/bobbybee/scratch-gamepad/master/ext.js',
 			'GitHub': 'https://github.com/bobbybee/scratch-gamepad/blob/master/ext.js'
 		},
-		'description': 'A thin wrapper around the Gamepad API which supports Xbox 360 controllers, most PS3 controllers, and other non-brand D-Pad controllers'
+		'description': 'A thin wrapper around the Gamepad API which supports Xbox 360 controllers, most PS3 controllers, and other non-brand D-Pad controllers',
+		'type': 'h'
 	},
 	{
 		'title': 'GitHub Status API',
@@ -276,7 +301,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/github-status-api.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/github-status-api.js'
 		},
-		'description': 'Gets GitHub server status'
+		'description': 'Gets GitHub server status',
+		'type': 'w'
 	},
 	{
 		'title': 'Hash',
@@ -288,7 +314,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/hash.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/hash.js'
 		},
-		'description': 'Performs hashing algorithms'
+		'description': 'Performs hashing algorithms',
+		'type': ''
 	},
 	{
 		'title': 'High Quality Sounds',
@@ -298,7 +325,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/MegaApuTurkUltra/Scratch-HQ-Sound/master/scratch-hqs.ext.js',
 			'GitHub': 'https://github.com/MegaApuTurkUltra/Scratch-HQ-Sound/blob/master/scratch-hqs.ext.js'
 		},
-		'description': 'Allows for high quality sound manipulation within Scratch'
+		'description': 'Allows for high quality sound manipulation within Scratch',
+		'type': ''
 	},
 	{
 		'title': 'Intel RealSense',
@@ -310,7 +338,8 @@ var extensions = [
 			'JavaScript': 'http://intel-realsense-extension-for-scratch.github.io/public/extension/intel_realsense_extension.js',
 			'GitHub': 'https://github.com/intel-realsense-extension-for-scratch/public/blob/gh-pages/extension/intel_realsense_extension.js'
 		},
-		'description': 'Hand gestures, face tracking, voice commands'
+		'description': 'Hand gestures, face tracking, voice commands',
+		'type': 'h'
 	},
 	{
 		'title': 'iRobot Create 2',
@@ -322,7 +351,8 @@ var extensions = [
 			'JavaScript': 'https://irobotstem.github.io/CreateScratchX/roomba600Extension.js',
 			'GitHub': 'https://github.com/iRobotSTEM/CreateScratchX/blob/gh-pages/roomba600Extension.js'
 		},
-		'description': 'Control iRobot® Create® 2'
+		'description': 'Control iRobot® Create® 2',
+		'type': 'h'
 	},
 	{
 		'title': 'ISS Tracker',
@@ -334,7 +364,8 @@ var extensions = [
 			'JavaScript': 'https://khanning.github.io/scratch-isstracker-extension/iss_extension.js',
 			'GitHub': 'https://github.com/khanning/scratch-isstracker-extension/blob/gh-pages/iss_extension.js'
 		},
-		'description': 'Lets you track the progress of the International Space Station in its orbit'
+		'description': 'Lets you track the progress of the International Space Station in its orbit',
+		'type': 'w'
 	},
 	{
 		'title': 'JavaScript',
@@ -346,7 +377,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/javascript.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/javascript.js'
 		},
-		'description': 'Evaluates Javascript'
+		'description': 'Evaluates Javascript',
+		'type': ''
 	},
 	{
 		'title': 'JavaScript Dialogs',
@@ -358,7 +390,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/javascript-dialogs.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/javascript-dialogs.js'
 		},
-		'description': 'Opens JS dialog boxes'
+		'description': 'Opens JS dialog boxes',
+		'type': ''
 	},
 	{
 		'title': 'Joystick',
@@ -368,7 +401,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/joystickExtension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/joystickExtension.js'
 		},
-		'description': 'Gets values of a joystick'
+		'description': 'Gets values of a joystick',
+		'type': 'h'
 	},
 	{
 		'title': 'Leap Motion',
@@ -380,7 +414,8 @@ var extensions = [
 			'JavaScript': 'http://khanning.github.io/scratch-leapmotion-extension/leapmotion_extension.js',
 			'GitHub': 'https://github.com/khanning/scratch-leapmotion-extension/blob/gh-pages/leapmotion_extension.js'
 		},
-		'description': 'Incorporates hand tracking into projects using the Leap Motion controller'
+		'description': 'Incorporates hand tracking into projects using the Leap Motion controller',
+		'type': 'h'
 	},
 	{
 		'title': 'Link Opener',
@@ -392,7 +427,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/link-opener.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/link-opener.js'
 		},
-		'description': 'Goes to websites'
+		'description': 'Goes to websites',
+		'type': ''
 	},
 	{
 		'title': 'littleBits',
@@ -404,7 +440,8 @@ var extensions = [
 			'JavaScript': 'http://khanning.github.io/scratch-littlebits-extension/littlebits_extension.js',
 			'GitHub': 'https://github.com/khanning/scratch-littlebits-extension/blob/gh-pages/littlebits_extension.js'
 		},
-		'description': 'Control littleBits creations'
+		'description': 'Control littleBits creations',
+		'type': 'h'
 	},
 	{
 		'title': 'Local Storage',
@@ -415,6 +452,7 @@ var extensions = [
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/localstorage_extension.js'
 		},
 		'description': 'Uses JavaScript localStorage API'
+		'type': 'a'
 	},
 	{
 		'title': 'Logic',
@@ -426,7 +464,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/logic.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/logic.js'
 		},
-		'description': 'All possible boolean operators for 0-2 inputs'
+		'description': 'All possible boolean operators for 0-2 inputs',
+		'type': ''
 	},
 	{
 		'title': 'Make!Sense',
@@ -438,7 +477,8 @@ var extensions = [
 			'JavaScript': 'http://creativecomputerlab.github.io/MakeSenseConnector-1.0.js',
 			'GitHub': 'https://github.com/CreativeComputerLab/CreativeComputerLab.github.io/blob/master/MakeSenseConnector-1.0.js'
 		},
-		'description': 'Sensor interface board and sensors'
+		'description': 'Sensor interface board and sensors',
+		'type': 'h'
 	},
 	{
 		'title': 'Math',
@@ -449,7 +489,8 @@ var extensions = [
 			'JavaScript': 'http://gw90.github.io/Complete-Extensions/math-extension.js',
 			'GitHub': 'https://github.com/gw90/Complete-Extensions/blob/gh-pages/math-extension.js'
 		},
-		'description': 'A few blocks for math'
+		'description': 'A few blocks for math',
+		'type': ''
 	},
 	{
 		'title': 'MathExt',
@@ -459,7 +500,8 @@ var extensions = [
 			'JavaScript': 'extensions/MathExt.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/MathExt.js'
 		},
-		'description': 'Multiple operators and a useful block for getting the hypotenuse of a triangle'
+		'description': 'Multiple operators and a useful block for getting the hypotenuse of a triangle',
+		'type': ''
 	},
 	{
 		'title': 'MCPI-Scratch',
@@ -470,7 +512,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/jbaragry/mcpi-scratch/master/mcpi-scratch.js',
 			'GitHub': 'https://github.com/jbaragry/mcpi-scratch/blob/master/mcpi-scratch.js'
 		},
-		'description': 'Allows you to add blocks and shapes to Minecraft from Scratch'
+		'description': 'Allows you to add blocks and shapes to Minecraft from Scratch',
+		'type': 'a'
 	},
 	{
 		'title': 'Mesh',
@@ -480,7 +523,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/bobbybee/mesh-2.0/master/ext.js',
 			'GitHub': 'https://github.com/bobbybee/mesh-2.0/blob/master/ext.js'
 		},
-		'description': 'Enables mesh features'
+		'description': 'Enables mesh features',
+		'type': 'w'
 	},
 	{
 		'title': 'Mesh',
@@ -492,7 +536,8 @@ var extensions = [
 			'JavaScript': 'http://technoboy10.github.io/mesh/mesh.js',
 			'GitHub': 'https://github.com/technoboy10/mesh/blob/gh-pages/mesh.js'
 		},
-		'description': 'Broadcast messages to other projects'
+		'description': 'Broadcast messages to other projects',
+		'type': 'w'
 	},
 	{
 		'title': 'Minecraft Server Checker',
@@ -503,7 +548,8 @@ var extensions = [
 			'JavaScript': 'http://mrcomputer1.github.io/MinecraftServerCheckerExtension/MinecraftExtension.js',
 			'GitHub': 'https://github.com/Mrcomputer1/MinecraftServerCheckerExtension/blob/gh-pages/MinecraftExtension.js'
 		},
-		'description': 'Gets data from minecraft servers'
+		'description': 'Gets data from minecraft servers',
+		'type': 'w'
 	},
 	{
 		'title': 'More Math',
@@ -514,7 +560,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/more-math.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/more-math.js'
 		},
-		'description': 'Many more math blocks'
+		'description': 'Many more math blocks',
+		'type': ''
 	},
 	{
 		'title': 'More Operators',
@@ -525,7 +572,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/more-operators.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/more-operators.js'
 		},
-		'description': 'Additional operator blocks and the when <> hat block'
+		'description': 'Additional operator blocks and the when <> hat block',
+		'type': ''
 	},
 	{
 		'title': 'Objects',
@@ -537,7 +585,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/objects.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/objects.js'
 		},
-		'description': 'Create and store data in objects'
+		'description': 'Create and store data in objects',
+		'type': ''
 	},
 	{
 		'title': 'PhysExt',
@@ -547,7 +596,8 @@ var extensions = [
 			'JavaScript': 'extensions/PhysExt.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/PhysExt.js'
 		},
-		'description': 'Gets bounce ranges for objects'
+		'description': 'Gets bounce ranges for objects',
+		'type': ''
 	},
 	{
 		'title': 'PicoBoard Extended',
@@ -557,7 +607,8 @@ var extensions = [
 			'JavaScript': 'extensions/scraxePicoExtension.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/scraxePicoExtension.js'
 		},
-		'description': 'Connect to PicoBoard with additional features'
+		'description': 'Connect to PicoBoard with additional features',
+		'type': 'h'
 	},
 	{
 		'title': 'Sample extension', //Power Extension
@@ -567,7 +618,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/power_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/power_extension.js'
 		},
-		'description': 'Adds a power block'
+		'description': 'Adds a power block',
+		'type': ''
 	},
 	{
 		'title': 'Printer Extension',
@@ -578,7 +630,8 @@ var extensions = [
 			'JavaScript': 'http://Mrcomputer1.github.io/PrinterExtension/printerextension.js',
 			'GitHub': 'https://github.com/Mrcomputer1/PrinterExtension/blob/gh-pages/printerextension.js'
 		},
-		'description': 'Lets you print from ScratchX'
+		'description': 'Lets you print from ScratchX',
+		'type': 'a'
 	},
 	{
 		'title': 'Random wait extension',
@@ -588,7 +641,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/random_wait_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/random_wait_extension.js'
 		},
-		'description': 'Adds random wait block'
+		'description': 'Adds random wait block',
+		'type': ''
 	},
 	{
 		'title': 'RedBot For ScratchX',
@@ -600,7 +654,8 @@ var extensions = [
 			'JavaScript': 'http://MrYsLab.github.io/rb4s/rb4s.js',
 			'GitHub': 'https://github.com/MrYsLab/rb4s/blob/gh-pages/rb4s.js'
 		},
-		'description': 'Control and monitor a RedBot robot'
+		'description': 'Control and monitor a RedBot robot',
+		'type': 'h'
 	},
 	{
 		'title': 'Roamer',
@@ -612,7 +667,8 @@ var extensions = [
 			'JavaScript': 'http://roamereducationalrobot.github.io/RoamerScratchX/roamer.js',
 			'GitHub': 'https://github.com/RoamerEducationalRobot/RoamerScratchX/blob/gh-pages/roamer.js'
 		},
-		'description': 'Programming Roamer® with ScratchX'
+		'description': 'Programming Roamer® with ScratchX',
+		'type': 'h'
 	},
 	{
 		'title': 'Run Reporters',
@@ -624,7 +680,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/run-reporters.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/run-reporters.js'
 		},
-		'description': 'Runs a reporter and ignores its output'
+		'description': 'Runs a reporter and ignores its output',
+		'type': ''
 	},
 	{
 		'title': 'Scratch API',
@@ -636,7 +693,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/scratch-api.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/scratch-api.js'
 		},
-		'description': 'Get information from the Scratch website with the Scratch API'
+		'description': 'Get information from the Scratch website with the Scratch API',
+		'type': 'w'
 	},
 	{
 		'title': 'Scratch2MiP',
@@ -648,7 +706,8 @@ var extensions = [
 			'JavaScript': 'http://champierre.github.io/scratch2mip/scratch2mip.js',
 			'GitHub': 'https://github.com/champierre/scratch2mip/blob/gh-pages/scratch2mip.js'
 		},
-		'description': 'Control self balancing robot WowWee MiP from ScratchX'
+		'description': 'Control self balancing robot WowWee MiP from ScratchX',
+		'type': 'h'
 	},
 	{
 		'title': 'Scratch Three JS',
@@ -660,7 +719,8 @@ var extensions = [
 			'JavaScript': 'http://scratch3d.github.io/Scratch3D_Beta/extension/ScratchThreeJS.js',
 			'GitHub': 'https://github.com/scratch3d/scratch3d.github.io/blob/gh-pages/Scratch3D_Beta/extension/ScratchThreeJS.js'
 		},
-		'description': 'Fully 3D environment'
+		'description': 'Fully 3D environment',
+		'type': 'a'
 	},
 	{
 		'title': 'Search Extension',
@@ -671,7 +731,8 @@ var extensions = [
 			'JavaScript': 'http://mrcomputer1extensions.github.io/SearchExtension/SearchExtension.js',
 			'GitHub': 'https://github.com/Mrcomputer1Extensions/SearchExtension/blob/gh-pages/SearchExtension.js'
 		},
-		'description': 'Lets you use Google search from Scratch'
+		'description': 'Lets you use Google search from Scratch',
+		'type': 'w'
 	},
 	{
 		'title': 'Simple File I/O',
@@ -682,7 +743,8 @@ var extensions = [
 			'JavaScript': 'http://znapi.github.io/scratchx-file-io/ext.js',
 			'GitHub': 'https://github.com/Znapi/scratchx-file-io/blob/gh-pages/ext.js'
 		},
-		'description': 'Read, write, and create text files'
+		'description': 'Read, write, and create text files',
+		'type': 'a'
 	},
 	{
 		'title': 'Simple text to speech extension',
@@ -692,7 +754,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/text_to_speech_simple_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/text_to_speech_simple_extension.js'
 		},
-		'description': 'Use Scratch to read text out loud'
+		'description': 'Use Scratch to read text out loud',
+		'type': ''
 	},
 	{
 		'title': 'Speech To Text',
@@ -702,7 +765,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/speech_to_text_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/speech_to_text_extension.js'
 		},
-		'description': 'Uses JavaScript Speech API for speech to text'
+		'description': 'Uses JavaScript Speech API for speech to text',
+		'type': ''
 	},
 	{
 		'title': 'Splendid Strings',
@@ -712,7 +776,8 @@ var extensions = [
 			'JavaScript': 'extensions/Splendid_Strings.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/Splendid_Strings.js'
 		},
-		'description': 'Adds blocks for working with strings'
+		'description': 'Adds blocks for working with strings',
+		'type': ''
 	},
 	{
 		'title': 'StringExt',
@@ -722,7 +787,8 @@ var extensions = [
 			'JavaScript': 'extensions/StringExt.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/StringExt.js'
 		},
-		'description': 'Several string manipulating features'
+		'description': 'Several string manipulating features',
+		'type': ''
 	},
 	{
 		'title': 'Strintory',
@@ -732,7 +798,8 @@ var extensions = [
 			'JavaScript': 'http://rumanti.github.io/extensions/strintory.js',
 			'GitHub': 'https://github.com/Rumanti/Rumanti.github.io/blob/master/extensions/strintory.js'
 		},
-		'description': 'Reverse, shuffle, or transform your strings into upper/lower cases'
+		'description': 'Reverse, shuffle, or transform your strings into upper/lower cases',
+		'type': ''
 	},
 	{
 		'title': 'Synth Extension',
@@ -744,7 +811,8 @@ var extensions = [
 			'JavaScript': 'http://ericrosenbaum.github.io/tone-synth-extension/tone-synth.js',
 			'GitHub': 'https://github.com/ericrosenbaum/tone-synth-extension/blob/gh-pages/tone-synth.js'
 		},
-		'description': 'Synthesize sound effects and music'
+		'description': 'Synthesize sound effects and music',
+		'type': ''
 	},
 	{
 		'title': 'Temp Vars and Lists',
@@ -754,7 +822,8 @@ var extensions = [
 			'JavaScript': 'extensions/Temp_Vars_and_Lists.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/Temp_Vars_and_Lists.js'
 		},
-		'description': 'Temporary variables and lists'
+		'description': 'Temporary variables and lists',
+		'type': ''
 	},
 	{
 		'title': 'Text Stuff',
@@ -766,7 +835,8 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/text-stuff.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/text-stuff.js'
 		},
-		'description': 'Various properties of text'
+		'description': 'Various properties of text',
+		'type': ''
 	},
 	{
 		'title': 'Text to Speech',
@@ -778,7 +848,8 @@ var extensions = [
 			'JavaScript': 'http://sayamindu.github.io/scratch-extensions/text-to-speech/text_to_speech_extension.js',
 			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/gh-pages/text-to-speech/text_to_speech_extension.js'
 		},
-		'description': 'Use Scratch to read text out loud'
+		'description': 'Use Scratch to read text out loud',
+		'type': ''
 	},
 	{
 		'title': 'Twitter',
@@ -790,7 +861,8 @@ var extensions = [
 			'JavaScript': 'https://technoboy10.github.io/twitter/extension.js',
 			'GitHub': 'https://github.com/technoboy10/twitter/blob/gh-pages/extension.js'
 		},
-		'description': 'Use Twitter in your projects'
+		'description': 'Use Twitter in your projects',
+		'type': 'w'
 	},
 	{
 		'title': 'VarExt',
@@ -800,7 +872,8 @@ var extensions = [
 			'JavaScript': 'extensions/VarExt.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/VarExt.js'
 		},
-		'description': 'Blocks for working with variables'
+		'description': 'Blocks for working with variables',
+		'type': ''
 	},
 	{
 		'title': 'Weather extension',
@@ -810,7 +883,8 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/weather_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/weather_extension.js'
 		},
-		'description': 'Reports temperature for city'
+		'description': 'Reports temperature for city',
+		'type': 'w'
 	},
 	{
 		'title': 'WebExt',
@@ -820,7 +894,8 @@ var extensions = [
 			'JavaScript': 'extensions/WebExt.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/WebExt.js'
 		},
-		'description': 'Receives page data and opens urls'
+		'description': 'Receives page data and opens urls',
+		'type': 'a'
 	},
 	{
 		'title': 'Xi4S_v_004_12Feb15',
@@ -832,6 +907,7 @@ var extensions = [
 			'JavaScript': 'https://MrYsLab.github.io/xi4s.js',
 			'GitHub': 'https://github.com/MrYsLab/MrYsLab.github.io/blob/master/xi4s.js'
 		},
-		'description': 'Simultaneously connect, monitor and control multiple Arduino, BeagleBone Black and Raspberry Pi boards'
+		'description': 'Simultaneously connect, monitor and control multiple Arduino, BeagleBone Black and Raspberry Pi boards',
+		'type': 'h'
 	}
 ];
