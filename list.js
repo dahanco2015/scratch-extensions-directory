@@ -451,7 +451,7 @@ var extensions = [
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/localstorage_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/localstorage_extension.js'
 		},
-		'description': 'Uses JavaScript localStorage API'
+		'description': 'Uses JavaScript localStorage API',
 		'type': 'a'
 	},
 	{
