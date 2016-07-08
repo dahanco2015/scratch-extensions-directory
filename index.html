@@ -67,9 +67,9 @@
 					if (obj.type == '') {
 						typeTag = '';
 					} else {
-						typeTag = '<img src="images/' + obj.type + '.png">';
+						typeTag = '<img src="images/' + obj.type + '.png" style="display:block; margin-left:auto; margin-right:auto;">';
 					}
-					row.innerHTML = '<td><a href="javascript:extBox(' + i.toString() + ')">' + obj.title + '</a></td><td>' + authorz + '</td><td style="text-align:center">' + typeTag + '</td><td>' + obj.description + '</td>';
+					row.innerHTML = '<td><a href="javascript:extBox(' + i.toString() + ')">' + obj.title + '</a></td><td>' + authorz + '</td><td>' + typeTag + '</td><td>' + obj.description + '</td>';
 					tbody.appendChild(row);
 				}
 			}
