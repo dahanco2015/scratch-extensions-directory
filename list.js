@@ -310,7 +310,7 @@ var extensions = [
 			'JavaScript': 'http://intel-realsense-extension-for-scratch.github.io/public/extension/intel_realsense_extension.js',
 			'GitHub': 'https://github.com/intel-realsense-extension-for-scratch/public/blob/gh-pages/extension/intel_realsense_extension.js'
 		},
-		'description': 'Hand Gestures, face tracking, voice commands'
+		'description': 'Hand gestures, face tracking, voice commands'
 	},
 	{
 		'title': 'iRobot Create 2',
@@ -662,7 +662,7 @@ var extensions = [
 			'JavaScript': 'http://scratch3d.github.io/Scratch3D_Beta/extension/ScratchThreeJS.js',
 			'GitHub': 'https://github.com/scratch3d/scratch3d.github.io/blob/gh-pages/Scratch3D_Beta/extension/ScratchThreeJS.js'
 		},
-		'description': 'Fully 3D Environment'
+		'description': 'Fully 3D environment'
 	},
 	{
 		'title': 'Search Extension',
