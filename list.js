@@ -559,9 +559,8 @@ var extensions = [
 		},
 		'description': 'Connect to PicoBoard with additional features'
 	},
-	/*
 	{
-		'title': 'Power Extension',
+		'title': 'Sample extension', //Power Extension
 		'author': ['Scratch Team'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/power_extension.js',
@@ -570,7 +569,6 @@ var extensions = [
 		},
 		'description': 'Adds a power block'
 	},
-	*/
 	{
 		'title': 'Printer Extension',
 		'author': ['Mrcomputer1'],
