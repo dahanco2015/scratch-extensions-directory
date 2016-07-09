@@ -134,8 +134,8 @@
 			var tbody = document.getElementById('table-authors-location');
 			var users = [];
 			var currentAuthors = [];
-			for (i = 0; i < extensions.length; i++) {
-				currentAuthors = extensions[i].author;
+			for (i = 0; i < sortExts.length; i++) {
+				currentAuthors = sortExts[i].author;
 				for (l = 0; l < currentAuthors.length; l++) {
 					if (users.indexOf(currentAuthors[l]) == -1) {
 						users.push(currentAuthors[l]);
@@ -145,15 +145,14 @@
 			users.sort(function (a, b) {
 				return a.toLowerCase().localeCompare(b.toLowerCase());
 			});
-			var view = '';
 			var count = 0;
 			var row;
 			var personName = '';
 			for (j = 0; j < users.length; j++) {
 				personName = users[j];
 				count = 0;
-				for (k = 0; k < extensions.length; k++) {
-					if (extensions[k].author.indexOf(personName) != -1) {
+				for (k = 0; k < sortExts.length; k++) {
+					if (sortExts[k].author.indexOf(personName) != -1) {
 						count++;
 					}
 				}
@@ -165,7 +164,7 @@
 			document.getElementById('over').style.display = 'initial';
 			document.getElementById('di2').scrollTop = 0;
 		};
-		function filterFA(s,x) {
+		function filterFA(s, x) {
 			filterAuthor = s;
 			diaClose(x);
 			tableLoad();
