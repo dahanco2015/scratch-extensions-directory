@@ -167,6 +167,7 @@
 		};
 		function filterBox() {
 			var tbody = document.getElementById('table-authors-location');
+			tbody.innerHTML = '';
 			var users = [];
 			var currentAuthors = [];
 			for (i = 0; i < sortExts.length; i++) {
@@ -209,6 +210,26 @@
 			diaClose(x);
 			tableLoad();
 		};
+		function typeDescOn() {
+			var hide = document.getElementsByClassName('type');
+			var show = document.getElementsByClassName('typeDesc');
+			for (i = 0, i < hide.length; i++) {
+				hide[i].style.display = 'none';
+			}
+			for (i = 0, i < show.length; i++) {
+				show[i].style.display = 'initial';
+			}
+		};
+		function typeDescOff() {
+			var hide = document.getElementsByClassName('typeDesc');
+			var show = document.getElementsByClassName('type');
+			for (i = 0, i < hide.length; i++) {
+				hide[i].style.display = 'none';
+			}
+			for (i = 0, i < show.length; i++) {
+				show[i].style.display = 'initial';
+			}
+		};
 	</script>
 </head>
 <body>
@@ -230,7 +251,7 @@
 	<p><a href="new-extensions.xml"><img src="../images/rss.png"> RSS feed</a></p>
 	<p style="text-align:center; background-color:yellow; padding:5px; border-radius:6px; color:black;"><span class="b">Disclaimer:</span> Extensions listed on this site are not tested by me or otherwise guaranteed safe.</p>
 	<a href="javascript:filterBox();">Filter</a>
-	<p id="filter-notice"></p><br/><br/>
+	<p id="filter-notice" style="height:30px"></p>
 	<table id="tableytable" style="margin:auto">
 		<thead>
 			<tr>
@@ -251,9 +272,10 @@
 		<p><a href="javascript:diaClose(2);">Close</a></p>
 		<h2>Filter</h2>
 		<h3>Types</h3>
-		<a href="javascript:filterFT('h', 2)"><img src="images/h.png"><span style="vertical-align:26%">&nbsp;&nbsp;Hardware</span></a><br>
-		<a href="javascript:filterFT('w', 2)"><img src="images/w.png"><span style="vertical-align:26%">&nbsp;&nbsp;Web</span></a><br>
-		<a href="javascript:filterFT('a', 2)"><img src="images/a.png"><span style="vertical-align:26%">&nbsp;&nbsp;Apps</span></a><br>
+		<a href="javascript:filterFT('h', 2)"><img src="images/hd.png"><span class="type" style="vertical-align:26%">&nbsp;&nbsp;Hardware</span></a><span class="typeDesc" style="vertical-align:26%; display:none;">&nbsp;&nbsp;Connect to external devices</span><br/>
+		<a href="javascript:filterFT('w', 2)"><img src="images/wd.png"><span class="type" style="vertical-align:26%">&nbsp;&nbsp;Web</span></a><span class="typeDesc" style="vertical-align:26%; display:none;">&nbsp;&nbsp;Connect to web services</span><br/>
+		<a href="javascript:filterFT('a', 2)"><img src="images/ad.png"><span class="type" style="vertical-align:26%">&nbsp;&nbsp;Apps</span></a><span class="typeDesc" style="vertical-align:26%; display:none;">&nbsp;&nbsp;Connect to applications/saved data</span>
+		<p style="margin-top: -5px; font-size:1.25em; font-family:'Segoe UI'"><span style="cursor:default" onmouseover="typeDescOn();" onmouseout="typeDescOff();">?</span></p>
 		<h3>Authors</h3>
 		<table id="tableyauthors" style="margin:auto">
 			<thead>
