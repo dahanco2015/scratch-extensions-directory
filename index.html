@@ -151,7 +151,6 @@
 			var personName = '';
 			for (j = 0; j < users.length; j++) {
 				personName = users[j];
-				view = 'index.html?searchname=' + (encodeURI(personName)).replace('%20', '+');
 				count = 0;
 				for (k = 0; k < extensions.length; k++) {
 					if (extensions[k].author.indexOf(personName) != -1) {
@@ -159,11 +158,17 @@
 					}
 				}
 				row = document.createElement('tr');
-				row.innerHTML = '<td><a href="' + view + '">' + personName + '</a></td><td>' + count + '</td>';
+				row.innerHTML = '<td><a href="javascript:filterFA(' + personName + ')">' + personName + '</a></td><td>' + count + '</td>';
 				tbody.appendChild(row);
 			}
 			document.getElementById('di2').style.display = 'initial';
 			document.getElementById('over').style.display = 'initial';
+			document.getElementById('di2').scrollTop = 0;
+		};
+		function filterFA(s) {
+			filterAuthor = s;
+			diaClose(2);
+			tableLoad();
 		};
 	</script>
 </head>
