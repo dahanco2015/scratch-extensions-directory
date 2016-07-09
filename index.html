@@ -36,6 +36,23 @@
 			if (filterAuthor != '') {
 				greentags.innerHTML += '<div style="display:inline; text-align:center; background-color:green; padding:5px; border-radius:4px; color:white;">Author: ' + filterAuthor + ' <a href="javascript:filterFA(\'\', 2);" class="circlex"">Ⓧ</a></div>';
 			}
+			if (filterType != '') {
+				if (filterAuthor != '') {
+					greentags.innerHTML += '&nbsp;&nbsp;&nbsp;';
+				}
+				var dispType = '';
+				switch(filterType) {
+					case 'h':
+						dispType = 'Hardware';
+						break;
+					case 'w':
+						dispType = 'Web';
+						break;
+					case 'a':
+						dispType = 'Apps';
+				}
+				greentags.innerHTML += '<div style="display:inline; text-align:center; background-color:green; padding:5px; border-radius:4px; color:white;">Type: ' + filterType + ' <a href="javascript:filterFT(\'\', 2);" class="circlex"">Ⓧ</a></div>';
+			}
 			var thingy = true;
 			var row;
 			var obj;
@@ -187,6 +204,11 @@
 			diaClose(x);
 			tableLoad();
 		};
+		function filterFT(s, x) {
+			filterType = s;
+			diaClose(x);
+			tableLoad();
+		};
 	</script>
 </head>
 <body>
@@ -227,6 +249,10 @@
 	<div class="dialog" id="di2" style="height:600px; width:400px; margin-top:-300px; margin-left:-200px; display:none; overflow:auto;">
 		<p><a href="javascript:diaClose(2);">Close</a></p>
 		<h2>Filter</h2>
+		<h3>Types</h3>
+		<a href="javascript:filterFT('h', 2)"><img src="images/h.png"><span style="vertical-align:26%">&nbsp;&nbsp;Hardware</span></a><br>
+		<a href="javascript:filterFT('w', 2)"><img src="images/w.png"><span style="vertical-align:26%">&nbsp;&nbsp;Web</span></a><br>
+		<a href="javascript:filterFT('a', 2)"><img src="images/a.png"><span style="vertical-align:26%">&nbsp;&nbsp;Apps</span></a><br>
 		<h3>Authors</h3>
 		<table id="tableyauthors" style="margin:auto">
 			<thead>
