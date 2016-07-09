@@ -13,29 +13,23 @@
 			home: true
 		}
 	</script>
-	<script src="../querystring-object.js"></script>
 	<script src="list.js"></script>
 	<script>
 		var sortExts = extensions;
 		sortExts.sort(function (a, b) {
 			return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
 		});
+		var filterAuthor = '';
+		var filterType = ''
 	</script>
 	<script>
-		function loadFunc() {
+		function tableLoad() {
 			var theTable = document.getElementById('tableytable');
 			var tbody = document.getElementById('table-location');
-			var querystring = queryStringObj(location.search);
-			var filtered = (querystring.searchname != undefined);
 			var lowerlist = [];
 			if (filtered) {
 				var para = document.getElementById('filter-notice');
-				var searchTerm = querystring.searchname.replace('+', ' ');
-				if (searchTerm.indexOf('%') == -1) {
-					para.innerHTML = 'Directory currently filtered by author "' + searchTerm + '" <a href="index.html">Clear filter</a>';
-				} else {
-					para.innerHTML = 'Filter error: use only characters that don\'t need escaping, and space. <a href="index.html">Clear filter</a>';
-				}
+				//do stuff
 			}
 			var thingy = true;
 			var row;
@@ -48,12 +42,13 @@
 			for (i = 0; i < sortExts.length; i++) {
 				obj = sortExts[i];
 				thingy = true;
-				if (filtered) {
-					lowerlist = [];
-					for (j = 0; j < obj.author.length; j++) {
-						lowerlist.push((obj.author[j]).toLowerCase());
+				if (filterAuthor != '') {
+					if (obj.author.indexOf(filterAuthor) == -1) {
+						thingy = false;
 					}
-					if (lowerlist.indexOf(searchTerm.toLowerCase()) == -1) {
+				}
+				if (filterType != '') {
+					if (obj.type != filterType) {
 						thingy = false;
 					}
 				}
@@ -80,6 +75,9 @@
 				var div = document.getElementsByTagName('main')[0];
 				div.appendChild(nothing);
 			}
+		};
+		function loadFunc() {
+			tableLoad();
 		};
 		function qualifyURL(url) {
 			var a = document.createElement('a');
@@ -127,13 +125,48 @@
 				imgLine += '<a onmouseover="mouseOver(\'gist\')" onmouseout="mouseOut(\'gist\')" href="' + obj.links.Gist + '" target="_blank"><img src="images/gist.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
 			imgLine = imgLine.substring(0, imgLine.length - 30);
-			document.getElementById('di1').innerHTML = '<h2>' + obj.title + '</h2><p>Author: ' + authorz + '</p><p>' + obj.description + '</p>' + imgLine + '<br/>​<span id="place"><br/><br/></span><span id="scratchx-desc" style="display:none;">Open the extension in ScratchX<br/><br/></span><span id="doc-desc" style="display:none;">View instructions for how to use the extension&apos;s blocks<br/><br/></span><span id="demo-desc" style="display:none;">Open the extension&apos;s demonstration sample project in ScratchX</span><span id="demos-desc" style="display:none;">Download the extension&apos;s demonstration sample projects<br/><br/></span><span id="js-desc" style="display:none;">Copy the URL to paste on the ScratchX website to load the extension</span><span id="github-desc" style="display:none;">View the JavaScript code for the extension on GitHub<br/><br/></span><span id="gist-desc" style="display:none;">View the gist containing the JavaScript code for the extension on GitHub Gist</span><span id="github-folder-desc" style="display:none;">View the folder containing the JavaScript code for the extension on GitHub</span><p><a href="javascript:extClose();">Close</a></p>';
+			document.getElementById('di1').innerHTML = '<h2>' + obj.title + '</h2><p>Author: ' + authorz + '</p><p>' + obj.description + '</p>' + imgLine + '<br/>​<span id="place"><br/><br/></span><span id="scratchx-desc" style="display:none;">Open the extension in ScratchX<br/><br/></span><span id="doc-desc" style="display:none;">View instructions for how to use the extension&apos;s blocks<br/><br/></span><span id="demo-desc" style="display:none;">Open the extension&apos;s demonstration sample project in ScratchX</span><span id="demos-desc" style="display:none;">Download the extension&apos;s demonstration sample projects<br/><br/></span><span id="js-desc" style="display:none;">Copy the URL to paste on the ScratchX website to load the extension</span><span id="github-desc" style="display:none;">View the JavaScript code for the extension on GitHub<br/><br/></span><span id="gist-desc" style="display:none;">View the gist containing the JavaScript code for the extension on GitHub Gist</span><span id="github-folder-desc" style="display:none;">View the folder containing the JavaScript code for the extension on GitHub</span><p><a href="javascript:diaClose(1);">Close</a></p>';
 			document.getElementById('di1').style.display = 'initial';
 			document.getElementById('over').style.display = 'initial';
 		};
-		function extClose() {
-			document.getElementById('di1').style.display = 'none';
+		function diaClose(x) {
+			document.getElementById('di' + x.toString()).style.display = 'none';
 			document.getElementById('over').style.display = 'none';
+		};
+		function filterBox() {
+			var tbody = document.getElementById('table-authors-location');
+			var users = [];
+			var currentAuthors = [];
+			for (i = 0; i < extensions.length; i++) {
+				currentAuthors = extensions[i].author;
+				for (l = 0; l < currentAuthors.length; l++) {
+					if (users.indexOf(currentAuthors[l]) == -1) {
+						users.push(currentAuthors[l]);
+					}
+				}
+			}
+			users.sort(function (a, b) {
+				return a.toLowerCase().localeCompare(b.toLowerCase());
+			});
+			var view = '';
+			var count = 0;
+			var row;
+			var personName = '';
+			for (j = 0; j < users.length; j++) {
+				personName = users[j];
+				view = 'index.html?searchname=' + (encodeURI(personName)).replace('%20', '+');
+				count = 0;
+				for (k = 0; k < extensions.length; k++) {
+					if (extensions[k].author.indexOf(personName) != -1) {
+						count++;
+					}
+				}
+				row = document.createElement('tr');
+				row.innerHTML = '<td><a href="' + view + '">' + personName + '</a></td><td>' + count + '</td>';
+				tbody.appendChild(row);
+			}
+			document.getElementById('di2').style.display = 'initial';
+			document.getElementById('over').style.display = 'initial';
 		};
 	</script>
 </head>
@@ -155,8 +188,8 @@
 	</ul>
 	<p><a href="new-extensions.xml"><img src="../images/rss.png"> RSS feed</a></p>
 	<p style="text-align:center; background-color:yellow; padding:5px; border-radius:6px; color:black;"><span class="b">Disclaimer:</span> Extensions listed on this site are not tested by me or otherwise guaranteed safe.</p>
-	<p id="filter-notice"></p>
-	<a href="authors.html">View list of authors</a><br/><br/>
+	<a href="javascript:filterBox();">Filter</a>
+	<p id="filter-notice"></p><br/><br/>
 	<table id="tableytable" style="margin:auto">
 		<thead>
 			<tr>
@@ -171,6 +204,21 @@
 	</table>
 	</main>
 	<div class="dialog" id="di1" style="height:330px; width:400px; margin-top:-165px; margin-left:-200px; display:none;">
+	</div>
+	<div class="dialog" id="di2" style="height:600px; width:400px; margin-top:-300px; margin-left:-200px; display:none; overflow:auto;">
+		<h2>Filter</h2>
+		<h3>Authors</h3>
+		<table id="tableyauthors" style="margin:auto">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Extensions</th>
+				</tr>
+			</thead>
+			<tbody id="table-authors-location">
+			</tbody>
+		</table>
+		<p><a href="javascript:diaClose(2);">Close</a></p>
 	</div>
 	<div class="overlay" id="over" style="display:none;"></div>
 </body>
