@@ -720,7 +720,7 @@ var extensions = [
 			'GitHub': 'https://github.com/scratch3d/scratch3d.github.io/blob/gh-pages/Scratch3D_Beta/extension/ScratchThreeJS.js'
 		},
 		'description': 'Fully 3D environment',
-		'type': 'a'
+		'type': ''
 	},
 	{
 		'title': 'Search Extension',
