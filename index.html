@@ -15,7 +15,10 @@
 	</script>
 	<script src="list.js"></script>
 	<script>
-		var sortExts = extensions;
+		var sortExts = [];
+		for (i = 0; i < extensions.length; i++) {
+			sortExts.push(extensions[i]);
+		}
 		sortExts.sort(function (a, b) {
 			return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
 		});
