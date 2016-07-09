@@ -53,7 +53,7 @@
 					row = document.createElement('tr');
 					authorz2 = obj.author;
 					for (j = 0; j < authorz2.length; j++) {
-						authorz2[j] = '<a href="index.html?searchname=' + (encodeURI(authorz2[j])).replace('%20', '+') + '">' + authorz2[j] + '</a>';
+						authorz2[j] = '<a href="javascript:filterFA(\'' + authorz2[j] + '\', 1);">' + authorz2[j] + '</a>';
 					}
 					authorz = authorz2.join(', ');
 					if (obj.type == '') {
@@ -158,16 +158,16 @@
 					}
 				}
 				row = document.createElement('tr');
-				row.innerHTML = '<td><a href="javascript:filterFA(\'' + personName + '\')">' + personName + '</a></td><td>' + count + '</td>';
+				row.innerHTML = '<td><a href="javascript:filterFA(\'' + personName + '\', 2)">' + personName + '</a></td><td>' + count + '</td>';
 				tbody.appendChild(row);
 			}
 			document.getElementById('di2').style.display = 'initial';
 			document.getElementById('over').style.display = 'initial';
 			document.getElementById('di2').scrollTop = 0;
 		};
-		function filterFA(s) {
+		function filterFA(s,x) {
 			filterAuthor = s;
-			diaClose(2);
+			diaClose(x);
 			tableLoad();
 		};
 	</script>
