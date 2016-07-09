@@ -29,7 +29,10 @@
 		function tableLoad() {
 			var theTable = document.getElementById('tableytable');
 			var tbody = document.getElementById('table-location');
+			var nope = document.getElementById('noresults');
 			var greentags = document.getElementById('filter-notice');
+			theTable.style.display = 'initial';
+			nope.style.display = 'none';
 			tbody.innerHTML = '';
 			var lowerlist = [];
 			greentags.innerHTML = '';
@@ -51,7 +54,7 @@
 					case 'a':
 						dispType = 'Apps';
 				}
-				greentags.innerHTML += '<div style="display:inline; text-align:center; background-color:green; padding:5px; border-radius:4px; color:white;">Type: ' + filterType + ' <a href="javascript:filterFT(\'\', 2);" class="circlex"">Ⓧ</a></div>';
+				greentags.innerHTML += '<div style="display:inline; text-align:center; background-color:green; padding:5px; border-radius:4px; color:white;">Type: ' + dispType + ' <a href="javascript:filterFT(\'\', 2);" class="circlex"">Ⓧ</a></div>';
 			}
 			var thingy = true;
 			var row;
@@ -95,10 +98,7 @@
 			}
 			if (tbody.innerHTML.length < 5) {
 				theTable.style.display = 'none';
-				var nothing = document.createElement('h2');
-				nothing.innerHTML = 'Filter returned no results.';
-				var div = document.getElementsByTagName('main')[0];
-				div.appendChild(nothing);
+				nope.style.display = 'initial';
 			}
 		};
 		function loadFunc() {
@@ -243,6 +243,7 @@
 		<tbody id="table-location">
 		</tbody>
 	</table>
+	<h2 id="noresults" style="display:none;">Filter returned no results</h2>
 	</main>
 	<div class="dialog" id="di1" style="height:330px; width:400px; margin-top:-165px; margin-left:-200px; display:none;">
 	</div>
