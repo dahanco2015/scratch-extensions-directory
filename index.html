@@ -22,7 +22,11 @@
 		sortExts.sort(function (a, b) {
 			return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
 		});
-		var filterAuthor = '';
+		if (window.location.href.substring(window.location.href.length - 19) == '?scratch-extensions') {
+			var filterAuthor = 'savaka';
+		} else {
+			var filterAuthor = '';
+		}
 		var filterType = ''
 	</script>
 	<script>
