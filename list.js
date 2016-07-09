@@ -548,7 +548,7 @@ var extensions = [
 			'JavaScript': 'http://mrcomputer1.github.io/MinecraftServerCheckerExtension/MinecraftExtension.js',
 			'GitHub': 'https://github.com/Mrcomputer1/MinecraftServerCheckerExtension/blob/gh-pages/MinecraftExtension.js'
 		},
-		'description': 'Gets data from minecraft servers',
+		'description': 'Gets data from Minecraft servers',
 		'type': 'w'
 	},
 	{
