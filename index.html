@@ -51,7 +51,10 @@
 				}
 				if (thingy) {
 					row = document.createElement('tr');
-					authorz2 = obj.author;
+					authorz2 = [];
+					for (q = 0; q < obj.author.length; q++) {
+						authorz2.push(obj.author[q]);
+					}
 					for (j = 0; j < authorz2.length; j++) {
 						authorz2[j] = '<a href="javascript:filterFA(\'' + authorz2[j] + '\', 1);">' + authorz2[j] + '</a>';
 					}
