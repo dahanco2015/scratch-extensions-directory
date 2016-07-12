@@ -600,7 +600,7 @@ var extensions = [
 		'type': ''
 	},
 	{
-		'title': 'PicoBoard Extended',
+		'title': 'Pico Board',
 		'author': ['SCRAXE'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/scraxePicoExtension.js',

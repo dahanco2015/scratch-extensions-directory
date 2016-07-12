@@ -183,5 +183,5 @@
         },
         url: 'http://info.scratch.mit.edu/Sensor_Board'
     };
-    ScratchExtensions.register('PicoBoard Extended', descriptor, ext, {type: 'serial'});
+    ScratchExtensions.register('Pico Board', descriptor, ext, {type: 'serial'});
 })({});
