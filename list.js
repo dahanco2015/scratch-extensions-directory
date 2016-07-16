@@ -914,9 +914,9 @@ var extensions = [
 		'title': 'API wrapper for Scratch',
 		'author': ['thisisntme'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/_API_wrapper_for_Scratch!.js',
-			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/_API_wrapper_for_Scratch!.js',
-			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/_API_wrapper_for_Scratch!.js'
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/_API_wrapper_for_Scratch.js',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/_API_wrapper_for_Scratch.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/_API_wrapper_for_Scratch.js'
 		},
 		'description': 'This extension can follow people, love/favorite projects, read your messages and display scratch alerts!',
 		'type': 'w'
