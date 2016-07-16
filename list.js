@@ -122,7 +122,7 @@ var extensions = [
 			'JavaScript': 'https://lifaythegoblin.github.io/ScratchX-Extensions/CatX.js',
 			'GitHub': 'https://github.com/LiFaytheGoblin/ScratchX-Extensions/blob/gh-pages/CatX.js'
 		},
-		'description': 'Create a link to a random cat pic to cutify your projects and surprise your friends <3',
+		'description': 'Create a link to a random cat pic to cutify your projects and surprise your friends',
 		'type': ''
 	},
 	{
