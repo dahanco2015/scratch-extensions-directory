@@ -134,7 +134,8 @@ var extensions = [
 			'GitHub': 'https://github.com/technoboy10/scratchx/blob/gh-pages/cloud.js'
 		},
 		'description': 'Grabs and reads cloud data from projects',
-		'type': 'w'
+		'type': 'w',
+		'blocksThatDontWork': true
 	},
 	{
 		'title': 'Convert to Boolean',
@@ -919,6 +920,7 @@ var extensions = [
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/API_wrapper_for_Scratch.js'
 		},
 		'description': 'This extension can follow people, love/favorite projects, read your messages and display scratch alerts!',
-		'type': 'w'
+		'type': 'w',
+		'blocksThatDontWork': true
 	}
 ];

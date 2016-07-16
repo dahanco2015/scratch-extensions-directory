@@ -161,7 +161,11 @@
 				imgLine += '<a onmouseover="mouseOver(\'gist\')" onmouseout="mouseOut(\'gist\')" href="' + obj.links.Gist + '" target="_blank"><img src="images/gist.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
 			imgLine = imgLine.substring(0, imgLine.length - 30);
-			document.getElementById('di1').innerHTML = '<h2>' + obj.title + '</h2><p>Author: ' + authorz + '</p><p>' + obj.description + '</p>' + imgLine + '<br/>​<span id="place"><br/><br/></span><span id="scratchx-desc" style="display:none;">Open the extension in ScratchX<br/><br/></span><span id="doc-desc" style="display:none;">View instructions for how to use the extension&apos;s blocks<br/><br/></span><span id="demo-desc" style="display:none;">Open the extension&apos;s demonstration sample project in ScratchX</span><span id="demos-desc" style="display:none;">Download the extension&apos;s demonstration sample projects<br/><br/></span><span id="js-desc" style="display:none;">Copy the URL to paste on the ScratchX website to load the extension</span><span id="github-desc" style="display:none;">View the JavaScript code for the extension on GitHub<br/><br/></span><span id="gist-desc" style="display:none;">View the gist containing the JavaScript code for the extension on GitHub Gist</span><span id="github-folder-desc" style="display:none;">View the folder containing the JavaScript code for the extension on GitHub</span><p><a href="javascript:diaClose(1);">Close</a></p>';
+			var nobtdw = '';
+			if (obj.blocksThatDontWork == true) {
+				nobtdw = '<p style="color:red">This extension has blocks that may not work in ScratchX.</p>';
+			}
+			document.getElementById('di1').innerHTML = '<h2>' + obj.title + '</h2><p>Author: ' + authorz + '</p>' + nobtdw + '<p>' + obj.description + '</p>' + imgLine + '<br/>​<span id="place"><br/><br/></span><span id="scratchx-desc" style="display:none;">Open the extension in ScratchX<br/><br/></span><span id="doc-desc" style="display:none;">View instructions for how to use the extension&apos;s blocks<br/><br/></span><span id="demo-desc" style="display:none;">Open the extension&apos;s demonstration sample project in ScratchX</span><span id="demos-desc" style="display:none;">Download the extension&apos;s demonstration sample projects<br/><br/></span><span id="js-desc" style="display:none;">Copy the URL to paste on the ScratchX website to load the extension</span><span id="github-desc" style="display:none;">View the JavaScript code for the extension on GitHub<br/><br/></span><span id="gist-desc" style="display:none;">View the gist containing the JavaScript code for the extension on GitHub Gist</span><span id="github-folder-desc" style="display:none;">View the folder containing the JavaScript code for the extension on GitHub</span><p><a href="javascript:diaClose(1);">Close</a></p>';
 			document.getElementById('di1').style.display = 'initial';
 			document.getElementById('over').style.display = 'initial';
 		};
@@ -270,7 +274,7 @@
 	</table>
 	<h2 id="noresults" style="display:none;">Filter returned no results</h2>
 	</main>
-	<div class="dialog" id="di1" style="height:330px; width:400px; margin-top:-165px; margin-left:-200px; display:none;">
+	<div class="dialog" id="di1" style="height:400px; width:400px; margin-top:-200px; margin-left:-200px; display:none;">
 	</div>
 	<div class="dialog" id="di2" style="height:600px; width:400px; margin-top:-300px; margin-left:-200px; display:none; overflow:auto;">
 		<p><a href="javascript:diaClose(2);">Close</a></p>
