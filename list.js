@@ -694,7 +694,7 @@ var extensions = [
 			'JavaScript': '../scratch-extensions/scratch-api.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/scratch-api.js'
 		},
-		'description': 'Get information from the Scratch website with the Scratch API',
+		'description': '(WARNING: OLD) Get information from the Scratch website with the Scratch API',
 		'type': 'w'
 	},
 	{
