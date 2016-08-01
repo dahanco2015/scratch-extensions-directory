@@ -43,7 +43,7 @@ var extensions = [
 			'JavaScript': 'http://khanning.github.io/scratch-arduino-extension/arduino_extension.js',
 			'GitHub': 'https://github.com/khanning/scratch-arduino-extension/blob/gh-pages/arduino_extension.js'
 		},
-		'description': 'Interact with the physical world using Arduino',
+		'description': 'Control Arduino boards',
 		'type': 'h'
 	},
 	{
@@ -210,7 +210,7 @@ var extensions = [
 	},
 	{
 		'title': 'EV3 Control',
-		'author': ['codeandcircuit'],
+		'author': ['Ken Aspeslagh'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://kaspesla.github.io/ev3_scratch/ev3_scratch.js',
 			'Doc': 'http://kaspesla.github.io/ev3_scratch/',
@@ -218,7 +218,7 @@ var extensions = [
 			'JavaScript': 'http://kaspesla.github.io/ev3_scratch/ev3_scratch.js',
 			'GitHub': 'https://github.com/kaspesla/ev3_scratch/blob/gh-pages/ev3_scratch.js'
 		},
-		'description': 'Control EV3 bricks over Bluetooth',
+		'description': 'Control LEGO EV3 robots wirelessly',
 		'type': 'h'
 	},
 	{
@@ -331,7 +331,7 @@ var extensions = [
 	},
 	{
 		'title': 'Intel RealSense',
-		'author': ['Shachar Oz', 'Yaron Yanai', 'Avi Salmon'],
+		'author': ['Shachar Oz', 'Yaron Yanai', 'Yotam Salmon'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://intel-realsense-extension-for-scratch.github.io/public/extension/intel_realsense_extension.js',
 			'Doc': 'http://intel-realsense-extension-for-scratch.github.io/',
@@ -365,7 +365,7 @@ var extensions = [
 			'JavaScript': 'https://khanning.github.io/scratch-isstracker-extension/iss_extension.js',
 			'GitHub': 'https://github.com/khanning/scratch-isstracker-extension/blob/gh-pages/iss_extension.js'
 		},
-		'description': 'Lets you track the progress of the International Space Station in its orbit',
+		'description': 'International Space Station tracker',
 		'type': 'w'
 	},
 	{
@@ -415,7 +415,7 @@ var extensions = [
 			'JavaScript': 'http://khanning.github.io/scratch-leapmotion-extension/leapmotion_extension.js',
 			'GitHub': 'https://github.com/khanning/scratch-leapmotion-extension/blob/gh-pages/leapmotion_extension.js'
 		},
-		'description': 'Incorporates hand tracking into projects using the Leap Motion controller',
+		'description': 'Hand and finger tracking',
 		'type': 'h'
 	},
 	{
@@ -537,7 +537,7 @@ var extensions = [
 			'JavaScript': 'http://technoboy10.github.io/mesh/mesh.js',
 			'GitHub': 'https://github.com/technoboy10/mesh/blob/gh-pages/mesh.js'
 		},
-		'description': 'Broadcast messages to other projects',
+		'description': 'Broadcast messages to other projects!',
 		'type': 'w'
 	},
 	{
@@ -908,7 +908,7 @@ var extensions = [
 			'JavaScript': 'https://MrYsLab.github.io/xi4s.js',
 			'GitHub': 'https://github.com/MrYsLab/MrYsLab.github.io/blob/master/xi4s.js'
 		},
-		'description': 'Simultaneously connect, monitor and control multiple Arduino, BeagleBone Black and Raspberry Pi boards',
+		'description': 'Control for Arduino, Raspberry Pi and BeagleBone Black',
 		'type': 'h'
 	},
 	{
@@ -922,5 +922,44 @@ var extensions = [
 		'description': 'This extension can follow people, love/favorite projects, read your messages and display scratch alerts!',
 		'type': 'w',
 		'blocksThatDontWork': true
+	},
+	/* {
+		'title': 'Arduino 101',
+		'author': ['Kreg Hanning'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://llk.github.io/arduino-101/arduino101_serial_extension.js',
+			'Doc': 'https://llk.github.io/arduino-101/',
+			'Demo': 'http://scratchx.org/?url=https://llk.github.io/arduino-101/examples/Blink.sbx',
+			'JavaScript': 'https://llk.github.io/arduino-101/arduino101_serial_extension.js',
+			'GitHub': ''
+		},
+		'description': 'Control Arduino/Genuino 101 boards',
+		'type': 'h'
+	}, */
+	{
+		'title': 'Vernier Go!Motion',
+		'author': ['Kreg Hanning'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_motion_extension.js',
+			'Doc': 'http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/',
+			'Demo': 'http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/examples/SayMotion.sbx',
+			'JavaScript': 'http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_motion_extension.js',
+			'GitHub': 'https://github.com/VernierSoftwareTechnology/scratch-vernier-go-extensions/blob/gh-pages/go_motion_extension.js'
+		},
+		'description': 'Use position data in Scratch',
+		'type': 'h'
+	},
+	{
+		'title': 'Vernier Go!Temp',
+		'author': ['Kreg Hanning'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_temp_extension.js',
+			'Doc': 'http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/',
+			'Demo': 'http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/examples/SayTemp.sbx',
+			'JavaScript': 'http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_temp_extension.js',
+			'GitHub': 'https://github.com/VernierSoftwareTechnology/scratch-vernier-go-extensions/blob/gh-pages/go_temp_extension.js'
+		},
+		'description': 'Use temperature data in Scratch',
+		'type': 'h'
 	}
 ];
