@@ -5,6 +5,27 @@
 	<link>http://savaka2.github.io/scratch-extensions-directory/new-extensions.xml</link>
 	<description>New extensions in the Scratch Extensions Directory</description>
 	<item>
+		<title>Vernier Go!Temp by Kreg Hanning</title>
+		<link>http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_temp_extension.js</link>
+		<guid>http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_temp_extension.js</guid>
+		<pubDate>Mon, 01 Aug 2016 15:01:58 EST</pubDate>
+		<description>Use temperature data in Scratch</description>
+	</item>
+	<item>
+		<title>Vernier Go!Motion by Kreg Hanning</title>
+		<link>http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_motion_extension.js</link>
+		<guid>http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_motion_extension.js</guid>
+		<pubDate>Mon, 01 Aug 2016 15:01:58 EST</pubDate>
+		<description>Use position data in Scratch</description>
+	</item>
+	<item>
+		<title>Arduino 101 by Kreg Hanning</title>
+		<link>http://scratchx.org/?url=https://llk.github.io/arduino-101/arduino101_serial_extension.js</link>
+		<guid>http://scratchx.org/?url=https://llk.github.io/arduino-101/arduino101_serial_extension.js</guid>
+		<pubDate>Mon, 01 Aug 2016 14:59:47 EST</pubDate>
+		<description>Control Arduino/Genuino 101 boards</description>
+	</item>
+	<item>
 		<title>API wrapper for Scratch by thisisntme</title>
 		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/API_wrapper_for_Scratch.js</link>
 		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/API_wrapper_for_Scratch.js</guid>
