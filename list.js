@@ -923,19 +923,19 @@ var extensions = [
 		'type': 'w',
 		'blocksThatDontWork': true
 	},
-	/* {
+	{
 		'title': 'Arduino 101',
 		'author': ['Kreg Hanning'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://llk.github.io/arduino-101/arduino101_serial_extension.js',
 			'Doc': 'https://llk.github.io/arduino-101/',
 			'Demo': 'http://scratchx.org/?url=https://llk.github.io/arduino-101/examples/Blink.sbx',
-			'JavaScript': 'https://llk.github.io/arduino-101/arduino101_serial_extension.js',
-			'GitHub': ''
+			'JavaScript': 'https://llk.github.io/arduino-101/arduino101_serial_extension.js'/*,
+			'GitHub': 'https://github.com/llk/arduino-101/blob/gh-pages/arduino101_serial_extension.js'*/
 		},
 		'description': 'Control Arduino/Genuino 101 boards',
 		'type': 'h'
-	}, */
+	},
 	{
 		'title': 'Vernier Go!Motion',
 		'author': ['Kreg Hanning'],
