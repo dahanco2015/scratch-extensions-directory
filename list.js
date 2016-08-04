@@ -78,7 +78,8 @@ var extensions = [
 			'GitHub_folder': 'https://github.com/Iwotastic/Scratch-Boost/tree/master/src'
 		},
 		'description': 'Many blocks for interacting with strings, objects, variables, and even the browser',
-		'type': ''
+		'type': 'a',
+		'blocksThatDontWork': true
 	},
 	{
 		'title': 'Browser Actions',
@@ -160,7 +161,7 @@ var extensions = [
 			'GitHub': 'https://github.com/gw90/Complete-Extensions/blob/gh-pages/cookie-extension.js'
 		},
 		'description': 'Allows you to use cookies with Scratch',
-		'type': 'a'
+		'type': ''
 	},
 	{
 		'title': 'Cookie Variables',
@@ -171,7 +172,7 @@ var extensions = [
 			'GitHub': 'https://github.com/djdolphin/scratchx/blob/gh-pages/cookievariables.js'
 		},
 		'description': 'Enables cookie variables in the editor',
-		'type': 'a'
+		'type': ''
 	},
 	{
 		'title': 'Cool helpful things extension',
@@ -206,7 +207,7 @@ var extensions = [
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/debugging.js'
 		},
 		'description': 'Adds inline comments and a block to print to the console',
-		'type': 'a'
+		'type': ''
 	},
 	{
 		'title': 'EV3 Control',
@@ -453,7 +454,7 @@ var extensions = [
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/localstorage_extension.js'
 		},
 		'description': 'Uses JavaScript localStorage API',
-		'type': 'a'
+		'type': ''
 	},
 	{
 		'title': 'Logic',
@@ -632,7 +633,7 @@ var extensions = [
 			'GitHub': 'https://github.com/Mrcomputer1/PrinterExtension/blob/gh-pages/printerextension.js'
 		},
 		'description': 'Lets you print from ScratchX',
-		'type': 'a'
+		'type': ''
 	},
 	{
 		'title': 'Random wait extension',
@@ -896,7 +897,8 @@ var extensions = [
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/WebExt.js'
 		},
 		'description': 'Receives page data and opens urls',
-		'type': 'a'
+		'type': '',
+		'blocksThatDontWork': true
 	},
 	{
 		'title': 'Xi4S_v_004_12Feb15',
