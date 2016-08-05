@@ -1,5 +1,6 @@
 If you aren't submitting an extension delete this template.  
-Also you can skip/delete anything you already changed in the pull request.
+Also you can skip/delete anything you already changed in the pull request.  
+If you are updating your extension that is hosted using RawGit you don't need the template.
 
 Required stuff:
  

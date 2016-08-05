@@ -1,4 +1,5 @@
-If you aren't submitting an extension delete this template.
+If you aren't submitting an extension delete this template.  
+If you are updating your extension that is hosted using RawGit you don't need the template.
 
 Required stuff:
 
