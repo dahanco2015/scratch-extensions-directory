@@ -13,7 +13,7 @@ var extensions = [
 	},
 	{
 		'title': 'Alarm extension',
-		'author': ['Scratch Team'],
+		'author': ['LLK'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/alarm_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/alarm_extension.js',
@@ -105,7 +105,7 @@ var extensions = [
 	},
 	{
 		'title': 'Browser Stuff',
-		'author': ['Scratch Team'],
+		'author': ['LLK'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/browser_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/browser_extension.js',
@@ -397,7 +397,7 @@ var extensions = [
 	},
 	{
 		'title': 'Joystick',
-		'author': ['Scratch Team'],
+		'author': ['LLK'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/joystickExtension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/joystickExtension.js',
@@ -447,7 +447,7 @@ var extensions = [
 	},
 	{
 		'title': 'Local Storage',
-		'author': ['Scratch Team'],
+		'author': ['LLK'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/localstorage_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/localstorage_extension.js',
@@ -614,7 +614,7 @@ var extensions = [
 	},
 	{
 		'title': 'Sample extension', //Power Extension
-		'author': ['Scratch Team'],
+		'author': ['LLK'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/power_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/power_extension.js',
@@ -637,7 +637,7 @@ var extensions = [
 	},
 	{
 		'title': 'Random wait extension',
-		'author': ['Scratch Team'],
+		'author': ['LLK'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/random_wait_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/random_wait_extension.js',
@@ -750,7 +750,7 @@ var extensions = [
 	},
 	{
 		'title': 'Simple text to speech extension',
-		'author': ['Scratch Team'],
+		'author': ['LLK'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/text_to_speech_simple_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/text_to_speech_simple_extension.js',
@@ -761,7 +761,7 @@ var extensions = [
 	},
 	{
 		'title': 'Speech To Text',
-		'author': ['Scratch Team'],
+		'author': ['LLK'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/speech_to_text_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/speech_to_text_extension.js',
@@ -879,7 +879,20 @@ var extensions = [
 	},
 	{
 		'title': 'Weather extension',
-		'author': ['Scratch Team'],
+		'author': ['Kreg Hanning'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://khanning.github.io/scratch-weather-extension/weather_extension.js',
+			'Doc': 'https://khanning.github.io/scratch-weather-extension/',
+			'Demo': 'http://scratchx.org/?url=https://khanning.github.io/scratch-weather-extension/examples/WeatherExample.sbx',
+			'JavaScript': 'https://khanning.github.io/scratch-weather-extension/weather_extension.js',
+			'GitHub': 'https://github.com/khanning/scratch-weather-extension/blob/gh-pages/weather_extension.js'
+		},
+		'description': 'Access live weather information',
+		'type': 'w'
+	},
+	{
+		'title': 'Weather extension',
+		'author': ['LLK'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/weather_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/weather_extension.js',
