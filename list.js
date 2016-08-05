@@ -13,14 +13,15 @@ var extensions = [
 	},
 	{
 		'title': 'Alarm extension',
-		'author': ['LLK'],
+		'author': ['Sayamindu Dasgupta'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/alarm_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/alarm_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/alarm_extension.js'
 		},
 		'description': 'An alarm countdown system',
-		'type': ''
+		'type': '',
+		'sample': true
 	},
 	{
 		'title': 'Ambient Light',
@@ -105,14 +106,15 @@ var extensions = [
 	},
 	{
 		'title': 'Browser Stuff',
-		'author': ['LLK'],
+		'author': ['Sayamindu Dasgupta'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/browser_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/browser_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/browser_extension.js'
 		},
 		'description': 'Opens JS dialog boxes and new tabs',
-		'type': ''
+		'type': '',
+		'sample': true
 	},
 	{
 		'title': 'CatX',
@@ -397,14 +399,15 @@ var extensions = [
 	},
 	{
 		'title': 'Joystick',
-		'author': ['LLK'],
+		'author': ['Sayamindu Dasgupta'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/joystickExtension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/joystickExtension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/joystickExtension.js'
 		},
 		'description': 'Gets values of a joystick',
-		'type': 'h'
+		'type': 'h',
+		'sample': true
 	},
 	{
 		'title': 'Leap Motion',
@@ -447,14 +450,15 @@ var extensions = [
 	},
 	{
 		'title': 'Local Storage',
-		'author': ['LLK'],
+		'author': ['Sayamindu Dasgupta'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/localstorage_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/localstorage_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/localstorage_extension.js'
 		},
 		'description': 'Uses JavaScript localStorage API',
-		'type': ''
+		'type': '',
+		'sample': true
 	},
 	{
 		'title': 'Logic',
@@ -614,14 +618,15 @@ var extensions = [
 	},
 	{
 		'title': 'Sample extension', //Power Extension
-		'author': ['LLK'],
+		'author': ['Sayamindu Dasgupta'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/power_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/power_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/power_extension.js'
 		},
 		'description': 'Adds a power block',
-		'type': ''
+		'type': '',
+		'sample': true
 	},
 	{
 		'title': 'Printer Extension',
@@ -637,14 +642,15 @@ var extensions = [
 	},
 	{
 		'title': 'Random wait extension',
-		'author': ['LLK'],
+		'author': ['Sayamindu Dasgupta'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/random_wait_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/random_wait_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/random_wait_extension.js'
 		},
 		'description': 'Adds random wait block',
-		'type': ''
+		'type': '',
+		'sample': true
 	},
 	{
 		'title': 'RedBot For ScratchX',
@@ -750,25 +756,27 @@ var extensions = [
 	},
 	{
 		'title': 'Simple text to speech extension',
-		'author': ['LLK'],
+		'author': ['Sayamindu Dasgupta'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/text_to_speech_simple_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/text_to_speech_simple_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/text_to_speech_simple_extension.js'
 		},
 		'description': 'Use Scratch to read text out loud',
-		'type': ''
+		'type': '',
+		'sample': true
 	},
 	{
 		'title': 'Speech To Text',
-		'author': ['LLK'],
+		'author': ['Sayamindu Dasgupta'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/speech_to_text_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/speech_to_text_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/speech_to_text_extension.js'
 		},
 		'description': 'Uses JavaScript Speech API for speech to text',
-		'type': ''
+		'type': '',
+		'sample': true
 	},
 	{
 		'title': 'Splendid Strings',
@@ -892,14 +900,15 @@ var extensions = [
 	},
 	{
 		'title': 'Weather extension',
-		'author': ['LLK'],
+		'author': ['Sayamindu Dasgupta'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/weather_extension.js',
 			'JavaScript': 'https://cdn.rawgit.com/LLK/scratchx/master/weather_extension.js',
 			'GitHub': 'https://github.com/LLK/scratchx/blob/master/weather_extension.js'
 		},
 		'description': 'Reports temperature for city',
-		'type': 'w'
+		'type': 'w',
+		'sample': true
 	},
 	{
 		'title': 'WebExt',

@@ -28,6 +28,7 @@
 			var filterAuthor = '';
 		}
 		var filterType = ''
+		var filterSample = false;
 	</script>
 	<script>
 		function tableLoad() {
@@ -60,6 +61,12 @@
 				}
 				greentags.innerHTML += '<div style="display:inline; text-align:center; background-color:green; padding:5px; border-radius:4px; color:white;">Type: ' + dispType + ' <a href="javascript:filterFT(\'\', 2);" class="circlex"">Ⓧ</a></div>';
 			}
+			if (filterSample) {
+				if (filterAuthor != '' || filterType != '') {
+					greentags.innerHTML += '&nbsp;&nbsp;&nbsp;';
+				}
+				greentags.innerHTML += greentags.innerHTML += '<div style="display:inline; text-align:center; background-color:green; padding:5px; border-radius:4px; color:white;">Including sample extensions <a href="javascript:filterS(false, 2);" class="circlex"">Ⓧ</a></div>';
+			}
 			var thingy = true;
 			var row;
 			var obj;
@@ -78,6 +85,11 @@
 				}
 				if (filterType != '') {
 					if (obj.type != filterType) {
+						thingy = false;
+					}
+				}
+				if (filterSample != true) {
+					if (obj.sample == true) {
 						thingy = false;
 					}
 				}
@@ -218,6 +230,11 @@
 			diaClose(x);
 			tableLoad();
 		};
+		function filterS(b, x) {
+			filterSample = b;
+			diaClose(x);
+			tableLoad();
+		};
 		function typeDescOn() {
 			var hide = document.getElementsByClassName('type');
 			var show = document.getElementsByClassName('typeDesc');
@@ -296,6 +313,8 @@
 			<tbody id="table-authors-location">
 			</tbody>
 		</table>
+		<h3>Samples</h3>
+		<a href="javascript:filterS(true, 2);">Include sample extensions</a>
 		<p><a href="javascript:diaClose(2);">Close</a></p>
 	</div>
 	<div class="overlay" id="over" style="display:none;"></div>
