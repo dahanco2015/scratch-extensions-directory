@@ -85,8 +85,8 @@ var extensions = [
 		'title': 'Browser Actions',
 		'author': ['csf30816'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://gist.githubusercontent.com/anonymous/5b10f47f0936177bee31/raw/486287b9552cf925d0ef1f974bff072d615acb58/Extension.js',
-			'JavaScript': 'https://gist.githubusercontent.com/anonymous/5b10f47f0936177bee31/raw/486287b9552cf925d0ef1f974bff072d615acb58/Extension.js',
+			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/anonymous/5b10f47f0936177bee31/raw/486287b9552cf925d0ef1f974bff072d615acb58/Extension.js',
+			'JavaScript': 'https://cdn.rawgit.com/anonymous/5b10f47f0936177bee31/raw/486287b9552cf925d0ef1f974bff072d615acb58/Extension.js',
 			'Gist': 'https://gist.github.com/anonymous/5b10f47f0936177bee31'
 		},
 		'description': 'Opens many different web pages',
