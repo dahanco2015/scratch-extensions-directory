@@ -939,9 +939,9 @@ var extensions = [
 		'title': 'API wrapper for Scratch',
 		'author': ['thisisntme'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/API_wrapper_for_Scratch.js',
-			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/API_wrapper_for_Scratch.js',
-			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/API_wrapper_for_Scratch.js'
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/API_wrapper_for_Scratch!.js',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/API_wrapper_for_Scratch!.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/API_wrapper_for_Scratch!.js'
 		},
 		'description': 'This extension can follow people, love/favorite projects, read your messages and display scratch alerts!',
 		'type': 'w',
@@ -985,5 +985,17 @@ var extensions = [
 		},
 		'description': 'Use temperature data in Scratch',
 		'type': 'h'
+	},
+	{
+		'title': 'ExtenilK',
+		'author': ['enilK'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/ExtenilK.js',
+			'JavaScript': 'extensions/ExtenilK.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/ExtenilK.js'
+		},
+		'description': 'A variety of different types of blocks separated into categories for dialog boxes, console, math and strings, Scratch website, window and document, extras, and alarms',
+		'type': '',
+		'blocksThatDontWork': true
 	}
 ];
