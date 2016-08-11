@@ -994,7 +994,7 @@ var extensions = [
 			'JavaScript': 'extensions/ExtenilK.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/ExtenilK.js'
 		},
-		'description': 'A variety of different types of blocks separated into categories for dialog boxes, console, math and strings, Scratch website, window and document, extras, and alarms',
+		'description': 'A variety of different types of blocks in seven catigories',
 		'type': '',
 		'blocksThatDontWork': true
 	}
