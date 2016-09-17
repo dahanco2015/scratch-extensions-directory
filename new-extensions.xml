@@ -5,6 +5,13 @@
 	<link>http://savaka2.github.io/scratch-extensions-directory/new-extensions.xml</link>
 	<description>New extensions in the Scratch Extensions Directory</description>
 	<item>
+		<title>Canvas by Nathan Piercy</title>
+		<link>http://scratchx.org/?url=https://nathanprocks.github.io/Scratch-Canvas/canvas.js</link>
+		<guid>http://scratchx.org/?url=https://nathanprocks.github.io/Scratch-Canvas/canvas.js</guid>
+		<pubDate>Sat, 17 Sep 2016 09:15:57 EST</pubDate>
+		<description>Creates a HTML5 canvas on the stage and adds canvas drawing blocks</description>
+	</item>
+	<item>
 		<title>ExtenilK by enilK</title>
 		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/ExtenilK.js</link>
 		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/ExtenilK.js</guid>
