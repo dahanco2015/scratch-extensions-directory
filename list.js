@@ -997,5 +997,17 @@ var extensions = [
 		'description': 'A variety of different types of blocks in seven catigories',
 		'type': '',
 		'blocksThatDontWork': true
+	},
+	{
+		'title': 'Canvas',
+		'author': ['Nathan Piercy'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://nathanprocks.github.io/Scratch-Canvas/canvas.js',
+			'Demos': 'extensions/Canvas_Demos.zip',
+			'JavaScript': 'https://nathanprocks.github.io/Scratch-Canvas/canvas.js',
+			'GitHub': 'https://github.com/nathanprocks/Scratch-Canvas/blob/master/canvas.js'
+		},
+		'description': 'Creates a HTML5 canvas on the stage and adds canvas drawing blocks',
+		'type': ''
 	}
 ];
