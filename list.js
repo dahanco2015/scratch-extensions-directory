@@ -1004,5 +1004,18 @@ var extensions = [
 		},
 		'description': 'Creates a HTML5 canvas on the stage and adds canvas drawing blocks',
 		'type': ''
+	},
+	{
+		'title': 'Scratch2HTML',
+		'author': ['Junya Ishihara'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://champierre.github.io/scratch2html/scratch2html.js',
+			'Doc': 'https://github.com/champierre/scratch2html/blob/master/README.md',
+			'Demos': 'http://scratchx.org/?url=http://champierre.github.io/scratch2html/scratch2html_demo.sbx',
+			'JavaScript': 'http://champierre.github.io/scratch2html/scratch2html.js',
+			'GitHub': 'https://github.com/champierre/scratch2html/blob/gh-pages/scratch2html.js'
+		},
+		'description': 'Build HTML page using Scratch blocks',
+		'type': 'a'
 	}
 ];
