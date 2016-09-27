@@ -5,6 +5,13 @@
 	<link>http://savaka2.github.io/scratch-extensions-directory/new-extensions.xml</link>
 	<description>New extensions in the Scratch Extensions Directory</description>
 	<item>
+		<title>Scratch2HTML by Junya Ishihara</title>
+		<link>http://scratchx.org/?url=http://champierre.github.io/scratch2html/scratch2html.js</link>
+		<guid>http://scratchx.org/?url=http://champierre.github.io/scratch2html/scratch2html.js</guid>
+		<pubDate>Mon, 26 Sep 2016 16:08:23 EST</pubDate>
+		<description>Build HTML page using Scratch blocks</description>
+	</item>
+	<item>
 		<title>Canvas by Nathan Piercy</title>
 		<link>http://scratchx.org/?url=https://nathanprocks.github.io/Scratch-Canvas/canvas.js</link>
 		<guid>http://scratchx.org/?url=https://nathanprocks.github.io/Scratch-Canvas/canvas.js</guid>
