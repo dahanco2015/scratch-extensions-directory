@@ -157,6 +157,9 @@
 			if (obj.links.Demo != undefined) {
 				imgLine += '<a onmouseover="mouseOver(\'demo\')" onmouseout="mouseOut(\'demo\')" href="' + obj.links.Demo + '" target="_blank"><img src="images/demo.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
+			if (obj.links.Demo2 != undefined) {
+				imgLine += '<a onmouseover="mouseOver(\'demo2\')" onmouseout="mouseOut(\'demo2\')" href="' + obj.links.Demo2 + '" target="_blank"><img src="images/demo2.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+			}
 			if (obj.links.Demos != undefined) {
 				imgLine += '<a onmouseover="mouseOver(\'demos\')" onmouseout="mouseOut(\'demos\')" href="' + obj.links.Demos + '" target="_blank"><img src="images/demos.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
@@ -173,7 +176,7 @@
 				imgLine += '<a onmouseover="mouseOver(\'gist\')" onmouseout="mouseOut(\'gist\')" href="' + obj.links.Gist + '" target="_blank"><img src="images/gist.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 			}
 			imgLine = imgLine.substring(0, imgLine.length - 30);
-			document.getElementById('di1').innerHTML = '<h2>' + obj.title + '</h2><p>Author: ' + authorz + '</p><p>' + obj.description + '</p>' + imgLine + '<br/>​<span id="place"><br/><br/></span><span id="scratchx-desc" style="display:none;">Open the extension in ScratchX<br/><br/></span><span id="doc-desc" style="display:none;">View instructions for how to use the extension&apos;s blocks<br/><br/></span><span id="demo-desc" style="display:none;">Open the extension&apos;s demonstration sample project in ScratchX</span><span id="demos-desc" style="display:none;">Download the extension&apos;s demonstration sample projects<br/><br/></span><span id="js-desc" style="display:none;">Copy the URL to paste on the ScratchX website to load the extension</span><span id="github-desc" style="display:none;">View the JavaScript code for the extension on GitHub<br/><br/></span><span id="gist-desc" style="display:none;">View the gist containing the JavaScript code for the extension on GitHub Gist</span><span id="github-folder-desc" style="display:none;">View the folder containing the JavaScript code for the extension on GitHub</span><p style="position:absolute; bottom:0; margin-left:181.75px;"><a href="javascript:diaClose(1);">Close</a></p>';
+			document.getElementById('di1').innerHTML = '<h2>' + obj.title + '</h2><p>Author: ' + authorz + '</p><p>' + obj.description + '</p>' + imgLine + '<br/>​<span id="place"><br/><br/></span><span id="scratchx-desc" style="display:none;">Open the extension in ScratchX<br/><br/></span><span id="doc-desc" style="display:none;">View instructions for how to use the extension&apos;s blocks<br/><br/></span><span id="demo-desc" style="display:none;">Open the extension&apos;s demonstration sample project in ScratchX</span><span id="demo2-desc" style="display:none;">Download the extension&apos;s demonstration sample project<br/><br/></span><span id="demos-desc" style="display:none;">Download the extension&apos;s demonstration sample projects<br/><br/></span><span id="js-desc" style="display:none;">Copy the URL to paste on the ScratchX website to load the extension</span><span id="github-desc" style="display:none;">View the JavaScript code for the extension on GitHub<br/><br/></span><span id="gist-desc" style="display:none;">View the gist containing the JavaScript code for the extension on GitHub Gist</span><span id="github-folder-desc" style="display:none;">View the folder containing the JavaScript code for the extension on GitHub</span><p style="position:absolute; bottom:0; margin-left:181.75px;"><a href="javascript:diaClose(1);">Close</a></p>';
 			document.getElementById('di1').style.display = 'initial';
 			document.getElementById('over').style.display = 'initial';
 		};
