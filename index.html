@@ -29,6 +29,7 @@
 		}
 		var filterType = ''
 		var filterSample = false;
+		var filterListed = false;
 	</script>
 	<script>
 		function tableLoad() {
@@ -67,6 +68,12 @@
 				}
 				greentags.innerHTML += '<div style="display:inline; text-align:center; background-color:green; padding:5px; border-radius:4px; color:white;">Including sample extensions <a href="javascript:filterS(false, 2);" class="circlex"">Ⓧ</a></div>';
 			}
+			if (filterListed) {
+				if (filterAuthor != '' || filterType != '' || filterSample != false) {
+					greentags.innerHTML += '&nbsp;&nbsp;&nbsp;';
+				}
+				greentags.innerHTML += '<div style="display:inline; text-align:center; background-color:green; padding:5px; border-radius:4px; color:white;">Listed on ScratchX <a href="javascript:filterL(false, 2);" class="circlex"">Ⓧ</a></div>';
+			}
 			var thingy = true;
 			var row;
 			var obj;
@@ -90,6 +97,11 @@
 				}
 				if (filterSample != true) {
 					if (obj.sample == true) {
+						thingy = false;
+					}
+				}
+				if (filterListed == true) {
+					if (obj.listed != true) {
 						thingy = false;
 					}
 				}
@@ -234,6 +246,11 @@
 			diaClose(x);
 			tableLoad();
 		};
+		function filterL(b, x) {
+			filterListed = b;
+			diaClose(x);
+			tableLoad();
+		};
 		function typeDescOn() {
 			var hide = document.getElementsByClassName('type');
 			var show = document.getElementsByClassName('typeDesc');
@@ -300,6 +317,9 @@
 		<a href="javascript:filterFT('w', 2)"><img src="images/wd.png"><span class="type" style="vertical-align:26%">&nbsp;&nbsp;Web</span></a><span class="typeDesc" style="vertical-align:26%; display:none;">&nbsp;&nbsp;Connect to web services</span><br/>
 		<a href="javascript:filterFT('a', 2)"><img src="images/ad.png"><span class="type" style="vertical-align:26%">&nbsp;&nbsp;Apps</span></a><span class="typeDesc" style="vertical-align:26%; display:none;">&nbsp;&nbsp;Connect to programs/applications</span>
 		<p style="margin-top: -5px; font-size:1.25em; font-family:'Segoe UI'"><span style="cursor:default" onmouseover="typeDescOn();" onmouseout="typeDescOff();">?</span></p>
+		<h3>Categories</h3>
+		<a href="javascript:filterL(true, 2);">Listed on ScratchX</a>
+		<a href="javascript:filterS(true, 2);">Include sample extensions</a>
 		<h3>Authors</h3>
 		<p>The total of the "Extensions" column will be greater than the number of extensions because some extensions are by multiple authors.</p>
 		<table id="tableyauthors" style="margin:auto">
@@ -312,8 +332,6 @@
 			<tbody id="table-authors-location">
 			</tbody>
 		</table>
-		<h3>Samples</h3>
-		<a href="javascript:filterS(true, 2);">Include sample extensions</a>
 		<p><a href="javascript:diaClose(2);">Close</a></p>
 	</div>
 	<div class="overlay" id="over" style="display:none;"></div>

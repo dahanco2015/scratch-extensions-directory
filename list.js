@@ -45,7 +45,8 @@ var extensions = [
 			'GitHub': 'https://github.com/khanning/scratch-arduino-extension/blob/gh-pages/arduino_extension.js'
 		},
 		'description': 'Control Arduino boards',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'Battery Status',
@@ -220,7 +221,8 @@ var extensions = [
 			'GitHub': 'https://github.com/kaspesla/ev3_scratch/blob/gh-pages/ev3_scratch.js'
 		},
 		'description': 'Control LEGO EV3 robots wirelessly',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'Exit ScratchX',
@@ -341,7 +343,8 @@ var extensions = [
 			'GitHub': 'https://github.com/intel-realsense-extension-for-scratch/public/blob/gh-pages/extension/intel_realsense_extension.js'
 		},
 		'description': 'Hand gestures, face tracking, voice commands',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'iRobot Create 2',
@@ -354,7 +357,8 @@ var extensions = [
 			'GitHub': 'https://github.com/iRobotSTEM/CreateScratchX/blob/gh-pages/roomba600Extension.js'
 		},
 		'description': 'Control iRobot® Create® 2',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'ISS Tracker',
@@ -367,7 +371,8 @@ var extensions = [
 			'GitHub': 'https://github.com/khanning/scratch-isstracker-extension/blob/gh-pages/iss_extension.js'
 		},
 		'description': 'International Space Station tracker',
-		'type': 'w'
+		'type': 'w',
+		'listed': true
 	},
 	{
 		'title': 'JavaScript',
@@ -418,7 +423,8 @@ var extensions = [
 			'GitHub': 'https://github.com/khanning/scratch-leapmotion-extension/blob/gh-pages/leapmotion_extension.js'
 		},
 		'description': 'Hand and finger tracking',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'Link Opener',
@@ -444,7 +450,8 @@ var extensions = [
 			'GitHub': 'https://github.com/khanning/scratch-littlebits-extension/blob/gh-pages/littlebits_extension.js'
 		},
 		'description': 'Control littleBits creations',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'Local Storage',
@@ -482,7 +489,8 @@ var extensions = [
 			'GitHub': 'https://github.com/CreativeComputerLab/CreativeComputerLab.github.io/blob/master/MakeSenseConnector-1.0.js'
 		},
 		'description': 'Sensor interface board and sensors',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'Math',
@@ -541,7 +549,8 @@ var extensions = [
 			'GitHub': 'https://github.com/technoboy10/mesh/blob/gh-pages/mesh.js'
 		},
 		'description': 'Broadcast messages to other projects!',
-		'type': 'w'
+		'type': 'w',
+		'listed': true
 	},
 	{
 		'title': 'Minecraft Server Checker',
@@ -661,7 +670,8 @@ var extensions = [
 			'GitHub': 'https://github.com/MrYsLab/rb4s/blob/gh-pages/rb4s.js'
 		},
 		'description': 'Control and monitor a RedBot robot',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'Roamer',
@@ -674,7 +684,8 @@ var extensions = [
 			'GitHub': 'https://github.com/RoamerEducationalRobot/RoamerScratchX/blob/gh-pages/roamer.js'
 		},
 		'description': 'Programming Roamer® with ScratchX',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'Run Reporters',
@@ -726,7 +737,8 @@ var extensions = [
 			'GitHub': 'https://github.com/scratch3d/scratch3d.github.io/blob/gh-pages/Scratch3D_Beta/extension/ScratchThreeJS.js'
 		},
 		'description': 'Fully 3D environment',
-		'type': ''
+		'type': '',
+		'listed': true
 	},
 	{
 		'title': 'Search Extension',
@@ -820,7 +832,8 @@ var extensions = [
 			'GitHub': 'https://github.com/ericrosenbaum/tone-synth-extension/blob/gh-pages/tone-synth.js'
 		},
 		'description': 'Synthesize sound effects and music',
-		'type': ''
+		'type': '',
+		'listed': true
 	},
 	{
 		'title': 'Temp Vars and Lists',
@@ -857,7 +870,8 @@ var extensions = [
 			'GitHub': 'https://github.com/sayamindu/scratch-extensions/blob/gh-pages/text-to-speech/text_to_speech_extension.js'
 		},
 		'description': 'Use Scratch to read text out loud',
-		'type': ''
+		'type': '',
+		'listed': true
 	},
 	{
 		'title': 'Twitter',
@@ -870,7 +884,8 @@ var extensions = [
 			'GitHub': 'https://github.com/technoboy10/twitter/blob/gh-pages/extension.js'
 		},
 		'description': 'Use Twitter in your projects',
-		'type': 'w'
+		'type': 'w',
+		'listed': true
 	},
 	{
 		'title': 'VarExt',
@@ -894,7 +909,8 @@ var extensions = [
 			'GitHub': 'https://github.com/khanning/scratch-weather-extension/blob/gh-pages/weather_extension.js'
 		},
 		'description': 'Access live weather information',
-		'type': 'w'
+		'type': 'w',
+		'listed': true
 	},
 	{
 		'title': 'Weather extension',
@@ -930,7 +946,8 @@ var extensions = [
 			'GitHub': 'https://github.com/MrYsLab/MrYsLab.github.io/blob/master/xi4s.js'
 		},
 		'description': 'Control for Arduino, Raspberry Pi and BeagleBone Black',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'API wrapper for Scratch',
@@ -954,7 +971,8 @@ var extensions = [
 			'GitHub': 'https://github.com/llk/arduino-101/blob/gh-pages/arduino101_serial_extension.js'*/
 		},
 		'description': 'Control Arduino/Genuino 101 boards',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'Vernier Go!Motion',
@@ -967,7 +985,8 @@ var extensions = [
 			'GitHub': 'https://github.com/VernierSoftwareTechnology/scratch-vernier-go-extensions/blob/gh-pages/go_motion_extension.js'
 		},
 		'description': 'Use position data in Scratch',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'Vernier Go!Temp',
@@ -980,7 +999,8 @@ var extensions = [
 			'GitHub': 'https://github.com/VernierSoftwareTechnology/scratch-vernier-go-extensions/blob/gh-pages/go_temp_extension.js'
 		},
 		'description': 'Use temperature data in Scratch',
-		'type': 'h'
+		'type': 'h',
+		'listed': true
 	},
 	{
 		'title': 'ExtenilK',
