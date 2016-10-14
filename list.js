@@ -80,7 +80,7 @@ var extensions = [
 			'GitHub_folder': 'https://github.com/Iwotastic/Scratch-Boost/tree/master/src'
 		},
 		'description': 'Many blocks for interacting with strings, objects, variables, and even the browser',
-		'type': 'a'
+		'type': 'w'
 	},
 	{
 		'title': 'Browser Actions',
