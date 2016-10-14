@@ -1037,5 +1037,17 @@ var extensions = [
 		},
 		'description': 'Build HTML page using Scratch blocks',
 		'type': 'a'
+	},
+	{
+		'title': 'Quala',
+		'author': ['Bax3n'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://qualaext.github.io/install.js',
+			'Doc': 'https://qualaext.github.io/',
+			'JavaScript': 'https://qualaext.github.io/install.js',
+			'GitHub_folder': 'https://github.com/QualaExt/QualaExt.github.io/tree/master/ext'
+		},
+		'description': 'Adds additional math, browser, and string blocks',
+		'type': ''
 	}
 ];
