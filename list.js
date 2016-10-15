@@ -1049,5 +1049,16 @@ var extensions = [
 		},
 		'description': 'Adds additional math, browser, and string blocks',
 		'type': ''
+	},
+	{
+		'title': 'CalcuBlock',
+		'author': ['Bax3n'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/CalcuBlock/ext.js',
+			'JavaScript': 'https://bax3n.github.io/CalcuBlock/ext.js',
+			'GitHub': 'https://github.com/Bax3n/CalcuBlock/blob/master/ext.js'
+		},
+		'description': 'Adds just one block to calculate an input',
+		'type': ''
 	}
 ];
