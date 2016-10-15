@@ -1060,5 +1060,16 @@ var extensions = [
 		},
 		'description': 'Adds just one block to calculate an input',
 		'type': ''
+	},
+	{
+		'title': '133tXt3nSHi0N',
+		'author': ['Bax3n'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/133tXt3nSHi0N/ext.js',
+			'JavaScript': 'https://bax3n.github.io/133tXt3nSHi0N/ext.js',
+			'GitHub': 'https://github.com/Bax3n/133tXt3nSHi0N/blob/master/ext.js'
+		},
+		'description': 'Converts your text to leetspeak',
+		'type': ''
 	}
 ];
