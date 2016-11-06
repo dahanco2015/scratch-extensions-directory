@@ -31,7 +31,7 @@
 		if (qso.author != undefined) {
 			filterAuthor = qso.author;
 		}
-		if (qso.type != undefined) {
+		if (['h', 'w', 'a'].indexOf(qso.type) != -1) {
 			filterType = qso.type;
 		}
 		if (Object.keys(qso).indexOf('sample') != -1) {
