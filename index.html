@@ -5,6 +5,7 @@
 	<title>Scratch Extensions Directory - Savaka's GitHub Page</title>
 	<link rel="stylesheet" href="../savaka-style.css">
 	<script src="../templategenerator.js"></script>
+	<script src="../querystring-object.js"></script>
 	<script>
 		var tg = {
 			levels: 1,
@@ -22,6 +23,17 @@
 		sortExts.sort(function (a, b) {
 			return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
 		});
+		var filterAuthor = '';
+		var filterType = '';
+		var filterSample = false;
+		var filterListed = false;
+		var qso = queryStringObj(window.location.search);
+		if (qso.author != undefined) {
+			filterAuthor = qso.author;
+		}
+		if (qso.type != undefined) {
+			filterType = qso.type;
+		}
 	</script>
 	<script>
 		function tableLoad() {
@@ -342,22 +354,3 @@
 	color: #005500;
 }
 </style>
-<script>
-	filterSample=false
-	filterListed=false
-	filterType=''
-	filterAuthor=''
-	
-	var bkt=document.URL.split("?");
-	
-	for (i = 1; i < bkt.length; i++) { 
-    		var aft=bkt[i];
-		if (aft==undefined) {aft=''}
-		if (aft=="scratch-extensions") {var filterAuthor = 'savaka';}
-		if (aft.substr(0,7)=="author=") {var filterAuthor = aft.replace("author=","")}
-		if (aft.substr(0,5)=="type=") {var filterType = aft.replace("type=","")}
-	}
-	
-	
-	tableLoad();
-</script>
