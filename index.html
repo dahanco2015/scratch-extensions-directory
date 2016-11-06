@@ -34,6 +34,12 @@
 		if (qso.type != undefined) {
 			filterType = qso.type;
 		}
+		if (Object.keys(qso).indexOf('sample') != -1) {
+			filterSample = true;
+		}
+		if (Object.keys(qso).indexOf('listed') != -1) {
+			filterListed = true;
+		}
 	</script>
 	<script>
 		function tableLoad() {
