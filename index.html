@@ -31,6 +31,9 @@
 		if (qso.author != undefined) {
 			filterAuthor = qso.author;
 		}
+		if (qso.id != undefined && qso.id > extensions.length-1) {
+			extBox(qso.id);
+		}
 		if (['h', 'w', 'a'].indexOf(qso.type) != -1) {
 			filterType = qso.type;
 		}
