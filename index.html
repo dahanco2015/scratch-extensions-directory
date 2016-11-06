@@ -263,12 +263,6 @@
 				show[i].style.display = 'initial';
 			}
 		};
-		var aft=document.URL.split("?")[1]
-		filterSample=false
-		filterListed=false
-		filterType=''
-		filterAuthor=''
-		if (aft=="scratch-extensions") {var filterAuthor = 'savaka';tableLoad();}
 	</script>
 </head>
 <body>
@@ -348,3 +342,11 @@
 	color: #005500;
 }
 </style>
+<script>
+	var aft=document.URL.split("?")[1]
+	filterSample=false
+	filterListed=false
+	filterType=''
+	filterAuthor=''
+	if (aft=="scratch-extensions") {var filterAuthor = 'savaka';tableLoad();}
+</script>
