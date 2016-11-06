@@ -348,5 +348,7 @@
 	filterListed=false
 	filterType=''
 	filterAuthor=''
-	if (aft=="scratch-extensions") {var filterAuthor = 'savaka';tableLoad();}
+	if (aft=="scratch-extensions") {var filterAuthor = 'savaka';}
+	if (aft.substr(0,6)=="author=") {var filterAuthor = aft.replace("author=","")}
+	tableLoad();
 </script>
