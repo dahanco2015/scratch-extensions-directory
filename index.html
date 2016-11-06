@@ -22,8 +22,6 @@
 		sortExts.sort(function (a, b) {
 			return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
 		});
-		var aft=document.URL.split("?")[1]
-		if (aft=="scratch-extensions") {var filterAuthor = 'savaka';tableLoad();}
 	</script>
 	<script>
 		function tableLoad() {
@@ -265,6 +263,8 @@
 				show[i].style.display = 'initial';
 			}
 		};
+		var aft=document.URL.split("?")[1]
+		if (aft=="scratch-extensions") {var filterAuthor = 'savaka';tableLoad();}
 	</script>
 </head>
 <body>
