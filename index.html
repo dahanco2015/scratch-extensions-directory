@@ -22,11 +22,9 @@
 		sortExts.sort(function (a, b) {
 			return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
 		});
-		if (window.location.href.substring(window.location.href.length - 19) == '?scratch-extensions') {
-			var filterAuthor = 'savaka';
-		} else {
-			var filterAuthor = '';
-		}
+		document.URL.split("?")[1]
+		if (aft=="scratch-extensions") {var filterAuthor = 'savaka';tableLoad();}
+		
 		var filterType = ''
 		var filterSample = false;
 		var filterListed = false;
