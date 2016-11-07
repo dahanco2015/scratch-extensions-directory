@@ -29,12 +29,13 @@
 		var filterListed = false;
 		var qso = queryStringObj(window.location.search);
 		if (qso.author != undefined) {
-			filterAuthor = qso.author.replace('+', ' ');
+			filterAuthor = qso.author.split('+').join(' ');
 		}
 		if (qso.title != undefined) {
 			var q=-1;
+			var searchTitle=qso.title.split('+').join(' ')
 			for (i = 0; i < extensions.length; i++) { 
-  				if (extensions[i].title==qso.title) {q=i}
+  				if (extensions[i].title==searchTitle) {q=i}
 			}
 			if (q != -1) {extBox(q)}
 		}
