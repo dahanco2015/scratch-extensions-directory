@@ -28,18 +28,24 @@
 		var filterSample = false;
 		var filterListed = false;
 		var qso = queryStringObj(window.location.search);
+		var thisIsAVariable = false;
 		if (qso.author != undefined) {
 			filterAuthor = qso.author.replace(/\+/g, ' ')
+			thisIsAVariable = true;
 		}
 		if (['h', 'w', 'a'].indexOf(qso.type) != -1) {
 			filterType = qso.type;
+			thisIsAVariable = true;
 		}
 		if (Object.keys(qso).indexOf('sample') != -1) {
 			filterSample = true;
+			thisIsAVariable = true;
 		}
 		if (Object.keys(qso).indexOf('listed') != -1) {
 			filterListed = true;
+			thisIsAVariable = true;
 		}
+		var ltcp = document.getElementById('bakedBeans');
 	</script>
 	<script>
 		function tableLoad() {
@@ -141,6 +147,9 @@
 		};
 		function loadFunc() {
 			tableLoad();
+			if (thisIsAVariable) {
+				ltcp.style.display = 'initial';
+			}
 			if (qso.title != undefined) {
 				var q = -1;
 				var searchTitle = qso.title.replace(/\+/g, ' ')
@@ -314,7 +323,8 @@
 	</ul>
 	<p><a href="new-extensions.xml"><img src="../images/rss.png"> RSS feed</a></p>
 	<p style="text-align:center; background-color:yellow; padding:5px; border-radius:6px; color:black;"><span class="b">Disclaimer:</span> Extensions listed on this site are not tested by me or otherwise guaranteed safe.</p>
-	<a href="javascript:filterBox();">Filter</a>
+	<a href="javascript:filterBox();">Filter</a><span id="bakedBeans" style="display:none;"><br/>
+	<a href="index.html">Reload without parameters</a></span>
 	<p id="filter-notice" style="height:30px"></p>
 	<table id="tableytable" style="margin:auto">
 		<thead>
