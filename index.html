@@ -31,8 +31,12 @@
 		if (qso.author != undefined) {
 			filterAuthor = qso.author.replace('+', ' ');
 		}
-		if (qso.id >= 0 && qso.id < extensions.length) {
-			extBox(qso.id);
+		if (qso.title != undefined) {
+			var q=-1;
+			for (i = 0; i < extensions.length; i++) { 
+  				if (extensions[i].title==qso.title) {q=i}
+			}
+			if (q != -1) {extBox(q)}
 		}
 		if (['h', 'w', 'a'].indexOf(qso.type) != -1) {
 			filterType = qso.type;
