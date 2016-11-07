@@ -29,7 +29,7 @@
 		var filterListed = false;
 		var qso = queryStringObj(window.location.search);
 		if (qso.author != undefined) {
-			filterAuthor = qso.author.split("%20").join(" ").split("_").join(" ");
+			filterAuthor = qso.author.replace('+', ' ');
 		}
 		if (qso.id != undefined && qso.id < extensions.length-1) {
 			extBox(qso.id);
