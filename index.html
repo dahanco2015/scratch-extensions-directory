@@ -45,7 +45,6 @@
 			filterListed = true;
 			thisIsAVariable = true;
 		}
-		var ltcp = document.getElementById('bakedBeans');
 	</script>
 	<script>
 		function tableLoad() {
@@ -148,6 +147,7 @@
 		function loadFunc() {
 			tableLoad();
 			if (thisIsAVariable) {
+				var ltcp = document.getElementById('bakedBeans');
 				ltcp.style.display = 'initial';
 			}
 			if (qso.title != undefined) {
