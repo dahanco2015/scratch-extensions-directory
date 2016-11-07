@@ -29,15 +29,19 @@
 		var filterListed = false;
 		var qso = queryStringObj(window.location.search);
 		if (qso.author != undefined) {
-			filterAuthor = qso.author.split('+').join(' ');
+			filterAuthor = qso.author.replace(/\+/g, ' ')
 		}
 		if (qso.title != undefined) {
-			var q=-1;
-			var searchTitle=qso.title.split('+').join(' ')
-			for (i = 0; i < extensions.length; i++) { 
-  				if (extensions[i].title==searchTitle) {q=i}
+			var q = -1;
+			var searchTitle = qso.title.replace(/\+/g, ' ')
+			for (i = 0; i < sortExts.length; i++) {
+  				if (sortExts[i].title == searchTitle) {
+					q = i;
+				}
 			}
-			if (q != -1) {extBox(q)}
+			if (q != -1) {
+				extBox(q);
+			}
 		}
 		if (['h', 'w', 'a'].indexOf(qso.type) != -1) {
 			filterType = qso.type;
