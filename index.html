@@ -151,11 +151,19 @@
 				ltcp.style.display = 'initial';
 			}
 			if (qso.title != undefined) {
+				var offset = 0;
+				if (qso.titleOffset != undefined) {
+					offset =  qso.titleOffset;
+				}
 				var q = -1;
 				var searchTitle = qso.title.replace(/\+/g, ' ')
 				for (i = 0; i < sortExts.length; i++) {
 					if (sortExts[i].title == searchTitle) {
-						q = i;
+						if (offset > 0) {
+							offset--;
+						} else {
+							q = i;
+						}
 					}
 				}
 				if (q != -1) {
