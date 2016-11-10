@@ -146,7 +146,7 @@
 		};
 		function loadFunc() {
 			tableLoad();
-			if (thisIsAVariable) {
+			if (thisIsAVariable || qso.title != undefined || qso.titleOffset != undefined) {
 				var ltcp = document.getElementById('bakedBeans');
 				ltcp.style.display = 'initial';
 			}
