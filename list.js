@@ -144,7 +144,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/convert-to-boolean.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Convert-to-Boolean-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Convert-to-Boolean',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/convert-to-boolean.sbx',
 			'JavaScript': '../scratch-extensions/convert-to-boolean.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/convert-to-boolean.js'
@@ -202,7 +202,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/debugging.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Debugging-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Debugging',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/debugging.sbx',
 			'JavaScript': '../scratch-extensions/debugging.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/debugging.js'
@@ -229,7 +229,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/exit-scratchx.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Exit-ScratchX-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Exit-ScratchX',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/exit-scratchx.sbx',
 			'JavaScript': '../scratch-extensions/exit-scratchx.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/exit-scratchx.js'
@@ -300,7 +300,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/github-status-api.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/GitHub-Status-API-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/GitHub-Status-API',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/github-status-api.sbx',
 			'JavaScript': '../scratch-extensions/github-status-api.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/github-status-api.js'
@@ -313,7 +313,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/hash.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Hash-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Hash',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/hash.sbx',
 			'JavaScript': '../scratch-extensions/hash.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/hash.js'
@@ -379,7 +379,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/javascript.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/JavaScript-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/JavaScript',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/javascript.sbx',
 			'JavaScript': '../scratch-extensions/javascript.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/javascript.js'
@@ -392,7 +392,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/javascript-dialogs.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/JavaScript-Dialogs-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/JavaScript-Dialogs',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/javascript-dialogs.sbx',
 			'JavaScript': '../scratch-extensions/javascript-dialogs.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/javascript-dialogs.js'
@@ -431,7 +431,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/link-opener.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Link-Opener-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Link-Opener',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/link-opener.sbx',
 			'JavaScript': '../scratch-extensions/link-opener.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/link-opener.js'
@@ -470,7 +470,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/logic.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Logic-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Logic',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/logic.sbx',
 			'JavaScript': '../scratch-extensions/logic.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/logic.js'
@@ -569,7 +569,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/more-math.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/More-Math-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/More-Math',
 			'JavaScript': '../scratch-extensions/more-math.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/more-math.js'
 		},
@@ -581,7 +581,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/more-operators.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/More-Operators-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/More-Operators',
 			'JavaScript': '../scratch-extensions/more-operators.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/more-operators.js'
 		},
@@ -593,7 +593,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/objects.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Objects-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Objects',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/objects.sbx',
 			'JavaScript': '../scratch-extensions/objects.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/objects.js'
@@ -692,7 +692,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/run-reporters.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Run-Reporters-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Run-Reporters',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/run-reporters.sbx',
 			'JavaScript': '../scratch-extensions/run-reporters.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/run-reporters.js'
@@ -705,7 +705,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/scratch-api.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Scratch-API-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Scratch-API',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/scratch-api.sbx',
 			'JavaScript': '../scratch-extensions/scratch-api.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/scratch-api.js'
@@ -851,7 +851,7 @@ var extensions = [
 		'author': ['savaka'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/text-stuff.js',
-			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Text-Stuff-extension',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Text-Stuff',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/text-stuff.sbx',
 			'JavaScript': '../scratch-extensions/text-stuff.js',
 			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/text-stuff.js'
