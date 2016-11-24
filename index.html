@@ -196,7 +196,7 @@
 			if (ind == 50) {
 				extraText = '&titleOffset=1';
 			}
-			document.getElementById('di1').innerHTML = '<h2>Copy this:</h2><p>http://savaka2.github.io/scratch-extensions-directory/?title=' + obj.title.replace(/\ /g, '+') + extraText + '</p><p><a href="javascript:extBox(' + ind + ')">Back</a></p>';
+			document.getElementById('di1').innerHTML = '<h2>Copy this:</h2><p>' + qualifyURL('index.html?title=' + obj.title.replace(/\ /g, '+') + extraText) + '</p><p><a href="javascript:extBox(' + ind + ')">Back</a></p>';
 		};
 		function extBox(ind) {
 			var obj = sortExts[ind];
@@ -247,6 +247,41 @@
 			document.getElementById('over').style.display = 'none';
 		};
 		function filterBox() {
+			var link2filter = 'index.html';
+			var first = true;
+			if (filterAuthor != '') {
+				if (first) {
+					link2filter += '?';
+					first = false;
+				} else {
+					link2filter += '&';
+				}
+				link2filter += ('author=' + filterAuthor.replace(/\ /g, '+'));
+			}
+			if (filterType != '') {
+				if (first) {
+					link2filter += '?';
+					first = false;
+				} else {
+					link2filter += '&';
+				}
+				link2filter += ('type=' + filterType);
+			}
+			if (filterListed) {
+				if (first) {
+					link2filter += '?';
+					first = false;
+				} else {
+					link2filter += '&';
+				}
+				link2filter += 'listed';
+			}
+			if (link2filter == 'index.html') {
+				document.getElementById('oidk').style.display = 'none';
+			} else {
+				document.getElementById('oidk').style.display = 'initial';
+				document.getElementById('oidk').href = qualifyURL(link2filter);
+			}
 			var tbody = document.getElementById('table-authors-location');
 			tbody.innerHTML = '';
 			var users = [];
@@ -338,7 +373,6 @@
 		<li><a href="http://scratchx.org/#faq">Click here</a> to learn more about Scratch extensions and ScratchX.</li>
 		<li><a href="https://github.com/savaka2/scratch-extensions-directory/issues/new">Click here</a> to submit your extension in an issue. There is a template showing what all you need to include.</li>
 		<li><a href="https://scratch.mit.edu/discuss/topic/206434/">Click here</a> to submit your extension if you don't use GitHub. There is a form showing what all you need to include.</li>
-		<li><a href="https://github.com/savaka2/scratch-extensions-directory/wiki/Query-strings">Click here</a> to learn how to create custom links to the directory using query strings.</li>
 	</ul>
 	<p><a href="new-extensions.xml"><img src="../images/rss.png"> RSS feed</a></p>
 	<p style="text-align:center; background-color:yellow; padding:5px; border-radius:6px; color:black;"><span class="b">Disclaimer:</span> Extensions listed on this site are not tested by me or otherwise guaranteed safe.</p>
@@ -363,6 +397,7 @@
 	</div>
 	<div class="dialog" id="di2" style="height:600px; width:400px; margin-top:-300px; margin-left:-200px; display:none; overflow:auto;">
 		<p><a href="javascript:diaClose(2);">Close</a></p>
+		<p><a href="index.html" id="oidk" style="display:none;">Link to directory with curent filters</a></p>
 		<h2>Filter</h2>
 		<h3>Types</h3>
 		<a href="javascript:filterFT('h', 2)"><img src="images/hd.png"><span class="type" style="vertical-align:26%">&nbsp;&nbsp;Hardware</span></a><span class="typeDesc" style="vertical-align:26%; display:none;">&nbsp;&nbsp;Connect to external devices</span><br/>
