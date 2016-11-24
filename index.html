@@ -193,7 +193,7 @@
 			var obj = sortExts[ind];
 			// Duplicate titles added manually
 			var extraText = '';
-			if (ind = 50) {
+			if (ind == 50) {
 				extraText = '&titleOffset=1';
 			}
 			document.getElementById('di1').innerHTML = '<h2>Copy this:</h2><p>http://savaka2.github.io/scratch-extensions-directory/?title=' + obj.title.replace(/\ /g, '+') + extraText + '</p><p><a href="javascript:extBox(' + ind + ')">Back</a></p>';
