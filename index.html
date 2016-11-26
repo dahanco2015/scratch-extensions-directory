@@ -193,10 +193,10 @@
 			var obj = sortExts[ind];
 			// Duplicate titles added manually
 			var extraText = '';
-			if (sortExts[ind].title == 'Mesh' && sortExts[ind].author == ['Connor Hudson']) {
+			if (sortExts[ind].title == 'Mesh' && sortExts[ind].author[0] == 'Connor Hudson') {
 				extraText = '&titleOffset=1';
 			}
-			if (sortExts[ind].title == 'Extension Loader' && sortExts[ind].author == ['Thepuzzlegame']) {
+			if (sortExts[ind].title == 'Extension Loader' && sortExts[ind].author[0] == 'Thepuzzlegame') {
 				extraText = '&titleOffset=1';
 			}
 			document.getElementById('di1').innerHTML = '<h2>Copy this:</h2><p>' + qualifyURL('index.html?title=' + obj.title.replace(/\ /g, '+') + extraText) + '</p><p><a href="javascript:extBox(' + ind + ')">Back</a></p>';
