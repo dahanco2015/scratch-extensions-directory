@@ -191,13 +191,14 @@
 		};
 		function linkBox(ind) {
 			var obj = sortExts[ind];
-			// Duplicate titles added manually
 			var extraText = '';
-			if (sortExts[ind].title == 'Mesh' && sortExts[ind].author[0] == 'Connor Hudson') {
-				extraText = '&titleOffset=1';
+			var num = 0;
+			while (sortExts[ind - num].title == sortExts[ind].title) {
+				num++;
 			}
-			if (sortExts[ind].title == 'Extension Loader' && sortExts[ind].author[0] == 'Thepuzzlegame') {
-				extraText = '&titleOffset=1';
+			num--;
+			if (num > 0) {
+				extraText = '&titleOffset=' + num.toString();
 			}
 			document.getElementById('di1').innerHTML = '<h2>Copy this:</h2><p>' + qualifyURL('index.html?title=' + obj.title.replace(/\ /g, '+') + extraText) + '</p><p><a href="javascript:extBox(' + ind + ')">Back</a></p>';
 		};
