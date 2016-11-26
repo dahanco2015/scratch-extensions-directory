@@ -5,16 +5,23 @@
 	<link>http://savaka2.github.io/scratch-extensions-directory/new-extensions.xml</link>
 	<description>New extensions in the Scratch Extensions Directory</description>
 	<item>
+		<title>Extension Loader by Bax3n</title>
+		<link>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/extension-loader.js</link>
+		<guid>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/extension-loader.js</guid>
+		<pubDate>Sat, 26 Nov 2016 13:09:31 EST</pubDate>
+		<description>Loads extensions from a URL</description>
+	</item>
+	<item>
 		<title>133tXt3nSHi0N by Bax3n</title>
-		<link>http://scratchx.org/?url=https://bax3n.github.io/133tXt3nSHi0N/ext.js</link>
-		<guid>http://scratchx.org/?url=https://bax3n.github.io/133tXt3nSHi0N/ext.js</guid>
+		<link>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/leetextension.js</link>
+		<guid>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/leetextension.js</guid>
 		<pubDate>Sat, 15 Oct 2016 09:07:39 EST</pubDate>
 		<description>Converts your text to leetspeak</description>
 	</item>
 	<item>
 		<title>CalcuBlock by Bax3n</title>
-		<link>http://scratchx.org/?url=https://bax3n.github.io/CalcuBlock/ext.js</link>
-		<guid>http://scratchx.org/?url=https://bax3n.github.io/CalcuBlock/ext.js</guid>
+		<link>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/calcublock.js</link>
+		<guid>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/calcublock.js</guid>
 		<pubDate>Sat, 15 Oct 2016 09:03:08 EST</pubDate>
 		<description>Adds just one block to calculate an input</description>
 	</item>

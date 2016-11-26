@@ -251,6 +251,17 @@ var extensions = [
 	},
 	{
 		'title': 'Extension Loader',
+		'author': ['Bax3n'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/extension-loader.js',
+			'JavaScript': 'https://bax3n.github.io/scratch-extensions/extension-loader.js',
+			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/extension-loader.js'
+		},
+		'description': 'Loads extensions from a URL',
+		'type': 'w'
+	},
+	{
+		'title': 'Extension Loader',
 		'author': ['Thepuzzlegame'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Extension_Loader.js',
@@ -1054,9 +1065,9 @@ var extensions = [
 		'title': 'CalcuBlock',
 		'author': ['Bax3n'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/CalcuBlock/ext.js',
-			'JavaScript': 'https://bax3n.github.io/CalcuBlock/ext.js',
-			'GitHub': 'https://github.com/Bax3n/CalcuBlock/blob/master/ext.js'
+			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/calcublock.js',
+			'JavaScript': 'https://bax3n.github.io/scratch-extensions/calcublock.js',
+			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/calcublock.js'
 		},
 		'description': 'Adds just one block to calculate an input',
 		'type': ''
@@ -1065,9 +1076,9 @@ var extensions = [
 		'title': '133tXt3nSHi0N',
 		'author': ['Bax3n'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/133tXt3nSHi0N/ext.js',
-			'JavaScript': 'https://bax3n.github.io/133tXt3nSHi0N/ext.js',
-			'GitHub': 'https://github.com/Bax3n/133tXt3nSHi0N/blob/master/ext.js'
+			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/leetextension.js',
+			'JavaScript': 'https://bax3n.github.io/scratch-extensions/leetextension.js',
+			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/leetextension.js'
 		},
 		'description': 'Converts your text to leetspeak',
 		'type': ''
