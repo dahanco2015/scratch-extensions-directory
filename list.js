@@ -188,11 +188,10 @@ var extensions = [
 	},
 	{
 		'title': 'Data',
-		'author': ['Thepuzzlegame'],
+		'author': ['Fantop'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Data.js',
-			'JavaScript': 'http://thepuzzlegame.github.io/extensions/Data.js',
-			'GitHub': 'https://github.com/Thepuzzlegame/Thepuzzlegame.github.io/blob/master/extensions/Data.js'
+			'ScratchX': 'http://scratchx.org/?url=http://fantop.github.io/extensions/Data.js',
+			'JavaScript': 'http://fantop.github.io/extensions/Data.js'
 		},
 		'description': 'Adds data manipulating blocks and string operations',
 		'type': ''
@@ -262,11 +261,10 @@ var extensions = [
 	},
 	{
 		'title': 'Extension Loader',
-		'author': ['Thepuzzlegame'],
+		'author': ['Fantop'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://thepuzzlegame.github.io/extensions/Extension_Loader.js',
-			'JavaScript': 'http://thepuzzlegame.github.io/extensions/Extension_Loader.js',
-			'GitHub': 'https://github.com/Thepuzzlegame/Thepuzzlegame.github.io/blob/master/extensions/Extension_Loader.js'
+			'ScratchX': 'http://scratchx.org/?url=http://fantop.github.io/extensions/Extension_Loader.js',
+			'JavaScript': 'http://fantop.github.io/extensions/Extension_Loader.js'
 		},
 		'description': 'Loads extensions from URLs',
 		'type': 'w'
