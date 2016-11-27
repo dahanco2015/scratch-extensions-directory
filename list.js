@@ -1083,4 +1083,26 @@ var extensions = [
 		'description': 'Converts your text to leetspeak',
 		'type': ''
 	}
+	{
+		'title': 'User Information',
+		'author': ['Bax3n'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/user-info.js',
+			'JavaScript': 'https://bax3n.github.io/scratch-extensions/user-info.js',
+			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/user-info.js'
+		},
+		'description': 'Gets information about the user',
+		'type': ''
+	}
+	{
+		'title': 'Project Information',
+		'author': ['Bax3n'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/project-info.js',
+			'JavaScript': 'https://bax3n.github.io/scratch-extensions/project-info.js',
+			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/project-info.js'
+		},
+		'description': 'Gets information about the project',
+		'type': ''
+	}
 ];
