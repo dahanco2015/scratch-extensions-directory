@@ -1082,7 +1082,7 @@ var extensions = [
 		},
 		'description': 'Converts your text to leetspeak',
 		'type': ''
-	}
+	},
 	{
 		'title': 'User Information',
 		'author': ['Bax3n'],
@@ -1093,7 +1093,7 @@ var extensions = [
 		},
 		'description': 'Gets information about the user',
 		'type': ''
-	}
+	},
 	{
 		'title': 'Project Information',
 		'author': ['Bax3n'],
