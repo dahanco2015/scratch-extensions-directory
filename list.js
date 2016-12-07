@@ -1102,5 +1102,27 @@ var extensions = [
 		},
 		'description': 'Gets information about the project',
 		'type': ''
+	},
+	{
+		'title': 'Base Converter',
+		'author': ['Bax3n'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/base-converter.js',
+			'JavaScript': 'https://bax3n.github.io/scratch-extensions/base-converter.js',
+			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/base-converter.js'
+		},
+		'description': 'Converts numbers binary to base-36',
+		'type': ''
+	},
+	{
+		'title': 'Transform',
+		'author': ['Bax3n'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/transform.js',
+			'JavaScript': 'https://bax3n.github.io/scratch-extensions/transform.js',
+			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/transform.js'
+		},
+		'description': 'Uses the transform property in CSS to move the editor around',
+		'type': ''
 	}
 ];
