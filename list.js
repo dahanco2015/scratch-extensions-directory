@@ -1133,7 +1133,7 @@ var extensions = [
 			'JavaScript': 'https://wedrig.github.io/scratch-ext/prompt.js',
 			'GitHub': 'https://github.com/Wedrig/scratch-ext/blob/master/prompt.js'
 		},
-		'description': 'Uses the transform property in CSS to move the editor around',
+		'description': 'Prompts the user',
 		'type': ''
 	}
 ];
