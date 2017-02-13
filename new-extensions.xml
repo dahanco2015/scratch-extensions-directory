@@ -5,6 +5,13 @@
 	<link>http://savaka2.github.io/scratch-extensions-directory/new-extensions.xml</link>
 	<description>New extensions in the Scratch Extensions Directory</description>
 	<item>
+		<title>Stop Clicked by savaka</title>
+		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/stop-clicked.js</link>
+		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/stop-clicked.js</guid>
+		<pubDate>Mon, 13 Feb 2017 16:16:19 EST</pubDate>
+		<description>Starts a script when either stage button is clicked</description>
+	</item>
+	<item>
 		<title>Prompt by Wedrig</title>
 		<link>http://scratchx.org/?url=https://wedrig.github.io/scratch-ext/prompt.js</link>
 		<guid>http://scratchx.org/?url=https://wedrig.github.io/scratch-ext/prompt.js</guid>

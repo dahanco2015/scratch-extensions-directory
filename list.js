@@ -1135,5 +1135,17 @@ var extensions = [
 		},
 		'description': 'Prompts the user',
 		'type': ''
+	},
+	{
+		'title': 'Stop Clicked',
+		'author': ['savaka'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/stop-clicked.js',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/Convert-to-Boolean'
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions/stop-clicked.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/stop-clicked.js'
+		},
+		'description': 'Starts a script when either stage button is clicked',
+		'type': ''
 	}
 ];
