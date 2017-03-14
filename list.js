@@ -1147,5 +1147,15 @@ var extensions = [
 		},
 		'description': 'Starts a script when either stage button is clicked',
 		'type': ''
+	},
+	{
+		'title': 'Mega\'s Toolbox v0.1a',
+		'author': ['savaka'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://mega987654.neocities.org/scratch-extensions/MegaToolBox/latest/ext.min.js',
+			'JavaScript': 'https://mega987654.neocities.org/scratch-extensions/MegaToolBox/latest/ext.min.js'
+		},
+		'description': '',// description here
+		'type': ''
 	}
 ];
