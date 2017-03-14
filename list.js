@@ -1152,13 +1152,13 @@ var extensions = [
 		'title': 'Spotify',
 		'author': ['Eric Rosenbaum'],
 		'links': {
-			'ScratchX': '',// this
-			'Doc': 'http://www.roamer-educational-robot.com/roamer-scratchx-training/',
+			'ScratchX': 'http://scratchx.org/?url=https://ericrosenbaum.github.io/spotify-extension/extension.js',
+			'Doc': 'https://ericrosenbaum.github.io/spotify-extension/',
 			'Demo': 'http://scratchx.org/?url=https://ericrosenbaum.github.io/spotify-extension/examples/dance-party.sbx#scratch',
-			'JavaScript': '',// this
-			'GitHub': ''// this
+			'JavaScript': 'https://ericrosenbaum.github.io/spotify-extension/extension.js',
+			'GitHub': 'https://github.com/ericrosenbaum/spotify-extension/blob/gh-pages/extension.js'
 		},
-		'description': 'Starts a script when either stage button is clicked',
+		'description': 'Animate and remix millions of songs',
 		'type': 'w'
 	}
 ];
