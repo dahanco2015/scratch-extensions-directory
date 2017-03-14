@@ -1147,5 +1147,18 @@ var extensions = [
 		},
 		'description': 'Starts a script when either stage button is clicked',
 		'type': ''
+	},
+	{
+		'title': 'Spotify',
+		'author': ['Eric Rosenbaum'],
+		'links': {
+			'ScratchX': '',// this
+			'Doc': 'http://www.roamer-educational-robot.com/roamer-scratchx-training/',
+			'Demo': 'http://scratchx.org/?url=https://ericrosenbaum.github.io/spotify-extension/examples/dance-party.sbx#scratch',
+			'JavaScript': '',// this
+			'GitHub': ''// this
+		},
+		'description': 'Starts a script when either stage button is clicked',
+		'type': 'w'
 	}
 ];
