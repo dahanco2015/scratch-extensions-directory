@@ -26,58 +26,58 @@
 		<description>Prompts the user</description>
 	</item>
 	<item>
-		<title>Transform by Bax3n</title>
-		<link>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/transform.js</link>
-		<guid>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/transform.js</guid>
+		<title>Transform by Eric O.</title>
+		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/transform.js</link>
+		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/transform.js</guid>
 		<pubDate>Tue, 06 Dec 2016 19:13:21 EST</pubDate>
 		<description>Uses the transform property in CSS to move the editor around</description>
 	</item>
 	<item>
-		<title>Base Converter by Bax3n</title>
-		<link>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/base-converter.js</link>
-		<guid>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/base-converter.js</guid>
+		<title>Base Converter by Eric O.</title>
+		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/base-converter.js</link>
+		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/base-converter.js</guid>
 		<pubDate>Tue, 06 Dec 2016 19:11:29 EST</pubDate>
 		<description>Converts numbers binary to base-36</description>
 	</item>
 	<item>
-		<title>Project Information by Bax3n</title>
-		<link>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/project-info.js</link>
-		<guid>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/project-info.js</guid>
+		<title>Project Information by Eric O.</title>
+		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/project-info.js</link>
+		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/project-info.js</guid>
 		<pubDate>Sun, 27 Nov 2016 08:42:04 EST</pubDate>
 		<description>Gets information about the project</description>
 	</item>
 	<item>
-		<title>User Information by Bax3n</title>
-		<link>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/user-info.js</link>
-		<guid>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/user-info.js</guid>
+		<title>User Information by Eric O.</title>
+		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/user-info.js</link>
+		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/user-info.js</guid>
 		<pubDate>Sun, 27 Nov 2016 08:41:54 EST</pubDate>
 		<description>Gets information about the user</description>
 	</item>
 	<item>
-		<title>Extension Loader by Bax3n</title>
-		<link>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/extension-loader.js</link>
-		<guid>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/extension-loader.js</guid>
+		<title>Extension Loader by Eric O.</title>
+		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/extension-loader.js</link>
+		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/extension-loader.js</guid>
 		<pubDate>Sat, 26 Nov 2016 13:09:31 EST</pubDate>
 		<description>Loads extensions from a URL</description>
 	</item>
 	<item>
-		<title>133tXt3nSHi0N by Bax3n</title>
-		<link>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/leetextension.js</link>
-		<guid>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/leetextension.js</guid>
+		<title>133tXt3nSHi0N by Eric O.</title>
+		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/leetextension.js</link>
+		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/leetextension.js</guid>
 		<pubDate>Sat, 15 Oct 2016 09:07:39 EST</pubDate>
 		<description>Converts your text to leetspeak</description>
 	</item>
 	<item>
-		<title>CalcuBlock by Bax3n</title>
-		<link>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/calcublock.js</link>
-		<guid>http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/calcublock.js</guid>
+		<title>CalcuBlock by Eric O.</title>
+		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/calcublock.js</link>
+		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/calcublock.js</guid>
 		<pubDate>Sat, 15 Oct 2016 09:03:08 EST</pubDate>
 		<description>Adds just one block to calculate an input</description>
 	</item>
 	<item>
-		<title>Quala by Bax3n</title>
-		<link>http://scratchx.org/?url=https://qualaext.github.io/install.js</link>
-		<guid>http://scratchx.org/?url=https://qualaext.github.io/install.js</guid>
+		<title>Quala by Eric O.</title>
+		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/quala.js</link>
+		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/quala.js</guid>
 		<pubDate>Fri, 14 Oct 2016 07:09:49 EST</pubDate>
 		<description>Adds additional math, browser, and string blocks</description>
 	</item>
