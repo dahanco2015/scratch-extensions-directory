@@ -1159,5 +1159,16 @@ var extensions = [
 		},
 		'description': 'Animate and remix millions of songs',
 		'type': 'w'
-	}
+	},
+	{
+		'title': 'Logic Gates',
+		'author': ['Eric O.'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/logic-gates.js',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/logic-gates.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/logic-gates.js'
+		},
+		'description': 'Adds logic gates such as XNOR',
+		'type': ''
+	},
 ];
