@@ -250,11 +250,11 @@ var extensions = [
 	},
 	{
 		'title': 'Extension Loader',
-		'author': ['Bax3n'],
+		'author': ['Eric O.'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/extension-loader.js',
-			'JavaScript': 'https://bax3n.github.io/scratch-extensions/extension-loader.js',
-			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/extension-loader.js'
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/extension-loader.js',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/extension-loader.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/extension-loader.js'
 		},
 		'description': 'Loads extensions from a URL',
 		'type': 'w'
@@ -1049,78 +1049,77 @@ var extensions = [
 	},
 	{
 		'title': 'Quala',
-		'author': ['Bax3n'],
+		'author': ['Eric O.'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://qualaext.github.io/install.js',
-			'Doc': 'https://qualaext.github.io/',
-			'JavaScript': 'https://qualaext.github.io/install.js',
-			'GitHub_folder': 'https://github.com/QualaExt/QualaExt.github.io/tree/master/ext'
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/quala.js',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/quala.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/quala.js'
 		},
 		'description': 'Adds additional math, browser, and string blocks',
 		'type': ''
 	},
 	{
 		'title': 'CalcuBlock',
-		'author': ['Bax3n'],
+		'author': ['Eric O.'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/calcublock.js',
-			'JavaScript': 'https://bax3n.github.io/scratch-extensions/calcublock.js',
-			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/calcublock.js'
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/calcublock.js',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/calcublock.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/calcublock.js'
 		},
 		'description': 'Adds just one block to calculate an input',
 		'type': ''
 	},
 	{
 		'title': '133tXt3nSHi0N',
-		'author': ['Bax3n'],
+		'author': ['Eric O.'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/leetextension.js',
-			'JavaScript': 'https://bax3n.github.io/scratch-extensions/leetextension.js',
-			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/leetextension.js'
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/leetextension.js',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/leetextension.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/leetextension.js'
 		},
 		'description': 'Converts your text to leetspeak',
 		'type': ''
 	},
 	{
 		'title': 'User Information',
-		'author': ['Bax3n'],
+		'author': ['Eric O.'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/user-info.js',
-			'JavaScript': 'https://bax3n.github.io/scratch-extensions/user-info.js',
-			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/user-info.js'
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/user-info.js',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/user-info.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/user-info.js'
 		},
 		'description': 'Gets information about the user',
 		'type': ''
 	},
 	{
 		'title': 'Project Information',
-		'author': ['Bax3n'],
+		'author': ['Eric O.'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/project-info.js',
-			'JavaScript': 'https://bax3n.github.io/scratch-extensions/project-info.js',
-			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/project-info.js'
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/project-info.js',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/project-info.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/project-info.js'
 		},
 		'description': 'Gets information about the project',
 		'type': ''
 	},
 	{
 		'title': 'Base Converter',
-		'author': ['Bax3n'],
+		'author': ['Eric O.'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/base-converter.js',
-			'JavaScript': 'https://bax3n.github.io/scratch-extensions/base-converter.js',
-			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/base-converter.js'
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/base-converter.js',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/base-converter.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/base-converter.js'
 		},
 		'description': 'Converts numbers binary to base-36',
 		'type': ''
 	},
 	{
 		'title': 'Transform',
-		'author': ['Bax3n'],
+		'author': ['Eric O.'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://bax3n.github.io/scratch-extensions/transform.js',
-			'JavaScript': 'https://bax3n.github.io/scratch-extensions/transform.js',
-			'GitHub': 'https://github.com/Bax3n/scratch-extensions/blob/master/transform.js'
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/transform.js',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/transform.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/transform.js'
 		},
 		'description': 'Uses the transform property in CSS to move the editor around',
 		'type': ''
@@ -1160,5 +1159,16 @@ var extensions = [
 		},
 		'description': 'Animate and remix millions of songs',
 		'type': 'w'
-	}
+	},
+	{
+		'title': 'Logic Gates',
+		'author': ['Eric O.'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/logic-gates.js',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions-directory/extensions/logic-gates.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions-directory/blob/gh-pages/extensions/logic-gates.js'
+		},
+		'description': 'Adds logic gates such as XNOR',
+		'type': ''
+	},
 ];
