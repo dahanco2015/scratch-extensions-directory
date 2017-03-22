@@ -5,11 +5,11 @@
 	<link>http://savaka2.github.io/scratch-extensions-directory/new-extensions.xml</link>
 	<description>New extensions in the Scratch Extensions Directory</description>
 	<item>
-		<title>Transform by Eric O.</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/transform.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/transform.js</guid>
-		<pubDate>Tue, 06 Dec 2016 19:13:21 EST</pubDate>
-		<description>Uses the transform property in CSS to move the editor around</description>
+		<title>Logic Gates by Eric O.</title>
+		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/logic-gates.js</link>
+		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/logic-gates.js</guid>
+		<pubDate>Tue, 21 Mar 2017 20:02:25 EST</pubDate>
+		<description>Adds logic gates such as XNOR</description>
 	</item>
 	<item>
 		<title>Spotify by Eric Rosenbaum</title>
