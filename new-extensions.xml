@@ -5,6 +5,20 @@
 	<link>http://savaka2.github.io/scratch-extensions-directory/new-extensions.xml</link>
 	<description>New extensions in the Scratch Extensions Directory</description>
 	<item>
+		<title>fischertechnik ROBO-TXT by fischertechnik</title>
+		<link>http://scratchx.org/?url=https://ftscratch.github.io/ROBO-TXT/src/ext.js</link>
+		<guid>http://scratchx.org/?url=https://ftscratch.github.io/ROBO-TXT/src/ext.js</guid>
+		<pubDate>Sun, 09 Apr 2017 12:02:58 EST</pubDate>
+		<description>Enable use of the fischertechnik ROBOTICS TXT Controller on PCS or notebooks</description>
+	</item>
+	<item>
+		<title>Country Information by nathanfi</title>
+		<link>http://scratchx.org/?url=http://nathanfi.github.io/ScratchX/CountryInfo/CountryInfo.js</link>
+		<guid>http://scratchx.org/?url=http://nathanfi.github.io/ScratchX/CountryInfo/CountryInfo.js</guid>
+		<pubDate>Sun, 09 Apr 2017 12:01:58 EST</pubDate>
+		<description>Access scores of information on any country in the world</description>
+	</item>
+	<item>
 		<title>Logic Gates by Eric O.</title>
 		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/logic-gates.js</link>
 		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/logic-gates.js</guid>

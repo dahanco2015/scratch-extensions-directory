@@ -1171,4 +1171,28 @@ var extensions = [
 		'description': 'Adds logic gates such as XNOR',
 		'type': ''
 	},
+	{
+		'title': 'Country Information',
+		'author': ['nathanfi'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://nathanfi.github.io/ScratchX/CountryInfo/CountryInfo.js',
+			'Doc': 'https://github.com/nathanfi/ScratchX/blob/gh-pages/CountryInfo/README.md',
+			'JavaScript': 'http://nathanfi.github.io/ScratchX/CountryInfo/CountryInfo.js',
+			'GitHub': 'https://github.com/nathanfi/ScratchX/blob/gh-pages/CountryInfo/CountryInfo.js'
+		},
+		'description': 'Access scores of information on any country in the world',
+		'type': 'w'
+	},
+	{
+		'title': 'fischertechnik ROBO-TXT',
+		'author': ['fischertechnik'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://ftscratch.github.io/ROBO-TXT/src/ext.js',
+			'Doc': 'http://www.fischertechnik.de/home/info/Computing/ROBOTICS-TXT-Controller.aspx/usetemplate-1_column_no_pano/',
+			'JavaScript': 'https://ftscratch.github.io/ROBO-TXT/src/ext.js',
+			'GitHub': 'https://github.com/FTScratch/ROBO-TXT/blob/master/src/ext.js'
+		},
+		'description': 'Enable use of the fischertechnik ROBOTICS TXT Controller on PCS or notebooks',
+		'type': 'h'
+	}
 ];
