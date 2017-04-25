@@ -1194,5 +1194,18 @@ var extensions = [
 		},
 		'description': 'Enable use of the fischertechnik ROBOTICS TXT Controller on PCS or notebooks',
 		'type': 'h'
+	},
+	{
+		'title': 'IFTTT',
+		'author': ['savaka'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/ifttt.js',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/IFTTT',
+			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/ifttt.sbx',
+			'JavaScript': 'http://savaka2.github.io/scratch-extensions/ifttt.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions/ifttt.js'
+		},
+		'description': 'Trigger IFTTT applets using the Maker Webhooks service',
+		'type': 'w'
 	}
 ];
