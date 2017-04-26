@@ -1203,7 +1203,7 @@ var extensions = [
 			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/IFTTT',
 			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/ifttt.sbx',
 			'JavaScript': 'http://savaka2.github.io/scratch-extensions/ifttt.js',
-			'GitHub': 'https://github.com/savaka2/scratch-extensions/ifttt.js'
+			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/ifttt.js'
 		},
 		'description': 'Trigger IFTTT applets using the Maker Webhooks service',
 		'type': 'w'
