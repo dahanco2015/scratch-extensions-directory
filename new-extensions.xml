@@ -6,197 +6,197 @@
 	<description>New extensions in the Scratch Extensions Directory</description>
 	<item>
 		<title>IFTTT by savaka</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/ifttt.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/ifttt.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=IFTTT</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=IFTTT</guid>
 		<pubDate>Tue, 25 Apr 2017 16:37:10 EST</pubDate>
 		<description>Trigger IFTTT applets using the Maker Webhooks service</description>
 	</item>
 	<item>
 		<title>fischertechnik ROBO-TXT by fischertechnik</title>
-		<link>http://scratchx.org/?url=https://ftscratch.github.io/ROBO-TXT/src/ext.js</link>
-		<guid>http://scratchx.org/?url=https://ftscratch.github.io/ROBO-TXT/src/ext.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=fischertechnik+ROBO-TXT</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=fischertechnik+ROBO-TXT</guid>
 		<pubDate>Sun, 09 Apr 2017 12:02:58 EST</pubDate>
 		<description>Enable use of the fischertechnik ROBOTICS TXT Controller on PCS or notebooks</description>
 	</item>
 	<item>
 		<title>Country Information by nathanfi</title>
-		<link>http://scratchx.org/?url=http://nathanfi.github.io/ScratchX/CountryInfo/CountryInfo.js</link>
-		<guid>http://scratchx.org/?url=http://nathanfi.github.io/ScratchX/CountryInfo/CountryInfo.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Country+Information</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Country+Information</guid>
 		<pubDate>Sun, 09 Apr 2017 12:01:58 EST</pubDate>
 		<description>Access scores of information on any country in the world</description>
 	</item>
 	<item>
 		<title>Logic Gates by Eric O.</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/logic-gates.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/logic-gates.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Logic+Gates</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Logic+Gates</guid>
 		<pubDate>Tue, 21 Mar 2017 20:02:25 EST</pubDate>
 		<description>Adds logic gates such as XNOR</description>
 	</item>
 	<item>
 		<title>Spotify by Eric Rosenbaum</title>
-		<link>http://scratchx.org/?url=https://ericrosenbaum.github.io/spotify-extension/extension.js</link>
-		<guid>http://scratchx.org/?url=https://ericrosenbaum.github.io/spotify-extension/extension.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Spotify</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Spotify</guid>
 		<pubDate>Tue, 14 Mar 2017 17:27:39 EST</pubDate>
 		<description>Animate and remix millions of songs</description>
 	</item>
 	<item>
 		<title>Stop Clicked by savaka</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/stop-clicked.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/stop-clicked.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Stop+Clicked</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Stop+Clicked</guid>
 		<pubDate>Mon, 13 Feb 2017 16:16:19 EST</pubDate>
 		<description>Starts a script when either stage button is clicked</description>
 	</item>
 	<item>
 		<title>Prompt by Wedrig</title>
-		<link>http://scratchx.org/?url=https://wedrig.github.io/scratch-ext/prompt.js</link>
-		<guid>http://scratchx.org/?url=https://wedrig.github.io/scratch-ext/prompt.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Prompt</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Prompt</guid>
 		<pubDate>Wed, 14 Dec 2016 15:29:03 EST</pubDate>
 		<description>Prompts the user</description>
 	</item>
 	<item>
 		<title>Transform by Eric O.</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/transform.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/transform.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Transform</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Transform</guid>
 		<pubDate>Tue, 06 Dec 2016 19:13:21 EST</pubDate>
 		<description>Uses the transform property in CSS to move the editor around</description>
 	</item>
 	<item>
 		<title>Base Converter by Eric O.</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/base-converter.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/base-converter.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Base+Converter</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Base+Converter</guid>
 		<pubDate>Tue, 06 Dec 2016 19:11:29 EST</pubDate>
 		<description>Converts numbers binary to base-36</description>
 	</item>
 	<item>
 		<title>Project Information by Eric O.</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/project-info.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/project-info.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Project+Information</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Project+Information</guid>
 		<pubDate>Sun, 27 Nov 2016 08:42:04 EST</pubDate>
 		<description>Gets information about the project</description>
 	</item>
 	<item>
 		<title>User Information by Eric O.</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/user-info.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/user-info.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=User+Information</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=User+Information</guid>
 		<pubDate>Sun, 27 Nov 2016 08:41:54 EST</pubDate>
 		<description>Gets information about the user</description>
 	</item>
 	<item>
 		<title>Extension Loader by Eric O.</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/extension-loader.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/extension-loader.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Extension+Loader&amp;titleOffset=1</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Extension+Loader&amp;titleOffset=1</guid>
 		<pubDate>Sat, 26 Nov 2016 13:09:31 EST</pubDate>
 		<description>Loads extensions from a URL</description>
 	</item>
 	<item>
 		<title>133tXt3nSHi0N by Eric O.</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/leetextension.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/leetextension.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=133tXt3nSHi0N</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=133tXt3nSHi0N</guid>
 		<pubDate>Sat, 15 Oct 2016 09:07:39 EST</pubDate>
 		<description>Converts your text to leetspeak</description>
 	</item>
 	<item>
 		<title>CalcuBlock by Eric O.</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/calcublock.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/calcublock.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=CalcuBlock</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=CalcuBlock</guid>
 		<pubDate>Sat, 15 Oct 2016 09:03:08 EST</pubDate>
 		<description>Adds just one block to calculate an input</description>
 	</item>
 	<item>
 		<title>Quala by Eric O.</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/quala.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/quala.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Quala</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Quala</guid>
 		<pubDate>Fri, 14 Oct 2016 07:09:49 EST</pubDate>
 		<description>Adds additional math, browser, and string blocks</description>
 	</item>
 	<item>
 		<title>Scratch2HTML by Junya Ishihara</title>
-		<link>http://scratchx.org/?url=http://champierre.github.io/scratch2html/scratch2html.js</link>
-		<guid>http://scratchx.org/?url=http://champierre.github.io/scratch2html/scratch2html.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Scratch2HTML</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Scratch2HTML</guid>
 		<pubDate>Mon, 26 Sep 2016 16:08:23 EST</pubDate>
 		<description>Build HTML page using Scratch blocks</description>
 	</item>
 	<item>
 		<title>Canvas by Nathan Piercy</title>
-		<link>http://scratchx.org/?url=https://nathanprocks.github.io/Scratch-Canvas/canvas.js</link>
-		<guid>http://scratchx.org/?url=https://nathanprocks.github.io/Scratch-Canvas/canvas.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Canvas</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Canvas</guid>
 		<pubDate>Sat, 17 Sep 2016 09:15:57 EST</pubDate>
 		<description>Creates a HTML5 canvas on the stage and adds canvas drawing blocks</description>
 	</item>
 	<item>
 		<title>ExtenilK by enilK</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/ExtenilK.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/ExtenilK.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=ExtenilK</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=ExtenilK</guid>
 		<pubDate>Mon, 08 Aug 2016 10:44:26 EST</pubDate>
 		<description>A variety of different types of blocks in seven catigories</description>
 	</item>
 	<item>
 		<title>Weather extension by Kreg Hanning</title>
-		<link>http://scratchx.org/?url=https://khanning.github.io/scratch-weather-extension/weather_extension.js</link>
-		<guid>http://scratchx.org/?url=https://khanning.github.io/scratch-weather-extension/weather_extension.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Weather+extension&amp;titleOffset=1</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Weather+extension&amp;titleOffset=1</guid>
 		<pubDate>Fri, 05 Aug 2016 11:21:39 EST</pubDate>
 		<description>Access live weather information</description>
 	</item>
 	<item>
 		<title>Vernier Go!Temp by Kreg Hanning</title>
-		<link>http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_temp_extension.js</link>
-		<guid>http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_temp_extension.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Vernier+Go!Temp</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Vernier+Go!Temp</guid>
 		<pubDate>Mon, 01 Aug 2016 15:01:58 EST</pubDate>
 		<description>Use temperature data in Scratch</description>
 	</item>
 	<item>
 		<title>Vernier Go!Motion by Kreg Hanning</title>
-		<link>http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_motion_extension.js</link>
-		<guid>http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_motion_extension.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Vernier+Go!Motion</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Vernier+Go!Motion</guid>
 		<pubDate>Mon, 01 Aug 2016 15:01:58 EST</pubDate>
 		<description>Use position data in Scratch</description>
 	</item>
 	<item>
 		<title>Arduino 101 by Kreg Hanning</title>
-		<link>http://scratchx.org/?url=https://llk.github.io/arduino-101/arduino101_serial_extension.js</link>
-		<guid>http://scratchx.org/?url=https://llk.github.io/arduino-101/arduino101_serial_extension.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Arduino+101</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Arduino+101</guid>
 		<pubDate>Mon, 01 Aug 2016 14:59:47 EST</pubDate>
 		<description>Control Arduino/Genuino 101 boards</description>
 	</item>
 	<item>
 		<title>API wrapper for Scratch by thisisntme</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/API_wrapper_for_Scratch!.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions-directory/extensions/API_wrapper_for_Scratch!.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=API+wrapper+for+Scratch</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=API+wrapper+for+Scratch</guid>
 		<pubDate>Sat, 16 Jul 2016 14:45:12 EST</pubDate>
 		<description>This extension can follow people, love/favorite projects, read your messages and display scratch alerts!</description>
 	</item>
 	<item>
 		<title>Scratch2MiP by Junya Ishihara</title>
-		<link>http://scratchx.org/?url=http://champierre.github.io/scratch2mip/scratch2mip.js</link>
-		<guid>http://scratchx.org/?url=http://champierre.github.io/scratch2mip/scratch2mip.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Scratch2MiP</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Scratch2MiP</guid>
 		<pubDate>Wed, 08 Jun 2016 13:09:43 EST</pubDate>
 		<description>Control self balancing robot WowWee MiP from ScratchX</description>
 	</item>
 	<item>
 		<title>CatX by LiFaytheGoblin</title>
-		<link>http://scratchx.org/?url=http://lifaythegoblin.github.io/ScratchX-Extensions/CatX.js</link>
-		<guid>http://scratchx.org/?url=http://lifaythegoblin.github.io/ScratchX-Extensions/CatX.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=CatX</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=CatX</guid>
 		<pubDate>Thu, 02 Jun 2016 11:27:56 EST</pubDate>
 		<description>Create a link to a random cat pic to cutify your projects and surprise your friends &lt;3</description>
 	</item>
 	<item>
 		<title>Browser Actions by csf30816</title>
-		<link>http://scratchx.org/?url=https://gist.githubusercontent.com/anonymous/d2e80ac1a2e25118da38/raw/6ecb5080e60c982b03a89783c695384403391b64/Extension.js</link>
-		<guid>http://scratchx.org/?url=https://gist.githubusercontent.com/anonymous/d2e80ac1a2e25118da38/raw/6ecb5080e60c982b03a89783c695384403391b64/Extension.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Browser+Actions</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Browser+Actions</guid>
 		<pubDate>Sun, 21 Feb 2016 11:55:37 EST</pubDate>
 		<description>Opens many different web pages</description>
 	</item>
 	<item>
 		<title>Objects by savaka</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/objects.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/objects.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Objects</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Objects</guid>
 		<pubDate>Mon, 15 Feb 2016 14:36:15 EST</pubDate>
 		<description>Create and store data in objects</description>
 	</item>
 	<item>
 		<title>GitHub Status API by savaka</title>
-		<link>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/github-status-api.js</link>
-		<guid>http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/github-status-api.js</guid>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=GitHub+Status+API</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=GitHub+Status+API</guid>
 		<pubDate>Tue, 12 Jan 2016 03:36:20 EST</pubDate>
 		<description>Gets GitHub server status</description>
 	</item>
