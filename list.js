@@ -633,7 +633,7 @@ var extensions = [
 		'type': 'h'
 	},
 	{
-		'title': 'Sample extension', //Power Extension
+		'title': 'Exponent Extension',
 		'author': ['Sayamindu Dasgupta'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://cdn.rawgit.com/LLK/scratchx/master/power_extension.js',
