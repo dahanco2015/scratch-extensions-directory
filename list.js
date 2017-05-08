@@ -1158,7 +1158,8 @@ var extensions = [
 			'GitHub': 'https://github.com/ericrosenbaum/spotify-extension/blob/gh-pages/extension.js'
 		},
 		'description': 'Animate and remix millions of songs',
-		'type': 'w'
+		'type': 'w',
+		'listed': true
 	},
 	{
 		'title': 'Logic Gates',
