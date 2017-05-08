@@ -1197,6 +1197,20 @@ var extensions = [
 		'type': 'h'
 	},
 	{
+		'title': 'fischertechnik ROBO-TXT',
+		'author': ['Fischertechnik Israel'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://adihadas.github.io/ftscratch/src/ext_heb.js',
+			'Doc': 'https://adihadas.github.io/ftscratch/',
+			'Demo': 'http://scratchx.org/?url=https://adihadas.github.io/ftscratch/src/Black_Line_Drive.sbx',
+			'JavaScript': 'https://adihadas.github.io/ftscratch/src/ext_heb.js',
+			'GitHub': 'https://github.com/adihadas/ftscratch/blob/master/src/ext_heb.js'
+		},
+		'description': 'TXT controller programming (Hebrew)',
+		'type': 'h',
+		'listed': true
+	},
+	{
 		'title': 'IFTTT',
 		'author': ['savaka'],
 		'links': {
