@@ -1222,5 +1222,17 @@ var extensions = [
 		},
 		'description': 'Trigger IFTTT applets using the Maker Webhooks service',
 		'type': 'w'
+	},
+	{
+		'title': '2D Vector Math',
+		'author': ['TheMonsterFromTheDeep'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://themonsterfromthedeep.github.io/useful-vectors/v2d.js',
+			'Demo2': 'https://themonsterfromthedeep.github.io/useful-vectors/example.sbx',
+			'JavaScript': 'https://themonsterfromthedeep.github.io/useful-vectors/v2d.js',
+			'GitHub': 'https://github.com/TheMonsterFromTheDeep/useful-vectors/blob/gh-pages/v2d.js'
+		},
+		'description': 'Basic 2D vector math',
+		'type': ''
 	}
 ];
