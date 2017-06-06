@@ -765,10 +765,10 @@ var extensions = [
 		'title': 'Simple File I/O',
 		'author': ['Znapi'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://znapi.github.io/scratchx-file-io/ext.js',
+			'ScratchX': 'http://scratchx.org/?url=http://znapi.github.io/scratchx-file-io/ext.min.js',
 			'Doc': 'http://znapi.github.io/scratchx-file-io/',
-			'JavaScript': 'http://znapi.github.io/scratchx-file-io/ext.js',
-			'GitHub': 'https://github.com/Znapi/scratchx-file-io/blob/gh-pages/ext.js'
+			'JavaScript': 'http://znapi.github.io/scratchx-file-io/ext.min.js',
+			'GitHub': 'https://github.com/Znapi/scratchx-file-io/blob/gh-pages/ext.min.js'
 		},
 		'description': 'Read, write, and create text files',
 		'type': 'a'
