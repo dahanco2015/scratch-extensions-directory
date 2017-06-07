@@ -193,9 +193,10 @@
 			var obj = sortExts[ind];
 			var extraText = '';
 			var num = 0;
-			while (sortExts[ind - num].title == sortExts[ind].title) {
+			do {
 				num++;
 			}
+			while (sortExts[ind - num].title == sortExts[ind].title);
 			num--;
 			if (num > 0) {
 				extraText = '&titleOffset=' + num.toString();
