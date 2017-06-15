@@ -1234,5 +1234,18 @@ var extensions = [
 		},
 		'description': 'Basic 2D vector math',
 		'type': ''
+	},
+	{
+		'title': 'micro:bit',
+		'author': ['Scratch Team'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://llk.github.io/microbit-extension/microbit_extension.js',
+			'Doc': 'https://llk.github.io/microbit-extension/',
+			'Demo': 'http://scratchx.org/?url=https://llk.github.io/microbit-extension/examples/Button.sbx',
+			'JavaScript': 'https://llk.github.io/microbit-extension/microbit_extension.js',
+		},
+		'description': 'Control micro:bit over bluetooth',
+		'type': 'h',
+		'listed': true
 	}
 ];
