@@ -10,5 +10,4 @@ Required stuff:
 Optional stuff:
 
 * Code on GitHub (url should contain "/blob/") (or Gist): 
-* Docs URL: 
 * Demo project URL (preferably on GitHub Pages): 
