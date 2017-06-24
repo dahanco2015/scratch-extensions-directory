@@ -1247,5 +1247,16 @@ var extensions = [
 		'description': 'Control micro:bit over bluetooth',
 		'type': 'h',
 		'listed': true
+	},
+	{
+		'title': 'Advanced Text to Speech',
+		'author': ['kyleplo'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://kyleplogames.com/js/advancedtts.js',
+			'Doc': 'http://kyleplogames.com/js/advancedtts.html',
+			'JavaScript': 'http://kyleplogames.com/js/advancedtts.js'
+		},
+		'description': 'Make your Scratch projects talk and recognize your voice',
+		'type': ''
 	}
 ];
