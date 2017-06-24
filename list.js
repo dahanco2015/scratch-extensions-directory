@@ -1242,7 +1242,7 @@ var extensions = [
 			'ScratchX': 'http://scratchx.org/?url=https://llk.github.io/microbit-extension/microbit_extension.js',
 			'Doc': 'https://llk.github.io/microbit-extension/',
 			'Demo': 'http://scratchx.org/?url=https://llk.github.io/microbit-extension/examples/Button.sbx',
-			'JavaScript': 'https://llk.github.io/microbit-extension/microbit_extension.js',
+			'JavaScript': 'https://llk.github.io/microbit-extension/microbit_extension.js'
 		},
 		'description': 'Control micro:bit over bluetooth',
 		'type': 'h',
