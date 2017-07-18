@@ -1258,5 +1258,17 @@ var extensions = [
 		},
 		'description': 'Make your Scratch projects talk and recognize your voice',
 		'type': ''
+	},
+	{
+		'title': 'Thymio',
+		'author': ['Mobsya'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://aseba-community.github.io/thymio-scratchx/thymio_extension.js',
+			'Doc': 'https://aseba-community.github.io/thymio-scratchx/index-en.html',
+			'JavaScript': 'https://aseba-community.github.io/thymio-scratchx/thymio_extension.js',
+			'GitHub': 'https://github.com/aseba-community/thymio-scratchx/blob/gh-pages/thymio_extension.js'
+		},
+		'description': 'Control the Thymio robot with Scratch!',
+		'type': 'h'
 	}
 ];
