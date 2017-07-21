@@ -1265,10 +1265,37 @@ var extensions = [
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://aseba-community.github.io/thymio-scratchx/thymio_extension.js',
 			'Doc': 'https://aseba-community.github.io/thymio-scratchx/index-en.html',
+			'Demo': 'http://scratchx.org/?url=https://aseba-community.github.io/thymio-scratchx/activities/crash_preventing_system_en.sbx&lang=en#scratch',
 			'JavaScript': 'https://aseba-community.github.io/thymio-scratchx/thymio_extension.js',
 			'GitHub': 'https://github.com/aseba-community/thymio-scratchx/blob/gh-pages/thymio_extension.js'
 		},
-		'description': 'Control the Thymio robot with Scratch!',
-		'type': 'h'
+		'description': 'Control the Thymio robot with Scratch',
+		'type': 'h',
+		'listed': true
+	},
+	{
+		'title': 'Poppy Ergo Jr.',
+		'author': ['Stefania Druga', 'Eesh Likhith'],
+		'links': {
+			'Doc': 'http://scratchx.org/?url=https://eesh.github.io/scratch-test/examples/record_playback.sbx',
+			'Demo': 'https://eesh.github.io/scratch-test/'
+		},
+		'description': 'Control the Poppy Ergo Jr. robot',
+		'type': 'h',
+		'listed': true
+	},
+	{
+		'title': 'Clarifai extension',
+		'author': ['Stefania Druga', 'Eesh Likhith'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://eesh.github.io/clarifai-scratch/clarifai.js',
+			'Doc': 'https://eesh.github.io/clarifai-scratch/',
+			'Demo': 'http://scratchx.org/?url=https://eesh.github.io/clarifai-scratch/examples/clarifai_camera.sbx',
+			'JavaScript': 'https://eesh.github.io/clarifai-scratch/clarifai.js',
+			'GitHub': 'https://github.com/eesh/clarifai-scratch/blob/gh-pages/clarifai.js'
+		},
+		'description': 'Recognize images from your webcam',
+		'type': 'w',
+		'listed': true
 	}
 ];
