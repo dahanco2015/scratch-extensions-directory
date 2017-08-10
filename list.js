@@ -1297,5 +1297,18 @@ var extensions = [
 		'description': 'Recognize images from your webcam',
 		'type': 'w',
 		'listed': true
+	},
+	{
+		'title': 'Desktop Notifications',
+		'author': ['JGames101'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://jgames101.github.io/scratch-extensions/notifications.js',
+			'Doc': 'https://scratch.mit.edu/discuss/topic/273122/',
+			'Demo': 'https://jgames101.github.io/scratch-extensions/notifications.sbx',
+			'JavaScript': 'https://jgames101.github.io/scratch-extensions/notifications.js',
+			'GitHub': 'https://github.com/JGames101/scratch-extensions/blob/master/notifications.js'
+		},
+		'description': 'Allows you to make desktop notifications pop up',
+		'type': ''
 	}
 ];
