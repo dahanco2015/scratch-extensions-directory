@@ -1304,7 +1304,7 @@ var extensions = [
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://jgames101.github.io/scratch-extensions/notifications.js',
 			'Doc': 'https://scratch.mit.edu/discuss/topic/273122/',
-			'Demo': 'https://jgames101.github.io/scratch-extensions/notifications.sbx',
+			'Demo': 'http://scratchx.org/?url=https://jgames101.github.io/scratch-extensions/notifications.sbx',
 			'JavaScript': 'https://jgames101.github.io/scratch-extensions/notifications.js',
 			'GitHub': 'https://github.com/JGames101/scratch-extensions/blob/master/notifications.js'
 		},
