@@ -1252,9 +1252,9 @@ var extensions = [
 		'title': 'Advanced Text to Speech',
 		'author': ['kyleplo'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://kyleplogames.com/js/advancedtts.js',
-			'Doc': 'http://kyleplogames.com/js/advancedtts.html',
-			'JavaScript': 'http://kyleplogames.com/js/advancedtts.js'
+			'ScratchX': 'http://scratchx.org/?url=https://kyleplo.github.io/scratch-extensions/advancedtts.js',
+			'Doc': 'https://github.com/kyleplo/scratch-extensions/wiki/Advanced-Text-to-Speech',
+			'JavaScript': 'https://kyleplo.github.io/scratch-extensions/advancedtts.js'
 		},
 		'description': 'Make your Scratch projects talk and recognize your voice',
 		'type': ''
@@ -1309,6 +1309,17 @@ var extensions = [
 			'GitHub': 'https://github.com/JGames101/scratch-extensions/blob/master/notifications.js'
 		},
 		'description': 'Allows you to make desktop notifications pop up',
+		'type': ''
+	},
+	{
+		'title': 'Custom JS Blocks',
+		'author': ['kyleplo'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://kyleplo.github.io/scratch-extensions/customjsblocks.js',
+			'JavaScript': 'https://kyleplo.github.io/scratch-extensions/customjsblocks.js',
+			'GitHub': 'https://github.com/kyleplo/scratch-extensions/blob/master/customjsblocks.js'
+		},
+		'description': 'Create your own blocks using JavaScript',
 		'type': ''
 	}
 ];
