@@ -210,7 +210,7 @@ var extensions = [
 		'type': ''
 	},
 	{
-		'title': 'EV3 Control',
+		'title': 'EV3+Scratch',
 		'author': ['Ken Aspeslagh'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://kaspesla.github.io/ev3_scratch/ev3_scratch.js',
@@ -342,7 +342,7 @@ var extensions = [
 		'type': ''
 	},
 	{
-		'title': 'Intel RealSense',
+		'title': 'Intel® RealSense™',
 		'author': ['Shachar Oz', 'Yaron Yanai', 'Yotam Salmon'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://intel-realsense-extension-for-scratch.github.io/public/extension/intel_realsense_extension.js',
@@ -356,7 +356,7 @@ var extensions = [
 		'listed': true
 	},
 	{
-		'title': 'iRobot Create 2',
+		'title': 'iRobot® Create® 2',
 		'author': ['iRobot'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://irobotstem.github.io/CreateScratchX/roomba600Extension.js',
@@ -422,7 +422,7 @@ var extensions = [
 		'sample': true
 	},
 	{
-		'title': 'Leap Motion',
+		'title': 'Leapmotion',
 		'author': ['Kreg Hanning'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://khanning.github.io/scratch-leapmotion-extension/leapmotion_extension.js',
@@ -548,7 +548,7 @@ var extensions = [
 		'type': 'w'
 	},
 	{
-		'title': 'Mesh',
+		'title': 'Firebase Mesh',
 		'author': ['Connor Hudson'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.github.io/mesh/mesh.js',
@@ -669,7 +669,7 @@ var extensions = [
 		'sample': true
 	},
 	{
-		'title': 'RedBot For ScratchX',
+		'title': 'rb4s – A Controller For The RedBot',
 		'author': ['Alan Yorinks'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://MrYsLab.github.io/rb4s/rb4s.js',
@@ -736,7 +736,7 @@ var extensions = [
 		'type': 'h'
 	},
 	{
-		'title': 'Scratch Three JS',
+		'title': 'Scratch3D',
 		'author': ['Stephen Lewis', 'John Goodwin'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://scratch3d.github.io/Scratch3D_Beta/extension/ScratchThreeJS.js',
@@ -831,7 +831,7 @@ var extensions = [
 		'type': ''
 	},
 	{
-		'title': 'Synth Extension',
+		'title': 'Sound Synthesizer',
 		'author': ['Eric Rosenbaum'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://ericrosenbaum.github.io/tone-synth-extension/tone-synth.js',
@@ -908,8 +908,8 @@ var extensions = [
 		'type': ''
 	},
 	{
-		'title': 'Weather extension',
-		'author': ['Kreg Hanning'],
+		'title': 'Weather',
+		'author': ['Sayamindu Dasgupta', 'Kreg Hanning'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://khanning.github.io/scratch-weather-extension/weather_extension.js',
 			'Doc': 'https://khanning.github.io/scratch-weather-extension/',
@@ -945,7 +945,7 @@ var extensions = [
 		'type': ''
 	},
 	{
-		'title': 'Xi4S_v_004_12Feb15',
+		'title': 'Xi - Multi uC Interconnect',
 		'author': ['Alan Yorinks'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://MrYsLab.github.io/xi4s.js',
@@ -985,7 +985,7 @@ var extensions = [
 	},
 	{
 		'title': 'Vernier Go!Motion',
-		'author': ['Kreg Hanning'],
+		'author': ['Vernier Software & Technology'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_motion_extension.js',
 			'Doc': 'http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/',
@@ -999,7 +999,7 @@ var extensions = [
 	},
 	{
 		'title': 'Vernier Go!Temp',
-		'author': ['Kreg Hanning'],
+		'author': ['Vernier Software & Technology'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/go_temp_extension.js',
 			'Doc': 'http://verniersoftwaretechnology.github.io/scratch-vernier-go-extensions/',
@@ -1148,7 +1148,7 @@ var extensions = [
 		'type': ''
 	},
 	{
-		'title': 'Spotify',
+		'title': 'Spotify Music',
 		'author': ['Eric Rosenbaum'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://ericrosenbaum.github.io/spotify-extension/extension.js',
@@ -1197,7 +1197,7 @@ var extensions = [
 		'type': 'h'
 	},
 	{
-		'title': 'fischertechnik ROBO-TXT',
+		'title': 'Fischertechnik robots',
 		'author': ['Fischertechnik Israel'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://adihadas.github.io/ftscratch/src/ext_heb.js',
@@ -1237,7 +1237,7 @@ var extensions = [
 	},
 	{
 		'title': 'micro:bit',
-		'author': ['Scratch Team'],
+		'author': ['Kreg Hanning'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://llk.github.io/microbit-extension/microbit_extension.js',
 			'Doc': 'https://llk.github.io/microbit-extension/',
