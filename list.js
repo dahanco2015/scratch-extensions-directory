@@ -1321,5 +1321,19 @@ var extensions = [
 		},
 		'description': 'Create your own blocks using JavaScript',
 		'type': ''
+	},
+	{
+		'title': 'EV3+Scratch (Hebrew Version)',
+		'author': ['Robotec Israel'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://Robotec-CoderZ.github.io/he.js',
+			'Doc': 'https://robotec-coderz.github.io/index.html',
+			'Demo': 'http://scratchx.org/?url=https://Robotec-CoderZ.github.io/he-example.sbx',
+			'JavaScript': 'https://Robotec-CoderZ.github.io/he.js',
+			'GitHub': 'https://github.com/Robotec-CoderZ/Robotec-CoderZ.github.io/blob/master/he.js'
+		},
+		'description': 'Control LEGO EV3 over USB (Hebrew)',
+		'type': 'h',
+		'listed': true
 	}
 ];
