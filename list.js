@@ -52,8 +52,8 @@ var extensions = [
 		'title': 'Battery Status',
 		'author': ['Connor Hudson'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.tk/scratchx/battery.js',
-			'JavaScript': 'http://technoboy10.tk/scratchx/battery.js',
+			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.github.io/scratchx/battery.js',
+			'JavaScript': 'http://technoboy10.github.io/scratchx/battery.js',
 			'GitHub': 'https://github.com/technoboy10/scratchx/blob/gh-pages/battery.js'
 		},
 		'description': 'Reports on current battery status',
@@ -132,8 +132,8 @@ var extensions = [
 		'title': 'Cloud Data',
 		'author': ['Connor Hudson'],
 		'links': {
-			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.tk/scratchx/cloud.js',
-			'JavaScript': 'http://technoboy10.tk/scratchx/cloud.js',
+			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.github.io/scratchx/cloud.js',
+			'JavaScript': 'http://technoboy10.github.io/scratchx/cloud.js',
 			'GitHub': 'https://github.com/technoboy10/scratchx/blob/gh-pages/cloud.js'
 		},
 		'description': 'Grabs and reads cloud data from projects',
@@ -552,8 +552,8 @@ var extensions = [
 		'author': ['Connor Hudson'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=http://technoboy10.github.io/mesh/mesh.js',
-			'Doc': 'http://technoboy10.tk/mesh/',
-			'Demo': 'http://scratchx.org/?url=http://technoboy10.tk/mesh/mesh.sbx',
+			'Doc': 'http://technoboy10.github.io/mesh/',
+			'Demo': 'http://scratchx.org/?url=http://technoboy10.github.io/mesh/mesh.sbx',
 			'JavaScript': 'http://technoboy10.github.io/mesh/mesh.js',
 			'GitHub': 'https://github.com/technoboy10/mesh/blob/gh-pages/mesh.js'
 		},
@@ -887,8 +887,8 @@ var extensions = [
 		'author': ['Connor Hudson', 'Kreg Hanning'],
 		'links': {
 			'ScratchX': 'http://scratchx.org/?url=https://technoboy10.github.io/twitter/extension.js',
-			'Doc': 'http://technoboy10.tk/twitter/',
-			'Demo': 'http://scratchx.org/?url=http://technoboy10.tk/twitter/examples/Fetch%20a%20Tweet.sbx',
+			'Doc': 'http://technoboy10.github.io/twitter/',
+			'Demo': 'http://scratchx.org/?url=http://technoboy10.github.io/twitter/examples/Fetch%20a%20Tweet.sbx',
 			'JavaScript': 'https://technoboy10.github.io/twitter/extension.js',
 			'GitHub': 'https://github.com/technoboy10/twitter/blob/gh-pages/extension.js'
 		},
