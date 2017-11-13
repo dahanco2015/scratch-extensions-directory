@@ -1347,18 +1347,5 @@ var extensions = [
 		},
 		'description': 'Use LocalStorage Variables in Scratch',
 		'type': ''
-	},
-	{
-		'title': 'SMS Server',
-		'author': ['discoveryHK'],
-		'links': {
-			'ScratchX': 'http://scratchx.org/?url=https://discoveryhk.github.io/sms-server/scratch/send_SMS.js',
-			'Doc': 'https://www.discoveryhk.com/',
-			'Demo': 'http://scratchx.org/?url=https://discoveryhk.github.io/sms-server/scratch/SMS Notification today temp.sbx',
-			'JavaScript': 'https://discoveryhk.github.io/sms-server/scratch/send_SMS.js',
-			'GitHub': 'https://github.com/discoveryhk/sms-server/blob/master/scratch/send_SMS.js'
-		},
-		'description': 'The SMS service is NOT A FREE service, Please check your mobile service company.\nIn order to send real SMS message under ScratchX, we need a SMS Gateway Server. Here, we use an Android App: <a href="https://play.google.com/store/apps/details?id=com.discoveryhk.smsgatesrv">https://play.google.com/store/apps/details?id=com.discoveryhk.smsgatesrv</a>\nIt is a real SMS Gateway with password protect, temporary disable SMS function and logging (Suitable for demo in classroom). More detail can be find on <a href="https://github.com/discoveryhk/sms-server/wiki/Scratch-Support">https://github.com/discoveryhk/sms-server/wiki/Scratch-Support</a>',
-		'type': 'w'
 	}
 ];
