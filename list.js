@@ -1335,5 +1335,17 @@ var extensions = [
 		'description': 'Control LEGO EV3 over USB (Hebrew)',
 		'type': 'h',
 		'listed': true
+	},
+	{
+		'title': 'LocalStorage Variables',
+		'author': ['JGames101'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://jgames101.github.io/scratch-extensions/js/localstorage.js',
+			'Doc': 'https://jgames101.github.io/scratch-extensions/localstorage.html',
+			'JavaScript': 'https://jgames101.github.io/scratch-extensions/js/localstorage.js',
+			'GitHub': 'https://github.com/JGames101/scratch-extensions/blob/master/js/localstorage.js'
+		},
+		'description': 'Use LocalStorage Variables in Scratch',
+		'type': ''
 	}
 ];
