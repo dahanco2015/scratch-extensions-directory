@@ -1360,5 +1360,18 @@ var extensions = [
 		},
 		'description': 'The SMS service is NOT A FREE service, please check your mobile service company.\nIn order to send real SMS message under ScratchX, we need a SMS Gateway Server. Here, we use an Android App: <a href="https://play.google.com/store/apps/details?id=com.discoveryhk.smsgatesrv">https://play.google.com/store/apps/details?id=com.discoveryhk.smsgatesrv</a>\nIt is a real SMS Gateway with password protect, temporary disable SMS function and logging (Suitable for demo in classroom). More detail can be find on <a href="https://github.com/discoveryhk/sms-server/wiki/Scratch-Support">https://github.com/discoveryhk/sms-server/wiki/Scratch-Support</a>',
 		'type': 'w'
+	},
+	{
+		'title': 'Kyleplo Weather',
+		'author': ['kyleplo'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://kyleplo.github.io/scratch-extensions/weather.js',
+			'Doc': 'https://github.com/kyleplo/scratch-extensions/wiki/Weather',
+			'Demo': 'http://scratchx.org/?url=https://kyleplo.github.io/scratch-extensions/weather.sbx',
+			'JavaScript': 'https://kyleplo.github.io/scratch-extensions/weather.js',
+			'GitHub': 'https://github.com/kyleplo/scratch-extensions/blob/master/weather.js'
+		},
+		'description': 'A weather extension that actually works, with built-in location sensing',
+		'type': 'w'
 	}
 ];

@@ -5,6 +5,13 @@
 	<link>http://savaka2.github.io/scratch-extensions-directory/new-extensions.xml</link>
 	<description>New extensions in the Scratch Extensions Directory</description>
 	<item>
+		<title>Kyleplo Weather by kyleplo</title>
+		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Kyleplo+Weather</link>
+		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=Kyleplo+Weather</guid>
+		<pubDate>Tue, 10 Apr 2018 17:36:27 EST</pubDate>
+		<description>A weather extension that actually works, with built-in location sensing</description>
+	</item>
+	<item>
 		<title>SMS Server by discoveryHK</title>
 		<link>http://savaka2.github.io/scratch-extensions-directory/index.html?title=SMS+Server</link>
 		<guid>http://savaka2.github.io/scratch-extensions-directory/index.html?title=SMS+Server</guid>
