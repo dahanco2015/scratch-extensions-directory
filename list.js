@@ -1373,5 +1373,16 @@ var extensions = [
 		},
 		'description': 'A weather extension that actually works, with built-in location sensing',
 		'type': 'w'
+	},
+	{
+		'title': 'Abilix',
+		'author': ['Abilix'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://abilix.github.io/release/abilix_scratch.js&id=efanndagankbpcldfhgplhlnnpoimlnf#scratch',
+			'JavaScript': 'https://abilix.github.io/release/abilix_scratch.js',
+			'GitHub': 'https://github.com/Abilix/abilix.github.io/blob/master/release/abilix_scratch.js'
+		},
+		'description': 'enter desgiption',
+		'type': 'h'
 	}
 ];
