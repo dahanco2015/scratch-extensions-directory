@@ -1373,5 +1373,18 @@ var extensions = [
 		},
 		'description': 'A weather extension that actually works, with built-in location sensing',
 		'type': 'w'
+	},
+	{
+		'title': 'STiBaRC',
+		'author': ['savaka'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/stibarc.js',
+			'Doc': 'https://github.com/savaka2/scratch-extensions/wiki/STiBaRC',
+			'Demo': 'http://scratchx.org/?url=http://savaka2.github.io/scratch-extensions/demos/stibarc.sbx',
+			'JavaScript': '../scratch-extensions/stibarc.js',
+			'GitHub': 'https://github.com/savaka2/scratch-extensions/blob/gh-pages/stibarc.js'
+		},
+		'description': 'Read from and post to STiBaRC',
+		'type': 'w'
 	}
 ];
