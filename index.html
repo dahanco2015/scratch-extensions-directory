@@ -2,17 +2,44 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Scratch Extensions Directory - Savaka's GitHub Page</title>
-	<link rel="stylesheet" href="../savaka-style.css">
-	<script src="../templategenerator.js"></script>
-	<script src="../querystring-object.js"></script>
+	<title>Scratch Extensions Directory</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 	<script>
-		var tg = {
-			levels: 1,
-			sitename: 'Scratch Extensions Directory',
-			repo: 'scratch-extensions-directory',
-			home: true
-		}
+		function getAllUrlParams(url) {
+			var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
+			var obj = {};
+			if (queryString) {
+				queryString = queryString.split('#')[0];
+				var arr = queryString.split('&');
+				for (var i = 0; i < arr.length; i++) {
+					var a = arr[i].split('=');
+					var paramNum = undefined;
+					var paramName = a[0].replace(/\[\d*\]/, function (v) {
+						paramNum = v.slice(1, -1);
+						return '';
+					});
+					var paramValue = typeof (a[1]) === 'undefined' ? true : a[1];
+					paramName = paramName;
+					paramValue = paramValue;
+					if (obj[paramName]) {
+						if (typeof obj[paramName] === 'string') {
+							obj[paramName] = [obj[paramName]];
+						}
+						if (typeof paramNum === 'undefined') {
+							obj[paramName].push(paramValue);
+						}
+						else {
+							obj[paramName][paramNum] = paramValue;
+						}
+					}
+					else {
+						obj[paramName] = paramValue;
+					}
+				}
+			}
+			return obj;
+		};
 	</script>
 	<script src="list.js"></script>
 	<script>
@@ -27,7 +54,7 @@
 		var filterType = '';
 		var filterSample = false;
 		var filterListed = false;
-		var qso = queryStringObj(window.location.search);
+		var qso = getAllUrlParams();
 		var thisIsAVariable = false;
 		if (qso.author != undefined) {
 			filterAuthor = qso.author.replace(/\+/g, ' ')
@@ -144,7 +171,7 @@
 				nope.style.display = 'initial';
 			}
 		};
-		function loadFunc() {
+		window.onload = function() {
 			tableLoad();
 			if (thisIsAVariable || qso.title != undefined || qso.titleOffset != undefined) {
 				var ltcp = document.getElementById('bakedBeans');
@@ -378,9 +405,9 @@
 		<li><a href="https://github.com/savaka2/scratch-extensions-directory/issues/new">Submit your extension in an issue.</a> There is a template showing what all you need to include.</li>
 		<li><a href="https://scratch.mit.edu/discuss/topic/206434/">Submit your extension if you don't use GitHub.</a> There is a form showing what all you need to include.</li>
 	</ul>
-	<p><a href="new-extensions.xml"><img src="../images/rss.png"> RSS feed</a><br/>
+	<p><a href="new-extensions.xml">RSS feed</a><br/>
 	Subscribe with IFTTT using <a href="https://ifttt.com/applets/BDHLdqyj-send-me-a-notification-when-there-is-a-new-scratch-extension">notifications</a> or <a href="https://ifttt.com/applets/sAMihzvm-send-me-an-email-when-there-is-a-new-scratch-extension">email</a></p>
-	<p style="text-align:center; background-color:yellow; padding:5px; border-radius:6px; color:black;"><span class="b">Warning: All extensions listed here are experimental and not necessarily a product of the Scratch Team or me. <a id="aCertainLink" href="http://scratchx.org/#faq" target="_blank">ScratchX FAQ</a></span></p>
+	<p style="text-align:center; background-color:yellow; padding:5px; border-radius:6px; color:black;"><span class="b">Warning: All extensions listed here are experimental and not necessarily a product of the Scratch Team or savaka.</span></p>
 	<p style="text-align:center;">Many extensions listed here are not compatible with ScratchX and may not work correctly.</p>
 	<a href="javascript:filterBox();">Filter</a><span id="bakedBeans" style="display:none;"><br/>
 	<a href="index.html">Reload without parameters</a></span>
