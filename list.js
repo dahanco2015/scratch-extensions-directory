@@ -1386,5 +1386,17 @@ var extensions = [
 		},
 		'description': 'Read from and post to STiBaRC',
 		'type': 'w'
+	},
+	{
+		'title': 'Multiplayer',
+		'author': ['lolsuperscratch'],
+		'links': {
+			'ScratchX': 'http://scratchx.org/?url=https://lolsuperscratch.github.io/scratchx-multiplayer/extension.js',
+			'Demo': 'https://lolsuperscratch.github.io/scratchx-multiplayer/example.sbx',
+			'JavaScript': 'https://lolsuperscratch.github.io/scratchx-multiplayer/extension.js',
+			'GitHub': 'https://github.com/lolsuperscratch/scratchx-multiplayer/blob/gh-pages/extension.js'
+		},
+		'description': 'Make your own multiplayer games on ScratchX',
+		'type': 'w'
 	}
 ];
